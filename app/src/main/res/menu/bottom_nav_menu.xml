@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title=""
+        android:icon="@drawable/bottombar_house"
+        android:id="@+id/home"/>
+    <item android:title=""
+        android:icon="@drawable/bottombar_telusuri"
+        android:id="@+id/search"/>
+    <item android:title=""
+        android:icon="@drawable/bottombar_perpustakaan"
+        android:id="@+id/library"/>
+    <item android:title=""
+        android:icon="@drawable/bottombar_tulis"
+        android:id="@+id/write"/>
+    <item android:title=""
+        android:icon="@drawable/bottombar_pembaruan"
+        android:id="@+id/notification"/>
+</menu>

@@ -6,30 +6,48 @@
     android:layout_height="match_parent"
     tools:context=".login">
 
+    <ImageView
+        android:layout_width="408dp"
+        android:layout_height="294dp"
+        android:src="@drawable/Ellipse"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="-32dp" />
 
-
-    <TextView
-        android:id="@+id/tvLogin"
-        android:layout_width="240dp"
-        android:layout_height="87dp"
-        android:layout_marginTop="30dp"
-        android:fontFamily="@font/sf_pro_display"
-        android:gravity="center"
-        android:text="Yuk, Login"
-        android:textColor="@color/darkBlue"
-        android:textSize="40dp"
-        android:textStyle="bold"
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/logo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+
+    <TextView
+        android:id="@+id/tvLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/sf_pro_display"
+        android:gravity="center"
+        android:text="Yuk, Login"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ivLogo" />
+
     <androidx.cardview.widget.CardView
         android:id="@+id/container"
         android:layout_width="match_parent"
-        android:layout_height="400dp"
+        android:layout_height="350dp"
+        android:layout_marginLeft="30dp"
         android:layout_marginTop="20dp"
         android:layout_marginRight="30dp"
-        android:layout_marginLeft="30dp"
         app:cardBackgroundColor="@color/white"
         app:cardCornerRadius="20dp"
         app:cardElevation="10dp"
@@ -61,8 +79,8 @@
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/etPasswordLayout"
                 android:layout_width="match_parent"
-                android:layout_marginTop="27dp"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="27dp"
                 app:boxBackgroundMode="none">
 
                 <com.google.android.material.textfield.TextInputEditText
@@ -80,7 +98,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="57dp"
-                android:background="@color/black"
+                android:background="@color/button_color"
                 android:text="Login" />
         </LinearLayout>
 

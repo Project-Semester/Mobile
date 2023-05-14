@@ -12,7 +12,6 @@ import androidx.fragment.app.FragmentTransaction;
 import com.example.daiscrivi_mobileapp_semester4.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
-
     ActivityMainBinding binding;
 
     @Override
@@ -35,18 +34,13 @@ public class MainActivity extends AppCompatActivity {
                 case R.id.search:
                     replaceFragment(new SearchFragment());
                     break;
-                case R.id.library:
-                    replaceFragment(new LibraryFragment());
-                    break;
                 case R.id.write:
                     replaceFragment(new WriteFragment());
-                    break;
-                case R.id.notification:
-                    replaceFragment(new NotificationFragment());
                     break;
             }
             return true;
         });
+
     }
     private void replaceFragment(Fragment fragment) {
         FragmentManager fragmentManager = getSupportFragmentManager();
@@ -54,9 +48,5 @@ public class MainActivity extends AppCompatActivity {
         fragmentTransaction.replace(R.id.frameLayout, fragment);
         fragmentTransaction.commit();
     }
-    void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
 
-    }
 }

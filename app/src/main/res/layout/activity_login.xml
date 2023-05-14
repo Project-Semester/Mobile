@@ -16,10 +16,10 @@
 
     <ImageView
         android:id="@+id/ivLogo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:layout_marginTop="60dp"
-        android:src="@drawable/logo"
+        android:src="@drawable/logo_yuknulis"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -32,7 +32,7 @@
         android:layout_marginTop="80dp"
         android:fontFamily="@font/sf_pro_display"
         android:gravity="center"
-        android:text="Yuk, Login"
+        android:text="Yuk, Login !"
         android:textColor="@color/black"
         android:textSize="30dp"
         android:textStyle="bold"
@@ -97,7 +97,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="57dp"
-                android:background="@color/primary"
+                android:background="@drawable/custom_button_login"
                 android:text="Login" />
         </LinearLayout>
 

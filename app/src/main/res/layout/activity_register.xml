@@ -7,13 +7,7 @@
     tools:context=".register">
 
 
-        <ImageView
-            android:layout_width="408dp"
-            android:layout_height="294dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteY="-32dp" />
+
 
         <ImageView
             android:id="@+id/ivLogo"

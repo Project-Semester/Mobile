@@ -31,18 +31,16 @@ public class MainActivity extends AppCompatActivity {
         replaceFragment(new HomeFragment());
 
         binding.bottomNavigationView.setOnItemSelectedListener(item -> {
-            switch (item.getItemId()){
-                case R.id.home:
-                    replaceFragment(new HomeFragment());
-                    break;
-                case R.id.search:
-                    replaceFragment(new SearchFragment());
-                    break;
-                case R.id.write:
-                    replaceFragment(new WriteFragment());
-                    break;
+            if (item.getItemId() == R.id.home) {
+                replaceFragment(new HomeFragment());
+            } else if (item.getItemId() == R.id.search) {
+                replaceFragment(new SearchFragment());
+            } else if (item.getItemId() == R.id.write) {
+                replaceFragment(new WriteFragment());
             }
+
             return true;
+
         });
 
     }

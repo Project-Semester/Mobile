@@ -92,7 +92,7 @@
                 tools:ignore="TouchTargetSizeCheck" />
 
             <androidx.viewpager2.widget.ViewPager2
-                android:id="@+id/viewPager"
+                android:id="viewPager"
                 android:layout_width="match_parent"
                 android:layout_height="178dp"
                 android:layout_marginStart="32dp"

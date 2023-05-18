@@ -12,19 +12,24 @@
         android:theme="@style/Theme.DaiScrivi_MobileApp_Semester4"
         tools:targetApi="32">
 
-
         <activity
-            android:name=".login"
+            android:name=".RegisterActivity"
             android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true" />
+
         <activity
             android:name=".SearchFragment"
             android:exported="true" />
         <activity
             android:name=".DetailHomeFragment"
             android:exported="true" />
-
         <activity
-            android:name=".MainActivity"
+            android:name=".WelcomePage"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -32,4 +37,5 @@
             </intent-filter>
         </activity>
     </application>
+
 </manifest>

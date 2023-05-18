@@ -31,7 +31,7 @@ public class HomeFragment extends Fragment {
         rekomendasiHomePhoto.setOnClickListener(new View.OnClickListener() {
             @Override
                     public void onClick(View view) {
-                Intent intent = new Intent(context, DetailHomeFragment.class);
+                Intent intent = new Intent(getActivity(), DetailHomeFragment.class);
                 startActivity(intent);
             }
         });

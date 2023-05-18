@@ -6,21 +6,22 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
-import androidx.viewpager2.widget.ViewPager2;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class HomeFragment extends Fragment {
     public Context context;
-    Button Log_out;
-    ViewPager2 viewPager2;
     private View rekomendasiHomePhoto;
+    private ArrayList<News> newsArrayList;
+    private String[] newsHeading;
+    private int[] imageResourceID;
+    private RecyclerView recyclerview;
 
     @Override
     public void onAttach(Context context) {
@@ -44,17 +45,47 @@ public class HomeFragment extends Fragment {
         });
         return view;
     }
-
     @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        viewPager2 = getView().findViewById(R.id.viewPager);
+    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
 
-        List<SlideItem> slideItems = new ArrayList<>();
-        slideItems.add(new SlideItem(R.drawable.judul_wattpad));
-        slideItems.add(new SlideItem(R.drawable.judul_wattpad2));
-        slideItems.add(new SlideItem(R.drawable.judul_wattpad3));
-        slideItems.add(new SlideItem(R.drawable.judul_wattpad4));        slideItems.add(new SlideItem(R.drawable.judul_wattpad));
-        slideItems.add(new SlideItem(R.drawable.judul_wattpad5));
+        dataInitialize();
+        recyclerview = view.findViewById(R.id.horizontalRv);
+        recyclerview.setLayoutManager(new LinearLayoutManager(getContext()));
+        recyclerview.setHasFixedSize(true);
+        AdapterHome adapter = new AdapterHome(getContext(), newsArrayList);
+        recyclerview.setAdapter(adapter);
+        adapter.notifyDataSetChanged();
+
+    }
+
+    private void dataInitialize() {
+
+        newsArrayList = new ArrayList<>();
+
+        newsHeading = new String[] {
+                getString(R.string.head_1),
+                getString(R.string.head_2),
+                getString(R.string.head_3),
+                getString(R.string.head_4),
+                getString(R.string.head_5)
+        };
+
+        imageResourceID = new int[] {
+                R.drawable.judul_wattpad,
+                R.drawable.judul_wattpad2,
+                R.drawable.judul_wattpad3,
+                R.drawable.judul_wattpad4,
+                R.drawable.judul_wattpad5
+        };
+
+        for (int i = 0; i < newsHeading.length; i++) {
+
+            News news = new News(newsHeading[i], imageResourceID[i]);
+            newsArrayList.add(news);
+
+        }
     }
 }
+
+

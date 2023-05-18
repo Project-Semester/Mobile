@@ -91,15 +91,20 @@
                 app:srcCompat="@drawable/settings"
                 tools:ignore="TouchTargetSizeCheck" />
 
-            <androidx.viewpager2.widget.ViewPager2
-                android:id="@+id/viewPager"
-                android:layout_width="match_parent"
-                android:layout_height="178dp"
-                android:layout_marginStart="32dp"
-                android:layout_marginTop="12dp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/horizontalRv"
+                    android:layout_width="match_parent"
+                    android:layout_height="178dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="12dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView9"
+                    android:scrollbars="horizontal"
+                    tools:listitem="@layout/card_imageslider"/>
+
+
 
 
             <!--            <com.google.android.material.tabs.TabLayout-->

@@ -10,8 +10,12 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+import androidx.viewpager.widget.ViewPager;
+
+import com.google.android.material.tabs.TabLayout;
 
 import java.util.ArrayList;
 
@@ -22,6 +26,11 @@ public class HomeFragment extends Fragment {
     private String[] newsHeading;
     private int[] imageResourceID;
     private RecyclerView recyclerview;
+    private TabLayout tabLayout;
+    private ViewPager viewPager;
+
+    AdapterTabLayout adapterTabLayout = new AdapterTabLayout(getChildFragmentManager(), FragmentPagerAdapter.BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT);
+
 
     @Override
     public void onAttach(Context context) {
@@ -43,7 +52,20 @@ public class HomeFragment extends Fragment {
                 startActivity(intent);
             }
         });
+
+        tabLayout = view.findViewById(R.id.tabLayout);
+        viewPager = view.findViewById(R.id.viewPager);
+
+        tabLayout.setupWithViewPager(viewPager);
+
+        adapterTabLayout.addFragment(new FragmentHomeAksi(), "Aksi");
+        adapterTabLayout.addFragment(new FragmentHomeAlbum(), "ALBUM");
+        adapterTabLayout.addFragment(new FragmentHomeArtis(), "Artis");
+        adapterTabLayout.addFragment(new FragmentHomeFiksi(), "Fiksi");
+        viewPager.setAdapter(adapterTabLayout);
+
         return view;
+
     }
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
@@ -51,7 +73,7 @@ public class HomeFragment extends Fragment {
 
         dataInitialize();
         recyclerview = view.findViewById(R.id.horizontalRv);
-        recyclerview.setLayoutManager(new LinearLayoutManager(getContext()));
+        recyclerview.setLayoutManager(new LinearLayoutManager(getContext(), LinearLayoutManager.HORIZONTAL, false));
         recyclerview.setHasFixedSize(true);
         AdapterHome adapter = new AdapterHome(getContext(), newsArrayList);
         recyclerview.setAdapter(adapter);

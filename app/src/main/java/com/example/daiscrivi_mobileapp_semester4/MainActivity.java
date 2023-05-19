@@ -7,10 +7,13 @@ import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.fragment.app.FragmentTransaction;
+import androidx.viewpager.widget.ViewPager;
 import androidx.viewpager2.widget.ViewPager2;
 
 import com.example.daiscrivi_mobileapp_semester4.databinding.ActivityMainBinding;
+import com.google.android.material.tabs.TabLayout;
 
 public class MainActivity extends AppCompatActivity {
     ActivityMainBinding binding;
@@ -43,6 +46,8 @@ public class MainActivity extends AppCompatActivity {
             return true;
         });
         replaceFragment(new HomeFragment());
+
+
     }
     private void replaceFragment(Fragment fragment) {
         FragmentManager fragmentManager = getSupportFragmentManager();

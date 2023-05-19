@@ -5,4 +5,9 @@
     <style name="AppTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
     </style>
+    <style name="RoundedImageView">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item> <!-- Adjust the corner radius as needed -->
+    </style>
+
 </resources>

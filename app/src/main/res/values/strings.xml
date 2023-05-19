@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">DaiScrivi_MobileApp_Semester4</string>
+    <string name="app_name">YukNulis</string>
     <string name="sinopsis_touchYourHearth">***
 
 Gadis tomboy yang bernama Miska tak sengaja memasuki dunia film, tidak! ia tidak sedang lagi bermain drama atau menjadi aktris, tapi entah kenapa saat sedang menonton drama ia malah memasuki dunia drama itu saat menyentuh layar TV-nya.
@@ -31,5 +31,7 @@ Apakah dirinya berhasil mengubah jalan cerita?
     <string name="head_3">THE CELLPHONE SWAP</string>
     <string name="head_4">HIS POSSESSION</string>
     <string name="head_5">MY WATTPAD LOVE</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>

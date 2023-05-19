@@ -9,6 +9,9 @@
     <string name="invalid_username">Not a valid username</string>
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">Login failed</string>
+
+    <string name="username">fagil</string>
+    <string name="email">fagil@gmail.com</string>
     <string name="sinopsis_touchYourHearth">    Gadis tomboy yang bernama Miska tak sengaja memasuki dunia film, tidak! ia tidak sedang lagi bermain drama atau menjadi aktris, tapi entah kenapa saat sedang menonton drama ia malah memasuki dunia drama itu saat menyentuh layar TV-nya.
 
 
@@ -20,4 +23,7 @@
 
     Apakah Miska bisa menghindari kematian itu?
     Apakah dirinya berhasil mengubah jalan cerita?</string>
+    <string name="role">admin</string>
+
+
 </resources>

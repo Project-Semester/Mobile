@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+<<<<<<< HEAD
+            "outputFile": "com.example.daiscrivi_mobileapp_semester4.app-mergeDebugResources-42:/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "D:\\Installer\\Android Studio\\caches\\transforms-3\\44fc53ad3ef1477fcc7b5dbdbf1cb4c0\\transformed\\appcompat-1.6.1\\res\\values-port\\values-port.xml",
+=======
+            "outputFile": "com.example.daiscrivi_mobileapp_semester4.app-mergeDebugResources-33:/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "C:\\Program Files\\Android\\Android Studio\\jbr\\caches\\transforms-3\\44fc53ad3ef1477fcc7b5dbdbf1cb4c0\\transformed\\appcompat-1.6.1\\res\\values-port\\values-port.xml",
+>>>>>>> ddffa2d845e92aacb9ec9e50456f2b520e7198a7
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        }
+    ]
+}

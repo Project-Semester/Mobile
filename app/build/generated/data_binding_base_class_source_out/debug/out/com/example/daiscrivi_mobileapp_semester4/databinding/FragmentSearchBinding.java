@@ -4,10 +4,19 @@ package com.example.daiscrivi_mobileapp_semester4.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+<<<<<<< HEAD
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.SearchView;
+=======
+import android.widget.EditText;
+import android.widget.LinearLayout;
+import android.widget.ScrollView;
+import android.widget.TextView;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+>>>>>>> ddffa2d845e92aacb9ec9e50456f2b520e7198a7
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
@@ -21,7 +30,17 @@ public final class FragmentSearchBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+<<<<<<< HEAD
   public final SearchView searchView;
+=======
+  public final LinearLayout container;
+
+  @NonNull
+  public final EditText etSearch;
+
+  @NonNull
+  public final ScrollView scrollView;
+>>>>>>> ddffa2d845e92aacb9ec9e50456f2b520e7198a7
 
   @NonNull
   public final TextView textView2;
@@ -29,10 +48,20 @@ public final class FragmentSearchBinding implements ViewBinding {
   @NonNull
   public final TextView textView3;
 
+<<<<<<< HEAD
   private FragmentSearchBinding(@NonNull ConstraintLayout rootView, @NonNull SearchView searchView,
       @NonNull TextView textView2, @NonNull TextView textView3) {
     this.rootView = rootView;
     this.searchView = searchView;
+=======
+  private FragmentSearchBinding(@NonNull ConstraintLayout rootView, @NonNull LinearLayout container,
+      @NonNull EditText etSearch, @NonNull ScrollView scrollView, @NonNull TextView textView2,
+      @NonNull TextView textView3) {
+    this.rootView = rootView;
+    this.container = container;
+    this.etSearch = etSearch;
+    this.scrollView = scrollView;
+>>>>>>> ddffa2d845e92aacb9ec9e50456f2b520e7198a7
     this.textView2 = textView2;
     this.textView3 = textView3;
   }
@@ -64,9 +93,27 @@ public final class FragmentSearchBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+<<<<<<< HEAD
       id = R.id.searchView;
       SearchView searchView = ViewBindings.findChildViewById(rootView, id);
       if (searchView == null) {
+=======
+      id = R.id.container;
+      LinearLayout container = ViewBindings.findChildViewById(rootView, id);
+      if (container == null) {
+        break missingId;
+      }
+
+      id = R.id.etSearch;
+      EditText etSearch = ViewBindings.findChildViewById(rootView, id);
+      if (etSearch == null) {
+        break missingId;
+      }
+
+      id = R.id.scrollView;
+      ScrollView scrollView = ViewBindings.findChildViewById(rootView, id);
+      if (scrollView == null) {
+>>>>>>> ddffa2d845e92aacb9ec9e50456f2b520e7198a7
         break missingId;
       }
 
@@ -82,8 +129,13 @@ public final class FragmentSearchBinding implements ViewBinding {
         break missingId;
       }
 
+<<<<<<< HEAD
       return new FragmentSearchBinding((ConstraintLayout) rootView, searchView, textView2,
           textView3);
+=======
+      return new FragmentSearchBinding((ConstraintLayout) rootView, container, etSearch, scrollView,
+          textView2, textView3);
+>>>>>>> ddffa2d845e92aacb9ec9e50456f2b520e7198a7
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

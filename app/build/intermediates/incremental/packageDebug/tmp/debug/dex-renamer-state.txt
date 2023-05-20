@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 #Fri May 19 23:18:49 WIB 2023
 base.0=D\:\\Project Pribadi\\Android Studio Project\\DaiScrivi\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=D\:\\Project Pribadi\\Android Studio Project\\DaiScrivi\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.2=D\:\\Project Pribadi\\Android Studio Project\\DaiScrivi\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
 base.3=D\:\\Project Pribadi\\Android Studio Project\\DaiScrivi\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\15\\classes.dex
+=======
+#Fri May 19 16:58:25 WIB 2023
+base.0=F\:\\Projek S4\\Mobile\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=F\:\\Projek S4\\Mobile\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.2=F\:\\Projek S4\\Mobile\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
+base.3=F\:\\Projek S4\\Mobile\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\15\\classes.dex
+>>>>>>> ddffa2d845e92aacb9ec9e50456f2b520e7198a7
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=11/classes.dex

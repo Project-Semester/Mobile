@@ -2,7 +2,11 @@
 <resources>
     <style name="Theme.DaiScrivi_MobileApp_Semester4" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         
+<<<<<<< HEAD
         <item name="colorPrimary">@color/purple_200</item>
+=======
+        <item name="colorPrimary">@color/night_primary</item>
+>>>>>>> ddffa2d845e92aacb9ec9e50456f2b520e7198a7
         <item name="colorPrimaryVariant">@color/purple_700</item>
         <item name="colorOnPrimary">@color/black</item>
         

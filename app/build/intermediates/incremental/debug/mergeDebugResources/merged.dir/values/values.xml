@@ -505,6 +505,7 @@
     <attr format="boolean" name="singleSelection"/>
     <attr format="float" name="sizePercent"/>
     <attr format="reference" name="sliderStyle"/>
+<<<<<<< HEAD
     <attr format="enum" name="splitLayoutDirection">
         <enum name="locale" value="0"/>
         <enum name="ltr" value="1"/>
@@ -513,6 +514,8 @@
     <attr format="dimension" name="splitMinSmallestWidth"/>
     <attr format="dimension" name="splitMinWidth"/>
     <attr format="float" name="splitRatio"/>
+=======
+>>>>>>> ddffa2d845e92aacb9ec9e50456f2b520e7198a7
     <attr format="boolean" name="state_with_icon"/>
     <attr format="color" name="strokeColor"/>
     <attr format="dimension" name="strokeWidth"/>
@@ -678,6 +681,10 @@
     <color name="dim_foreground_disabled_material_light">#80323232</color>
     <color name="dim_foreground_material_dark">#ffbebebe</color>
     <color name="dim_foreground_material_light">#ff323232</color>
+<<<<<<< HEAD
+=======
+    <color name="edit_text">#D9D9D9</color>
+>>>>>>> ddffa2d845e92aacb9ec9e50456f2b520e7198a7
     <color name="error_color_material_dark">#ff7043</color>
     <color name="error_color_material_light">#ff5722</color>
     <color name="foreground_material_dark">@android:color/white</color>
@@ -872,8 +879,15 @@
     <color name="mtrl_textinput_filled_box_default_background_color">#0A000000</color>
     <color name="mtrl_textinput_focused_box_stroke_color">#00000000</color>
     <color name="mtrl_textinput_hovered_box_stroke_color">#DE000000</color>
+<<<<<<< HEAD
     <color name="notification_action_color_filter">#ffffffff</color>
     <color name="notification_icon_bg_color">#ff9e9e9e</color>
+=======
+    <color name="night_primary">#FFC107</color>
+    <color name="notification_action_color_filter">#ffffffff</color>
+    <color name="notification_icon_bg_color">#ff9e9e9e</color>
+    <color name="primary">#4C9BE8</color>
+>>>>>>> ddffa2d845e92aacb9ec9e50456f2b520e7198a7
     <color name="primary_dark_material_dark">@android:color/black</color>
     <color name="primary_dark_material_light">@color/material_grey_600</color>
     <color name="primary_material_dark">@color/material_grey_900</color>
@@ -983,8 +997,15 @@
     <dimen name="abc_text_size_subtitle_material_toolbar">16dp</dimen>
     <dimen name="abc_text_size_title_material">20sp</dimen>
     <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
+<<<<<<< HEAD
     <dimen name="appcompat_dialog_background_inset">16dp</dimen>
     <dimen name="bottom_navigation_icon_size" ns1:override="true">32dp</dimen>
+=======
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="appcompat_dialog_background_inset">16dp</dimen>
+    <dimen name="bottom_navigation_icon_size" ns1:override="true">24dp</dimen>
+>>>>>>> ddffa2d845e92aacb9ec9e50456f2b520e7198a7
     <dimen name="cardview_compat_inset_shadow">1dp</dimen>
     <dimen name="cardview_default_elevation">2dp</dimen>
     <dimen name="cardview_default_radius">2dp</dimen>
@@ -1002,7 +1023,11 @@
     <dimen name="design_bottom_navigation_active_item_min_width">96dp</dimen>
     <dimen name="design_bottom_navigation_active_text_size">14sp</dimen>
     <dimen name="design_bottom_navigation_elevation">8dp</dimen>
+<<<<<<< HEAD
     <dimen name="design_bottom_navigation_height" ns1:override="true">73dp</dimen>
+=======
+    <dimen name="design_bottom_navigation_height" ns1:override="true">50dp</dimen>
+>>>>>>> ddffa2d845e92aacb9ec9e50456f2b520e7198a7
     <dimen name="design_bottom_navigation_icon_size">24dp</dimen>
     <dimen name="design_bottom_navigation_item_max_width">96dp</dimen>
     <dimen name="design_bottom_navigation_item_min_width">56dp</dimen>
@@ -1047,7 +1072,10 @@
     <dimen name="design_textinput_caption_translate_y">5dp</dimen>
     <item format="float" name="disabled_alpha_material_dark" type="dimen">0.30</item>
     <item format="float" name="disabled_alpha_material_light" type="dimen">0.26</item>
+<<<<<<< HEAD
     <dimen name="fab_margin">16dp</dimen>
+=======
+>>>>>>> ddffa2d845e92aacb9ec9e50456f2b520e7198a7
     <dimen name="fastscroll_default_thickness">8dp</dimen>
     <dimen name="fastscroll_margin">0dp</dimen>
     <dimen name="fastscroll_minimum_range">50dp</dimen>
@@ -1602,7 +1630,10 @@
     <dimen name="notification_subtext_size">13sp</dimen>
     <dimen name="notification_top_pad">10dp</dimen>
     <dimen name="notification_top_pad_large_text">5dp</dimen>
+<<<<<<< HEAD
     <dimen name="sliding_pane_detail_pane_width">300dp</dimen>
+=======
+>>>>>>> ddffa2d845e92aacb9ec9e50456f2b520e7198a7
     <dimen name="tooltip_corner_radius">2dp</dimen>
     <dimen name="tooltip_horizontal_padding">16dp</dimen>
     <dimen name="tooltip_margin">8dp</dimen>
@@ -1652,12 +1683,18 @@
     <item name="action_bar_spinner" type="id"/>
     <item name="action_menu_divider" type="id"/>
     <item name="action_menu_presenter" type="id"/>
+<<<<<<< HEAD
     <item name="androidx_window_activity_scope" type="id"/>
+=======
+>>>>>>> ddffa2d845e92aacb9ec9e50456f2b520e7198a7
     <item name="fragment_container_view_tag" type="id"/>
     <item name="ghost_view" type="id"/>
     <item name="ghost_view_holder" type="id"/>
     <item name="home" type="id"/>
+<<<<<<< HEAD
     <item name="is_pooling_container_tag" type="id"/>
+=======
+>>>>>>> ddffa2d845e92aacb9ec9e50456f2b520e7198a7
     <item name="item_touch_helper_previous_elevation" type="id"/>
     <item name="line1" type="id"/>
     <item name="line3" type="id"/>
@@ -1671,8 +1708,11 @@
     <item name="mtrl_internal_children_alpha_tag" type="id"/>
     <item name="mtrl_motion_snapshot_view" type="id"/>
     <item name="mtrl_view_tag_bottom_padding" type="id"/>
+<<<<<<< HEAD
     <item name="nav_controller_view_tag" type="id"/>
     <item name="nav_host_fragment_container" type="id"/>
+=======
+>>>>>>> ddffa2d845e92aacb9ec9e50456f2b520e7198a7
     <item name="navigation_bar_item_active_indicator_view" type="id"/>
     <item name="navigation_bar_item_icon_container" type="id"/>
     <item name="navigation_bar_item_icon_view" type="id"/>
@@ -1680,15 +1720,21 @@
     <item name="navigation_bar_item_large_label_view" type="id"/>
     <item name="navigation_bar_item_small_label_view" type="id"/>
     <item name="parent_matrix" type="id"/>
+<<<<<<< HEAD
     <item name="pooling_container_listener_holder_tag" type="id"/>
+=======
+>>>>>>> ddffa2d845e92aacb9ec9e50456f2b520e7198a7
     <item name="progress_circular" type="id"/>
     <item name="progress_horizontal" type="id"/>
     <item name="row_index_key" type="id"/>
     <item name="save_non_transition_alpha" type="id"/>
     <item name="save_overlay_view" type="id"/>
     <item name="selection_type" type="id"/>
+<<<<<<< HEAD
     <item name="sliding_pane_detail_container" type="id"/>
     <item name="sliding_pane_layout" type="id"/>
+=======
+>>>>>>> ddffa2d845e92aacb9ec9e50456f2b520e7198a7
     <item name="snackbar_action" type="id"/>
     <item name="snackbar_text" type="id"/>
     <item name="special_effects_controller_view_tag" type="id"/>
@@ -1734,7 +1780,10 @@
     <integer name="app_bar_elevation_anim_duration">150</integer>
     <integer name="bottom_sheet_slide_duration">150</integer>
     <integer name="cancel_button_image_alpha">127</integer>
+<<<<<<< HEAD
     <integer name="config_navAnimTime">150</integer>
+=======
+>>>>>>> ddffa2d845e92aacb9ec9e50456f2b520e7198a7
     <integer name="config_tooltipAnimTime">150</integer>
     <integer name="design_snackbar_text_max_lines">2</integer>
     <integer name="design_tab_indicator_anim_duration_ms">300</integer>
@@ -1821,8 +1870,15 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with <ns2:g example="Mail" id="application_name">%s</ns2:g></string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
+<<<<<<< HEAD
     <string name="androidx_startup" translatable="false">androidx.startup</string>
     <string name="app_name">YukNulis</string>
+=======
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="androidx_startup" translatable="false">androidx.startup</string>
+    <string name="app_name">DaiScrivi_MobileApp_Semester4</string>
+>>>>>>> ddffa2d845e92aacb9ec9e50456f2b520e7198a7
     <string name="appbar_scrolling_view_behavior" translatable="false">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
     <string name="bottom_sheet_behavior" translatable="false">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
     <string description="A description of an accessibility action to collapse the bottom sheet [CHAR LIMIT=NONE]" name="bottomsheet_action_collapse">Collapse the bottom sheet</string>
@@ -1835,7 +1891,11 @@
     <string name="character_counter_pattern" translatable="false">%1$d/%2$d</string>
     <string name="clear_text_end_icon_content_description">Clear text</string>
     <string name="define_roundedimageview"/>
+<<<<<<< HEAD
     <string name="deskription_logo">Platform sosial untuk bercerita yang paling disukai</string>
+=======
+    <string name="email">fagil@gmail.com</string>
+>>>>>>> ddffa2d845e92aacb9ec9e50456f2b520e7198a7
     <string description="Screen reader announcement for when a checkbox is on error. [CHAR LIMIT=NONE]" name="error_a11y_label">
     Error: invalid
   </string>
@@ -1843,6 +1903,7 @@
     <string name="exposed_dropdown_menu_content_description">Show dropdown menu</string>
     <string name="fab_transformation_scrim_behavior" translatable="false">com.google.android.material.transformation.FabTransformationScrimBehavior</string>
     <string name="fab_transformation_sheet_behavior" translatable="false">com.google.android.material.transformation.FabTransformationSheetBehavior</string>
+<<<<<<< HEAD
     <string name="first_fragment_label">First Fragment</string>
     <string name="head_1">AFTER</string>
     <string name="head_2">THE BAD BOYS GIRL</string>
@@ -1854,6 +1915,12 @@
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="hide_bottom_view_on_scroll_behavior" translatable="false">com.google.android.material.behavior.HideBottomViewOnScrollBehavior</string>
     <string description="Content description for an icon that appears in the title area of a dialog" name="icon_content_description">Dialog Icon</string>
+=======
+    <string name="hide_bottom_view_on_scroll_behavior" translatable="false">com.google.android.material.behavior.HideBottomViewOnScrollBehavior</string>
+    <string description="Content description for an icon that appears in the title area of a dialog" name="icon_content_description">Dialog Icon</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="invalid_username">Not a valid username</string>
+>>>>>>> ddffa2d845e92aacb9ec9e50456f2b520e7198a7
     <string name="item_view_role_description">Tab</string>
     <string name="library_roundedimageview_author">Vince Mi</string>
     <string name="library_roundedimageview_authorWebsite">https://github.com/vinc3m1</string>
@@ -1864,6 +1931,10 @@
     <string name="library_roundedimageview_libraryWebsite">https://github.com/vinc3m1/RoundedImageView</string>
     <string name="library_roundedimageview_licenseId">apache_2_0</string>
     <string name="library_roundedimageview_repositoryLink">https://github.com/vinc3m1/RoundedImageView.git</string>
+<<<<<<< HEAD
+=======
+    <string name="login_failed">Login failed</string>
+>>>>>>> ddffa2d845e92aacb9ec9e50456f2b520e7198a7
     <string name="m3_sys_motion_easing_emphasized" translatable="false">path(M 0,0 C 0.05, 0, 0.133333, 0.06, 0.166666, 0.4 C 0.208333, 0.82, 0.25, 1, 1, 1)</string>
     <string name="m3_sys_motion_easing_emphasized_accelerate" translatable="false">cubic-bezier(0.3, 0.0, 0.8, 0.2)</string>
     <string name="m3_sys_motion_easing_emphasized_decelerate" translatable="false">cubic-bezier(0.1, 0.7, 0.1, 1.0)</string>
@@ -1965,21 +2036,31 @@
     <string name="mtrl_switch_track_path" translatable="false">M0,16 A16,16 0 0,1 16,0 H36 A16,16 0 0,1 36,32 H16 A16,16 0 0,1 0,16</string>
     <string description="Button text to indicate that the widget will ignore the user&apos;s selection [CHAR_LIMIT=16]" name="mtrl_timepicker_cancel">Cancel</string>
     <string description="Button text to indicate that the widget will save the user&apos;s selection [CHAR_LIMIT=16]" name="mtrl_timepicker_confirm">OK</string>
+<<<<<<< HEAD
     <string name="nav_app_bar_navigate_up_description">Navigate up</string>
     <string name="nav_app_bar_open_drawer_description">Open navigation drawer</string>
     <string name="next">Next</string>
+=======
+>>>>>>> ddffa2d845e92aacb9ec9e50456f2b520e7198a7
     <string name="password_toggle_content_description">Show password</string>
     <string name="path_password_eye" translatable="false">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
     <string name="path_password_eye_mask_strike_through" translatable="false">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_eye_mask_visible" translatable="false">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_strike_through" translatable="false">M3.27,4.27 L19.74,20.74</string>
+<<<<<<< HEAD
     <string name="previous">Previous</string>
+=======
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="role">admin</string>
+>>>>>>> ddffa2d845e92aacb9ec9e50456f2b520e7198a7
     <string name="search_menu_title">Search</string>
     <string name="searchbar_scrolling_view_behavior" translatable="false">
     com.google.android.material.search.SearchBar$ScrollingViewBehavior
   </string>
     <string description="Content description for the X button to clear text [CHAR_LIMIT=NONE]" name="searchview_clear_text_content_description">Clear text</string>
     <string description="Content description for the navigation button to return to the previous screen [CHAR_LIMIT=NONE]" name="searchview_navigation_content_description">Back</string>
+<<<<<<< HEAD
     <string name="second_fragment_label">Second Fragment</string>
     <string description="Title of the side sheet&apos;s accessibility pane that is spoken by TalkBack when the side sheet appears on screen. [CHAR_LIMIT=NONE]" name="side_sheet_accessibility_pane_title">Side Sheet</string>
     <string name="side_sheet_behavior" translatable="false">com.google.android.material.sidesheet.SideSheetBehavior</string>
@@ -2001,6 +2082,25 @@ Apakah dirinya berhasil mengubah jalan cerita?
 </string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="title_activity_horizontal_rv">ActivityHorizontalRv</string>
+=======
+    <string description="Title of the side sheet&apos;s accessibility pane that is spoken by TalkBack when the side sheet appears on screen. [CHAR_LIMIT=NONE]" name="side_sheet_accessibility_pane_title">Side Sheet</string>
+    <string name="side_sheet_behavior" translatable="false">com.google.android.material.sidesheet.SideSheetBehavior</string>
+    <string name="sinopsis_touchYourHearth">    Gadis tomboy yang bernama Miska tak sengaja memasuki dunia film, tidak! ia tidak sedang lagi bermain drama atau menjadi aktris, tapi entah kenapa saat sedang menonton drama ia malah memasuki dunia drama itu saat menyentuh layar TV-nya.
+
+
+    Gadis tomboy yang akan wisuda beberapa hari lagi, tapi sekarang ia tidak akan memakai toga dan baju wisudanya di karenakan ia malah terjebak di dunia yang ia tidak kenali.
+
+
+    Dan yang lebih parahnya ia memasuki dunia drama yang berjudul Touch Your Heart dan memerankan karakter antagonis dalam drama itu. Karakter yang akan mati karena di dorong oleh pemeran utama pria di atas gedung kampus.
+
+
+    Apakah Miska bisa menghindari kematian itu?
+    Apakah dirinya berhasil mengubah jalan cerita?</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="username">fagil</string>
+    <string name="welcome">Welcome !</string>
+>>>>>>> ddffa2d845e92aacb9ec9e50456f2b520e7198a7
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>
@@ -5548,10 +5648,13 @@ Apakah dirinya berhasil mengubah jalan cerita?
         <item name="android:dropDownItemStyle">@style/Widget.AppCompat.DropDownItem.Spinner</item>
     </style>
     <style name="Platform.Widget.AppCompat.Spinner" parent="android:Widget.Holo.Spinner"/>
+<<<<<<< HEAD
     <style name="RoundedImageView">
         <item name="cornerFamily">rounded</item>
         <item name="cornerSize">12dp</item> 
     </style>
+=======
+>>>>>>> ddffa2d845e92aacb9ec9e50456f2b520e7198a7
     <style name="RtlOverlay.DialogWindowTitle.AppCompat" parent="Base.DialogWindowTitle.AppCompat">
     </style>
     <style name="RtlOverlay.Widget.AppCompat.ActionBar.TitleItem" parent="android:Widget">
@@ -6134,7 +6237,11 @@ Apakah dirinya berhasil mengubah jalan cerita?
     </style>
     <style name="Theme.DaiScrivi_MobileApp_Semester4" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         
+<<<<<<< HEAD
         <item name="colorPrimary">@color/purple_500</item>
+=======
+        <item name="colorPrimary">@color/primary</item>
+>>>>>>> ddffa2d845e92aacb9ec9e50456f2b520e7198a7
         <item name="colorPrimaryVariant">@color/purple_700</item>
         <item name="colorOnPrimary">@color/white</item>
         
@@ -6145,12 +6252,15 @@ Apakah dirinya berhasil mengubah jalan cerita?
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         
     </style>
+<<<<<<< HEAD
     <style name="Theme.DaiScrivi_MobileApp_Semester4.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
     <style name="Theme.DaiScrivi_MobileApp_Semester4.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
     <style name="Theme.DaiScrivi_MobileApp_Semester4.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+=======
+>>>>>>> ddffa2d845e92aacb9ec9e50456f2b520e7198a7
     <style name="Theme.Design" parent="Theme.AppCompat">
   </style>
     <style name="Theme.Design.BottomSheetDialog" parent="Theme.AppCompat.Dialog">
@@ -8907,6 +9017,7 @@ Apakah dirinya berhasil mengubah jalan cerita?
         
         <attr format="reference" name="expandActivityOverflowButtonDrawable"/>
     </declare-styleable>
+<<<<<<< HEAD
     <declare-styleable name="ActivityFilter">
         
         <attr format="string" name="activityName"/>
@@ -8924,6 +9035,8 @@ Apakah dirinya berhasil mengubah jalan cerita?
         
         <attr format="boolean" name="alwaysExpand"/>
     </declare-styleable>
+=======
+>>>>>>> ddffa2d845e92aacb9ec9e50456f2b520e7198a7
     <declare-styleable name="AlertDialog">
         <attr name="android:layout"/>
         <attr format="reference" name="buttonPanelSideLayout"/>
@@ -10847,9 +10960,12 @@ Apakah dirinya berhasil mengubah jalan cerita?
         <attr format="boolean" name="customBoolean"/>
         <attr format="reference" name="customReference"/>
     </declare-styleable>
+<<<<<<< HEAD
     <declare-styleable name="DialogFragmentNavigator">
         <attr name="android:name"/>
     </declare-styleable>
+=======
+>>>>>>> ddffa2d845e92aacb9ec9e50456f2b520e7198a7
     <declare-styleable name="DrawerArrowToggle">
         
         <attr format="color" name="color"/>
@@ -11024,9 +11140,12 @@ Apakah dirinya berhasil mengubah jalan cerita?
         <attr name="android:name"/>
         <attr name="android:tag"/>
     </declare-styleable>
+<<<<<<< HEAD
     <declare-styleable name="FragmentNavigator">
         <attr name="android:name"/>
     </declare-styleable>
+=======
+>>>>>>> ddffa2d845e92aacb9ec9e50456f2b520e7198a7
     <declare-styleable name="GradientColor">
         
         <attr name="android:startColor"/>
@@ -11971,6 +12090,7 @@ Apakah dirinya berhasil mengubah jalan cerita?
         <attr format="color" name="telltales_tailColor"/>
         <attr format="float" name="telltales_tailScale"/>
     </declare-styleable>
+<<<<<<< HEAD
     <declare-styleable name="NavAction">
         <attr name="android:id"/>
         <attr format="reference" name="destination"/>
@@ -12008,6 +12128,8 @@ Apakah dirinya berhasil mengubah jalan cerita?
     <declare-styleable name="NavInclude">
         <attr format="reference" name="graph"/>
     </declare-styleable>
+=======
+>>>>>>> ddffa2d845e92aacb9ec9e50456f2b520e7198a7
     <declare-styleable name="NavigationBarActiveIndicator">
     
     <attr name="android:color"/>
@@ -12146,11 +12268,14 @@ Apakah dirinya berhasil mengubah jalan cerita?
     
     <attr format="dimension" name="drawerLayoutCornerSize"/>
   </declare-styleable>
+<<<<<<< HEAD
     <declare-styleable name="Navigator">
         <attr name="android:id"/>
         <attr format="string" name="route"/>
         <attr name="android:label"/>
     </declare-styleable>
+=======
+>>>>>>> ddffa2d845e92aacb9ec9e50456f2b520e7198a7
     <declare-styleable name="OnClick">
         <attr name="targetId"/>
         <attr name="clickAction">
@@ -12483,6 +12608,7 @@ Apakah dirinya berhasil mengubah jalan cerita?
         
         <attr name="android:entries"/>
     </declare-styleable>
+<<<<<<< HEAD
     <declare-styleable name="SplitPairFilter">
         
         <attr format="string" name="primaryActivityName"/>
@@ -12511,6 +12637,8 @@ Apakah dirinya berhasil mengubah jalan cerita?
         <attr name="splitMinSmallestWidth"/>
         <attr name="splitLayoutDirection"/>
     </declare-styleable>
+=======
+>>>>>>> ddffa2d845e92aacb9ec9e50456f2b520e7198a7
     <declare-styleable name="State">
         <attr name="android:id"/>
         <attr format="reference" name="constraints"/>

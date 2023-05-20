@@ -155,7 +155,11 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="26dp"
         android:fontFamily="@font/sf_pro_display"
+<<<<<<< HEAD
         android:text="@string/sinopsis_touchYourHearth"
+=======
+        android:text="sinopsis_touchYourHearth"
+>>>>>>> ddffa2d845e92aacb9ec9e50456f2b520e7198a7
         android:textColor="@color/black"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"

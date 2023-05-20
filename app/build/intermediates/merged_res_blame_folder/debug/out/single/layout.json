@@ -1,5 +1,6 @@
 [
     {
+<<<<<<< HEAD
         "merged": "com.example.daiscrivi_mobileapp_semester4.app-mergeDebugResources-43:/layout/fragment_notification.xml",
         "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/layout/fragment_notification.xml"
     },
@@ -66,5 +67,45 @@
     {
         "merged": "com.example.daiscrivi_mobileapp_semester4.app-mergeDebugResources-43:/layout/fragment_library.xml",
         "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/layout/fragment_library.xml"
+=======
+        "merged": "com.example.daiscrivi_mobileapp_semester4.app-mergeDebugResources-34:/layout/fragment_home.xml",
+        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.example.daiscrivi_mobileapp_semester4.app-mergeDebugResources-34:/layout/slide_item_container.xml",
+        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/layout/slide_item_container.xml"
+    },
+    {
+        "merged": "com.example.daiscrivi_mobileapp_semester4.app-mergeDebugResources-34:/layout/activity_main.xml",
+        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.daiscrivi_mobileapp_semester4.app-mergeDebugResources-34:/layout/activity_welcome_page.xml",
+        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/layout/activity_welcome_page.xml"
+    },
+    {
+        "merged": "com.example.daiscrivi_mobileapp_semester4.app-mergeDebugResources-34:/layout/detail_fragment_home.xml",
+        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/layout/detail_fragment_home.xml"
+    },
+    {
+        "merged": "com.example.daiscrivi_mobileapp_semester4.app-mergeDebugResources-34:/layout/activity_login.xml",
+        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.daiscrivi_mobileapp_semester4.app-mergeDebugResources-34:/layout/activity_splash_screen.xml",
+        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/layout/activity_splash_screen.xml"
+    },
+    {
+        "merged": "com.example.daiscrivi_mobileapp_semester4.app-mergeDebugResources-34:/layout/fragment_search.xml",
+        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/layout/fragment_search.xml"
+    },
+    {
+        "merged": "com.example.daiscrivi_mobileapp_semester4.app-mergeDebugResources-34:/layout/fragment_write.xml",
+        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/layout/fragment_write.xml"
+    },
+    {
+        "merged": "com.example.daiscrivi_mobileapp_semester4.app-mergeDebugResources-34:/layout/activity_register.xml",
+        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/layout/activity_register.xml"
+>>>>>>> ddffa2d845e92aacb9ec9e50456f2b520e7198a7
     }
 ]

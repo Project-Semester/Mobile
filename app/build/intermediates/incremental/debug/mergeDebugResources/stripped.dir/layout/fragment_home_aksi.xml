@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentHomeArtis"
+    tools:ignore="SpeakableTextPresentCheck">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="393dp"
+            android:layout_height="553dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/photoAnnaTod"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="24dp"
+                android:src="@drawable/annatod"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textAnnaTod"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:fontFamily="@font/sf_pro_display"
+                android:text="Anna Tod"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/photoAnnaTod"
+                app:layout_constraintStart_toEndOf="@+id/photoAnnaTod"
+                app:layout_constraintTop_toTopOf="@+id/photoAnnaTod" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/photoArianaGodoy"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="16dp"
+                android:src="@drawable/arianagodoy"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/photoAnnaTod" />
+
+            <TextView
+                android:id="@+id/textArianaGodoy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:fontFamily="@font/sf_pro_display"
+                android:text="Ariana Godoy"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/photoArianaGodoy"
+                app:layout_constraintStart_toEndOf="@+id/photoArianaGodoy"
+                app:layout_constraintTop_toTopOf="@+id/photoArianaGodoy" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/photoBlairHolden"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="16dp"
+                android:src="@drawable/blairholden"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/photoArianaGodoy" />
+
+            <TextView
+                android:id="@+id/textBlairHolden"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:fontFamily="@font/sf_pro_display"
+                android:text="Blair Holden"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/photoBlairHolden"
+                app:layout_constraintStart_toEndOf="@+id/photoBlairHolden"
+                app:layout_constraintTop_toTopOf="@+id/photoBlairHolden" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/photoLindseySummers"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="16dp"
+                android:src="@drawable/lindseysummers"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/photoBlairHolden" />
+
+            <TextView
+                android:id="@+id/textLindseySummers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:fontFamily="@font/sf_pro_display"
+                android:text="Lindsey Summers"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/photoLindseySummers"
+                app:layout_constraintStart_toEndOf="@+id/photoLindseySummers"
+                app:layout_constraintTop_toTopOf="@+id/photoLindseySummers" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/photoSophiwHayward"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="16dp"
+                android:src="@drawable/sophiehayward"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/photoLindseySummers" />
+
+            <TextView
+                android:id="@+id/textSophiwHayward"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:fontFamily="@font/sf_pro_display"
+                android:text="Sophiw Hayward"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/photoSophiwHayward"
+                app:layout_constraintStart_toEndOf="@+id/photoSophiwHayward"
+                app:layout_constraintTop_toTopOf="@+id/photoSophiwHayward" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+
+</ScrollView>

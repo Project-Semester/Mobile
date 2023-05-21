@@ -27,6 +27,7 @@ import com.example.daiscrivi_mobileapp_semester4.retrofit.LoginResponse;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -160,18 +161,25 @@ public class LoginActivity extends AppCompatActivity {
                         @Override
                         public void run() {
                             LoginResponse loginResponse = response.body();
-                            startActivity(new Intent(LoginActivity.this, MainActivity.class).putExtra("data", loginResponse.getMessage()));
+                            startActivity(new Intent(LoginActivity.this,
+                                    MainActivity.class).putExtra("data", loginResponse.getMessage()));
                         }
                     }, 700);
 
                 } else {
                     Toast.makeText(LoginActivity.this, "Login gagal", Toast.LENGTH_SHORT).show();
+                    try {
+                        System.out.println(response.errorBody().string());
+                    } catch (IOException e) {
+                        throw new RuntimeException(e);
+                    }
                 }
             }
 
             @Override
             public void onFailure(Call<LoginResponse> call, Throwable t) {
                 Toast.makeText(LoginActivity.this, "Throwble " + t.getLocalizedMessage(), Toast.LENGTH_SHORT).show();
+
             }
         });
     }

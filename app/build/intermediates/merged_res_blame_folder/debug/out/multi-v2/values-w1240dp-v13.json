@@ -1,16 +1,16 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.daiscrivi_mobileapp_semester4.app-mergeDebugResources-42:/values-w1240dp-v13/values-w1240dp-v13.xml",
+            "outputFile": "com.example.daiscrivi_mobileapp_semester4.app-mergeDebugResources-41:/values-w1240dp-v13/values-w1240dp-v13.xml",
             "map": [
                 {
                     "source": "D:\\Project Pribadi\\Android Studio Project\\DaiScrivi\\app\\src\\main\\res\\values-w1240dp\\dimens.xml",
                     "from": {
                         "startLines": "1",
                         "startColumns": "6",
-                        "startOffsets": "18",
+                        "startOffsets": "19",
                         "endColumns": "44",
-                        "endOffsets": "56"
+                        "endOffsets": "57"
                     },
                     "to": {
                         "startLines": "2",

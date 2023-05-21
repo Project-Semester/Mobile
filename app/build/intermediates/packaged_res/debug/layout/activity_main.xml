@@ -11,12 +11,8 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
-<<<<<<< HEAD
         android:layout_height="match_parent"
         tools:ignore="RedundantNamespace">
-=======
-        android:layout_height="match_parent">
->>>>>>> ddffa2d845e92aacb9ec9e50456f2b520e7198a7
 
         <FrameLayout
             android:id="@+id/frameLayout"

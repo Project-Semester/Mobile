@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.daiscrivi_mobileapp_semester4" >
+    xmlns:tools="http://schemas.android.com/tools">
 
     <application
         android:allowBackup="true"
@@ -12,6 +11,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DaiScrivi_MobileApp_Semester4"
         tools:targetApi="31" >
+        <activity
+            android:name=".HomeFragment"
+            tools:ignore="Instantiatable" />
         <activity
             android:name=".DetailHomeFragment"
             android:exported="false" />

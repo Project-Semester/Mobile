@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: de.hdodenhof:circleimageview:3.1.0@aar">
     <CLASSES>
-      <root url="jar://$APPLICATION_HOME_DIR$/caches/transforms-3/e4220497cd21efee65c008678ab09805/transformed/circleimageview-3.1.0/jars/classes.jar!/" />
-      <root url="file://$APPLICATION_HOME_DIR$/caches/transforms-3/e4220497cd21efee65c008678ab09805/transformed/circleimageview-3.1.0/AndroidManifest.xml" />
-      <root url="file://$APPLICATION_HOME_DIR$/caches/transforms-3/e4220497cd21efee65c008678ab09805/transformed/circleimageview-3.1.0/res" />
+      <root url="file://$APPLICATION_HOME_DIR$/caches/transforms-3/44d934f799610cf9ccecb601de0afcd3/transformed/circleimageview-3.1.0/res" />
+      <root url="file://$APPLICATION_HOME_DIR$/caches/transforms-3/44d934f799610cf9ccecb601de0afcd3/transformed/circleimageview-3.1.0/AndroidManifest.xml" />
+      <root url="jar://$APPLICATION_HOME_DIR$/caches/transforms-3/44d934f799610cf9ccecb601de0afcd3/transformed/circleimageview-3.1.0/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$APPLICATION_HOME_DIR$/caches/modules-2/files-2.1/de.hdodenhof/circleimageview/3.1.0/e33964c462b854162fee2bd3cd52889ef878df77/circleimageview-3.1.0-javadoc.jar!/" />

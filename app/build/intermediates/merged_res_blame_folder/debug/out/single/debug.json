@@ -1,531 +1,274 @@
 [
     {
-<<<<<<< HEAD
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-44:/drawable_arianagodoy.jpg.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/drawable/arianagodoy.jpg"
+        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-43:/layout_activity_splash_screen.xml.flat",
+        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-45:/layout/activity_splash_screen.xml"
     },
     {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-44:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-43:/drawable_rekomendasihome.png.flat",
+        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-45:/drawable/rekomendasihome.png"
     },
     {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-44:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-43:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-45:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-44:/layout_fragment_home_aksi.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/layout/fragment_home_aksi.xml"
+        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-43:/drawable_judul_wattpad4.jpg.flat",
+        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-45:/drawable/judul_wattpad4.jpg"
     },
     {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-44:/layout_fragment_library.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/layout/fragment_library.xml"
+        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-43:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-45:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-44:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/drawable/ic_launcher_foreground.xml"
+        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-43:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-45:/drawable/ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-44:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/drawable/ic_launcher_background.xml"
+        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-43:/drawable_bird.xml.flat",
+        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-45:/drawable/bird.xml"
     },
     {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-44:/layout_activity_main.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/layout/activity_main.xml"
+        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-43:/layout_content_activity_horizontal_rv.xml.flat",
+        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-45:/layout/content_activity_horizontal_rv.xml"
     },
     {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-44:/font_sf_pro_display.TTF.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/font/sf_pro_display.TTF"
+        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-43:/drawable_bottombar_house.xml.flat",
+        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-45:/drawable/bottombar_house.xml"
     },
     {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-44:/drawable_lindseysummers.jpg.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/drawable/lindseysummers.jpg"
+        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-43:/drawable_sophiehayward.jpeg.flat",
+        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-45:/drawable/sophiehayward.jpeg"
     },
     {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-44:/layout_content_activity_horizontal_rv.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/layout/content_activity_horizontal_rv.xml"
+        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-43:/layout_fragment_home.xml.flat",
+        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-45:/layout/fragment_home.xml"
     },
     {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-44:/layout_fragment_notification.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/layout/fragment_notification.xml"
+        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-43:/layout_fragment_home_fiksi.xml.flat",
+        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-45:/layout/fragment_home_fiksi.xml"
     },
     {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-44:/layout_fragment_second.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/layout/fragment_second.xml"
+        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-43:/layout_fragment_home_artis.xml.flat",
+        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-45:/layout/fragment_home_artis.xml"
     },
     {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-44:/xml_data_extraction_rules.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/xml/data_extraction_rules.xml"
+        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-43:/color_selectable_color.xml.flat",
+        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-45:/color/selectable_color.xml"
     },
     {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-44:/drawable_judul_wattpad.jpg.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/drawable/judul_wattpad.jpg"
+        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-43:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-45:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-44:/layout_fragment_search.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/layout/fragment_search.xml"
+        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-43:/drawable_bottombar_tulis.xml.flat",
+        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-45:/drawable/bottombar_tulis.xml"
     },
     {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-44:/layout_activity_welcome_page.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/layout/activity_welcome_page.xml"
+        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-43:/layout_fragment_search.xml.flat",
+        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-45:/layout/fragment_search.xml"
     },
     {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-44:/drawable_annatod.jpg.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/drawable/annatod.jpg"
+        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-43:/drawable_button_house.xml.flat",
+        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-45:/drawable/button_house.xml"
     },
     {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-44:/navigation_nav_graph.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/navigation/nav_graph.xml"
+        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-43:/navigation_nav_graph.xml.flat",
+        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-45:/navigation/nav_graph.xml"
     },
     {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-44:/mipmap-anydpi-v33_ic_launcher.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/mipmap-anydpi-v33/ic_launcher.xml"
+        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-43:/drawable_profile.jpg.flat",
+        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-45:/drawable/profile.jpg"
     },
     {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-44:/drawable_bottombar_tulis.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/drawable/bottombar_tulis.xml"
+        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-43:/layout_fragment_second.xml.flat",
+        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-45:/layout/fragment_second.xml"
     },
     {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-44:/layout_card_imageslider.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/layout/card_imageslider.xml"
+        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-43:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-45:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-44:/drawable_bottombar_perpustakaan.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/drawable/bottombar_perpustakaan.xml"
+        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-43:/drawable_lindseysummers.jpg.flat",
+        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-45:/drawable/lindseysummers.jpg"
     },
     {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-44:/xml_backup_rules.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/xml/backup_rules.xml"
+        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-43:/drawable_add_write.xml.flat",
+        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-45:/drawable/add_write.xml"
     },
     {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-44:/drawable_settingnotif.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/drawable/settingnotif.xml"
+        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-43:/layout_fragment_notification.xml.flat",
+        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-45:/layout/fragment_notification.xml"
     },
     {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-44:/drawable_judul_wattpad4.jpg.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/drawable/judul_wattpad4.jpg"
+        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-43:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-45:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-44:/layout_fragment_home_album.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/layout/fragment_home_album.xml"
+        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-43:/drawable_logo_yuknulis.xml.flat",
+        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-45:/drawable/logo_yuknulis.xml"
     },
     {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-44:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-43:/menu_bottom_nav_menu.xml.flat",
+        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-45:/menu/bottom_nav_menu.xml"
     },
     {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-44:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-43:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-45:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-44:/drawable_rekomendasihome.png.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/drawable/rekomendasihome.png"
+        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-43:/drawable_splashscreen.xml.flat",
+        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-45:/drawable/splashscreen.xml"
     },
     {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-44:/drawable_unrounded_button.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/drawable/unrounded_button.xml"
+        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-43:/drawable_settings.xml.flat",
+        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-45:/drawable/settings.xml"
     },
     {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-44:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-43:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-45:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-44:/drawable_rekomendasihome2.png.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/drawable/rekomendasihome2.png"
+        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-43:/layout_activity_welcome_page.xml.flat",
+        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-45:/layout/activity_welcome_page.xml"
     },
     {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-44:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-43:/layout_fragment_write.xml.flat",
+        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-45:/layout/fragment_write.xml"
     },
     {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-44:/layout_fragment_home.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/layout/fragment_home.xml"
+        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-43:/layout_fragment_first.xml.flat",
+        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-45:/layout/fragment_first.xml"
     },
     {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-44:/drawable_bottombar_telusuri.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/drawable/bottombar_telusuri.xml"
+        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-43:/drawable_bottombar_telusuri.xml.flat",
+        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-45:/drawable/bottombar_telusuri.xml"
     },
     {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-44:/drawable_background.png.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/drawable/background.png"
+        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-43:/drawable_background.png.flat",
+        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-45:/drawable/background.png"
     },
     {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-44:/drawable_bird.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/drawable/bird.xml"
+        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-43:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-45:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-44:/drawable_bottombar_pembaruan.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/drawable/bottombar_pembaruan.xml"
+        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-43:/drawable_rekomendasihome2.png.flat",
+        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-45:/drawable/rekomendasihome2.png"
     },
     {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-44:/drawable_tab_layout_notification.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/drawable/tab_layout_notification.xml"
+        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-43:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-45:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-44:/drawable_question.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/drawable/question.xml"
+        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-43:/drawable_judul_wattpad2.jpg.flat",
+        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-45:/drawable/judul_wattpad2.jpg"
     },
     {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-44:/drawable_logo_yuknulis.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/drawable/logo_yuknulis.xml"
+        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-43:/drawable_annatod.jpg.flat",
+        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-45:/drawable/annatod.jpg"
     },
     {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-44:/drawable_judul_wattpad3.jpg.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/drawable/judul_wattpad3.jpg"
+        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-43:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-45:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-44:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-43:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-45:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-44:/layout_fragment_home_artis.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/layout/fragment_home_artis.xml"
+        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-43:/drawable_question.xml.flat",
+        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-45:/drawable/question.xml"
     },
     {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-44:/layout_fragment_home_fiksi.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/layout/fragment_home_fiksi.xml"
+        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-43:/drawable_unrounded_button.xml.flat",
+        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-45:/drawable/unrounded_button.xml"
     },
     {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-44:/drawable_bottombar_house.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/drawable/bottombar_house.xml"
+        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-43:/drawable_blairholden.jpg.flat",
+        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-45:/drawable/blairholden.jpg"
     },
     {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-44:/menu_bottom_nav_menu.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/menu/bottom_nav_menu.xml"
+        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-43:/drawable_judul_wattpad5.jpg.flat",
+        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-45:/drawable/judul_wattpad5.jpg"
     },
     {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-44:/drawable_button_house.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/drawable/button_house.xml"
+        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-43:/font_sf_pro_display.TTF.flat",
+        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-45:/font/sf_pro_display.TTF"
     },
     {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-44:/drawable_settings.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/drawable/settings.xml"
+        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-43:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-45:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-44:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-43:/drawable_bottombar_pembaruan.xml.flat",
+        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-45:/drawable/bottombar_pembaruan.xml"
     },
     {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-44:/drawable_judul_wattpad2.jpg.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/drawable/judul_wattpad2.jpg"
+        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-43:/drawable_tab_layout_notification.xml.flat",
+        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-45:/drawable/tab_layout_notification.xml"
     },
     {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-44:/drawable_search_view_bg.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/drawable/search_view_bg.xml"
+        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-43:/drawable_judul_wattpad3.jpg.flat",
+        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-45:/drawable/judul_wattpad3.jpg"
     },
     {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-44:/layout_detail_fragment_home.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/layout/detail_fragment_home.xml"
+        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-43:/layout_detail_fragment_home.xml.flat",
+        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-45:/layout/detail_fragment_home.xml"
     },
     {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-44:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-43:/layout_fragment_home_album.xml.flat",
+        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-45:/layout/fragment_home_album.xml"
     },
     {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-44:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-43:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-45:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-44:/drawable_sophiehayward.jpeg.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/drawable/sophiehayward.jpeg"
+        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-43:/mipmap-anydpi-v33_ic_launcher.xml.flat",
+        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-45:/mipmap-anydpi-v33/ic_launcher.xml"
     },
     {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-44:/drawable_blairholden.jpg.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/drawable/blairholden.jpg"
+        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-43:/drawable_arianagodoy.jpg.flat",
+        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-45:/drawable/arianagodoy.jpg"
     },
     {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-44:/drawable_profile.jpg.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/drawable/profile.jpg"
+        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-43:/layout_fragment_library.xml.flat",
+        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-45:/layout/fragment_library.xml"
     },
     {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-44:/drawable_add_write.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/drawable/add_write.xml"
+        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-43:/drawable_settingnotif.xml.flat",
+        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-45:/drawable/settingnotif.xml"
     },
     {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-44:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-43:/layout_activity_main.xml.flat",
+        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-45:/layout/activity_main.xml"
     },
     {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-44:/drawable_splashscreen.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/drawable/splashscreen.xml"
+        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-43:/xml_backup_rules.xml.flat",
+        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-45:/xml/backup_rules.xml"
     },
     {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-44:/color_selectable_color.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/color/selectable_color.xml"
+        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-43:/drawable_bottombar_perpustakaan.xml.flat",
+        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-45:/drawable/bottombar_perpustakaan.xml"
     },
     {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-44:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-43:/layout_fragment_home_aksi.xml.flat",
+        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-45:/layout/fragment_home_aksi.xml"
     },
     {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-44:/layout_activity_splash_screen.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/layout/activity_splash_screen.xml"
+        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-43:/drawable_search_view_bg.xml.flat",
+        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-45:/drawable/search_view_bg.xml"
     },
     {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-44:/layout_fragment_first.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/layout/fragment_first.xml"
+        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-43:/layout_card_imageslider.xml.flat",
+        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-45:/layout/card_imageslider.xml"
     },
     {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-44:/drawable_judul_wattpad5.jpg.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/drawable/judul_wattpad5.jpg"
+        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-43:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-45:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-44:/layout_fragment_write.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/layout/fragment_write.xml"
-=======
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-35:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/mipmap-xxhdpi/ic_launcher.webp"
-    },
-    {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-35:/drawable_settings.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/drawable/settings.xml"
-    },
-    {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-35:/drawable_bottombar_tulis.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/drawable/bottombar_tulis.xml"
-    },
-    {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-35:/drawable_logo_yuknulis.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/drawable/logo_yuknulis.xml"
-    },
-    {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-35:/drawable_button_house.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/drawable/button_house.xml"
-    },
-    {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-35:/xml_data_extraction_rules.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/xml/data_extraction_rules.xml"
-    },
-    {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-35:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/mipmap-xxxhdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-35:/color_button_color.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/color/button_color.xml"
-    },
-    {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-35:/layout_detail_fragment_home.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/layout/detail_fragment_home.xml"
-    },
-    {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-35:/drawable_edittext_background.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/drawable/edittext_background.xml"
-    },
-    {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-35:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/mipmap-hdpi/ic_launcher.webp"
-    },
-    {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-35:/drawable_custom_button_login.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/drawable/custom_button_login.xml"
-    },
-    {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-35:/layout_fragment_write.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/layout/fragment_write.xml"
-    },
-    {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-35:/drawable_judul_wattpad3.jpg.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/drawable/judul_wattpad3.jpg"
-    },
-    {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-35:/drawable_tab_layout_notification.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/drawable/tab_layout_notification.xml"
-    },
-    {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-35:/font_sf_pro_display.TTF.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/font/sf_pro_display.TTF"
-    },
-    {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-35:/drawable_bottombar_pembaruan.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/drawable/bottombar_pembaruan.xml"
-    },
-    {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-35:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/drawable/ic_launcher_foreground.xml"
-    },
-    {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-35:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/mipmap-xxxhdpi/ic_launcher.webp"
-    },
-    {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-35:/xml_backup_rules.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/xml/backup_rules.xml"
-    },
-    {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-35:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/drawable/ic_launcher_background.xml"
-    },
-    {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-35:/drawable_question.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/drawable/question.xml"
-    },
-    {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-35:/drawable_judul_wattpad4.jpg.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/drawable/judul_wattpad4.jpg"
-    },
-    {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-35:/drawable_splashscreen.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/drawable/splashscreen.xml"
-    },
-    {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-35:/drawable_logoyuknulis_2__2_.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/drawable/logoyuknulis_2__2_.xml"
-    },
-    {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-35:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/mipmap-hdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-35:/drawable_baseline_search_24.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/drawable/baseline_search_24.xml"
-    },
-    {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-35:/drawable_bird.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/drawable/bird.xml"
-    },
-    {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-35:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/mipmap-xhdpi/ic_launcher.webp"
-    },
-    {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-35:/menu_bottom_nav_menu.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/menu/bottom_nav_menu.xml"
-    },
-    {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-35:/layout_fragment_home.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/layout/fragment_home.xml"
-    },
-    {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-35:/drawable_judul_wattpad5.jpg.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/drawable/judul_wattpad5.jpg"
-    },
-    {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-35:/drawable_custom_button_register.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/drawable/custom_button_register.xml"
-    },
-    {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-35:/layout_activity_login.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/layout/activity_login.xml"
-    },
-    {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-35:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/mipmap-anydpi-v26/ic_launcher_round.xml"
-    },
-    {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-35:/drawable_settingnotif.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/drawable/settingnotif.xml"
-    },
-    {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-35:/layout_fragment_search.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/layout/fragment_search.xml"
-    },
-    {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-35:/drawable_bottombar_perpustakaan.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/drawable/bottombar_perpustakaan.xml"
-    },
-    {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-35:/layout_slide_item_container.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/layout/slide_item_container.xml"
-    },
-    {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-35:/mipmap-anydpi-v33_ic_launcher.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/mipmap-anydpi-v33/ic_launcher.xml"
-    },
-    {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-35:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/mipmap-xhdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-35:/color_selectable_color.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/color/selectable_color.xml"
-    },
-    {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-35:/drawable_bottombar_telusuri.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/drawable/bottombar_telusuri.xml"
-    },
-    {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-35:/layout_activity_main.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/layout/activity_main.xml"
-    },
-    {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-35:/drawable_rekomendasihome2.png.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/drawable/rekomendasihome2.png"
-    },
-    {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-35:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/mipmap-mdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-35:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/mipmap-mdpi/ic_launcher.webp"
-    },
-    {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-35:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/mipmap-xxhdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-35:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/mipmap-anydpi-v26/ic_launcher.xml"
-    },
-    {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-35:/drawable_judul_wattpad.jpg.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/drawable/judul_wattpad.jpg"
-    },
-    {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-35:/drawable_add_write.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/drawable/add_write.xml"
-    },
-    {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-35:/drawable_bottombar_house.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/drawable/bottombar_house.xml"
-    },
-    {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-35:/drawable_circle_background.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/drawable/circle_background.xml"
-    },
-    {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-35:/layout_activity_welcome_page.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/layout/activity_welcome_page.xml"
-    },
-    {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-35:/drawable_background.png.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/drawable/background.png"
-    },
-    {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-35:/layout_activity_splash_screen.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/layout/activity_splash_screen.xml"
-    },
-    {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-35:/drawable_search_view_bg.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/drawable/search_view_bg.xml"
-    },
-    {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-35:/drawable_logo.png.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/drawable/logo.png"
-    },
-    {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-35:/layout_activity_register.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/layout/activity_register.xml"
-    },
-    {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-35:/drawable_unrounded_button.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/drawable/unrounded_button.xml"
-    },
-    {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-35:/drawable_rekomendasihome.png.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/drawable/rekomendasihome.png"
-    },
-    {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-35:/drawable_profile.jpg.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/drawable/profile.jpg"
-    },
-    {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-35:/drawable_judul_wattpad2.jpg.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/drawable/judul_wattpad2.jpg"
-    },
-    {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-35:/drawable_ellipse.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/drawable/ellipse.xml"
->>>>>>> ddffa2d845e92aacb9ec9e50456f2b520e7198a7
+        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-43:/drawable_judul_wattpad.jpg.flat",
+        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-45:/drawable/judul_wattpad.jpg"
     }
 ]

@@ -1,88 +1,46 @@
-<<<<<<< HEAD
-com.example.daiscrivi_mobileapp_semester4.app-navigation-ui-2.5.3-0 D:\Installer\Android Studio\caches\transforms-3\02f393470d292f4a39bdb8d42c27ffc5\transformed\navigation-ui-2.5.3\res
-com.example.daiscrivi_mobileapp_semester4.app-viewpager2-1.0.0-1 D:\Installer\Android Studio\caches\transforms-3\066f493cb7d990cafa5df1ece5ebc364\transformed\viewpager2-1.0.0\res
-com.example.daiscrivi_mobileapp_semester4.app-fragment-1.5.4-2 D:\Installer\Android Studio\caches\transforms-3\0752b49b866f38fc90d9692cac16f84d\transformed\fragment-1.5.4\res
-com.example.daiscrivi_mobileapp_semester4.app-activity-1.6.0-3 D:\Installer\Android Studio\caches\transforms-3\0b88d47e53b87e2aa686896eaf405de0\transformed\activity-1.6.0\res
-com.example.daiscrivi_mobileapp_semester4.app-lifecycle-viewmodel-savedstate-2.5.1-4 D:\Installer\Android Studio\caches\transforms-3\1c92f331f5dd426397f158863edbf1fa\transformed\lifecycle-viewmodel-savedstate-2.5.1\res
-com.example.daiscrivi_mobileapp_semester4.app-material-1.8.0-5 D:\Installer\Android Studio\caches\transforms-3\1d6008e40b174b18ef5fa9ea4cd35014\transformed\material-1.8.0\res
-com.example.daiscrivi_mobileapp_semester4.app-cardview-1.0.0-6 D:\Installer\Android Studio\caches\transforms-3\1f624a3ec658e1a90eb17b72d8f4e5aa\transformed\cardview-1.0.0\res
-com.example.daiscrivi_mobileapp_semester4.app-navigation-fragment-2.5.3-7 D:\Installer\Android Studio\caches\transforms-3\200b606502c850d11c0294d6ee75cb53\transformed\navigation-fragment-2.5.3\res
-com.example.daiscrivi_mobileapp_semester4.app-navigation-common-2.5.3-8 D:\Installer\Android Studio\caches\transforms-3\23de5eed638eb047b0d959d161c760e4\transformed\navigation-common-2.5.3\res
-com.example.daiscrivi_mobileapp_semester4.app-lifecycle-viewmodel-ktx-2.5.1-9 D:\Installer\Android Studio\caches\transforms-3\2a6f324967bdee6c1506072ef3c0b39a\transformed\lifecycle-viewmodel-ktx-2.5.1\res
-com.example.daiscrivi_mobileapp_semester4.app-lifecycle-runtime-2.5.1-10 D:\Installer\Android Studio\caches\transforms-3\34be6e117e2e06ff01a6121271053230\transformed\lifecycle-runtime-2.5.1\res
-com.example.daiscrivi_mobileapp_semester4.app-appcompat-1.6.1-11 D:\Installer\Android Studio\caches\transforms-3\44fc53ad3ef1477fcc7b5dbdbf1cb4c0\transformed\appcompat-1.6.1\res
-com.example.daiscrivi_mobileapp_semester4.app-constraintlayout-2.1.4-12 D:\Installer\Android Studio\caches\transforms-3\4b929ab10fd806b94f86bd527f89dd0a\transformed\constraintlayout-2.1.4\res
-com.example.daiscrivi_mobileapp_semester4.app-fragment-ktx-1.5.4-13 D:\Installer\Android Studio\caches\transforms-3\5fb02e7f24b0584f90735a8e865bf7fb\transformed\fragment-ktx-1.5.4\res
-com.example.daiscrivi_mobileapp_semester4.app-lifecycle-livedata-core-2.5.1-14 D:\Installer\Android Studio\caches\transforms-3\66eb2c428070a7989cc3e53427124072\transformed\lifecycle-livedata-core-2.5.1\res
-com.example.daiscrivi_mobileapp_semester4.app-lifecycle-runtime-ktx-2.5.1-15 D:\Installer\Android Studio\caches\transforms-3\7084d73b8b7e1a60ca427f3a7a287080\transformed\lifecycle-runtime-ktx-2.5.1\res
-com.example.daiscrivi_mobileapp_semester4.app-emoji2-views-helper-1.2.0-16 D:\Installer\Android Studio\caches\transforms-3\7100f70982d85b96c46f0496b7becc56\transformed\emoji2-views-helper-1.2.0\res
-com.example.daiscrivi_mobileapp_semester4.app-savedstate-1.2.0-17 D:\Installer\Android Studio\caches\transforms-3\7180b5a3b50cad88028eaa81f8b17fa7\transformed\savedstate-1.2.0\res
-com.example.daiscrivi_mobileapp_semester4.app-emoji2-1.2.0-18 D:\Installer\Android Studio\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\res
-com.example.daiscrivi_mobileapp_semester4.app-drawerlayout-1.1.1-19 D:\Installer\Android Studio\caches\transforms-3\7bc7a5b48c08c285c7816e5896abfab2\transformed\drawerlayout-1.1.1\res
-com.example.daiscrivi_mobileapp_semester4.app-coordinatorlayout-1.1.0-20 D:\Installer\Android Studio\caches\transforms-3\8255cf8f73e0ec2d884b3aa8102e6cd4\transformed\coordinatorlayout-1.1.0\res
-com.example.daiscrivi_mobileapp_semester4.app-lifecycle-process-2.4.1-21 D:\Installer\Android Studio\caches\transforms-3\86041ab2b0d2128b301212662b855cec\transformed\lifecycle-process-2.4.1\res
-com.example.daiscrivi_mobileapp_semester4.app-window-1.0.0-22 D:\Installer\Android Studio\caches\transforms-3\8f9220d66762372c6aa1e02e07b4f277\transformed\window-1.0.0\res
-com.example.daiscrivi_mobileapp_semester4.app-transition-1.4.1-23 D:\Installer\Android Studio\caches\transforms-3\936a6cf0b800d678beef4a0e564f2e50\transformed\transition-1.4.1\res
-com.example.daiscrivi_mobileapp_semester4.app-recyclerview-1.3.0-24 D:\Installer\Android Studio\caches\transforms-3\9a84c5722fa11d69cc8a730de99e8735\transformed\recyclerview-1.3.0\res
-com.example.daiscrivi_mobileapp_semester4.app-annotation-experimental-1.3.0-25 D:\Installer\Android Studio\caches\transforms-3\9d8d7feb3580355ffff343143a4678dc\transformed\annotation-experimental-1.3.0\res
-com.example.daiscrivi_mobileapp_semester4.app-slidingpanelayout-1.2.0-26 D:\Installer\Android Studio\caches\transforms-3\aea016e58638633e6e91f6f930a69e1e\transformed\slidingpanelayout-1.2.0\res
-com.example.daiscrivi_mobileapp_semester4.app-activity-ktx-1.6.0-27 D:\Installer\Android Studio\caches\transforms-3\b9537cad7ce14c6da0f9ad37d0229f8c\transformed\activity-ktx-1.6.0\res
-com.example.daiscrivi_mobileapp_semester4.app-navigation-runtime-2.5.3-28 D:\Installer\Android Studio\caches\transforms-3\bf1aa684f95819c2c5ef1ccc869a93c2\transformed\navigation-runtime-2.5.3\res
-com.example.daiscrivi_mobileapp_semester4.app-lifecycle-viewmodel-2.5.1-29 D:\Installer\Android Studio\caches\transforms-3\ce8e9fef21b12750b78ea8e6de235acd\transformed\lifecycle-viewmodel-2.5.1\res
-com.example.daiscrivi_mobileapp_semester4.app-customview-poolingcontainer-1.0.0-30 D:\Installer\Android Studio\caches\transforms-3\d69ab43e3ccd6850828320ff7e73cb1b\transformed\customview-poolingcontainer-1.0.0\res
-com.example.daiscrivi_mobileapp_semester4.app-roundedimageview-2.3.0-31 D:\Installer\Android Studio\caches\transforms-3\de2d40f9a81e84b99d4240b974af2574\transformed\roundedimageview-2.3.0\res
-com.example.daiscrivi_mobileapp_semester4.app-circleimageview-3.1.0-32 D:\Installer\Android Studio\caches\transforms-3\e4220497cd21efee65c008678ab09805\transformed\circleimageview-3.1.0\res
-com.example.daiscrivi_mobileapp_semester4.app-appcompat-resources-1.6.1-33 D:\Installer\Android Studio\caches\transforms-3\e5ed6143adbb4e76284add51ce427304\transformed\appcompat-resources-1.6.1\res
-com.example.daiscrivi_mobileapp_semester4.app-startup-runtime-1.1.1-34 D:\Installer\Android Studio\caches\transforms-3\e6dc352309f6d773a89fb4d56f13b49d\transformed\startup-runtime-1.1.1\res
-com.example.daiscrivi_mobileapp_semester4.app-savedstate-ktx-1.2.0-35 D:\Installer\Android Studio\caches\transforms-3\e9dc35f53d8157076f4fe97a9b5e8a6a\transformed\savedstate-ktx-1.2.0\res
-com.example.daiscrivi_mobileapp_semester4.app-core-1.9.0-36 D:\Installer\Android Studio\caches\transforms-3\ec4f76f6c0c02de8ba18086e7bd9baf5\transformed\core-1.9.0\res
-com.example.daiscrivi_mobileapp_semester4.app-lifecycle-livedata-core-ktx-2.5.1-37 D:\Installer\Android Studio\caches\transforms-3\f5f7459e2edd4263d9de92532abee4c5\transformed\lifecycle-livedata-core-ktx-2.5.1\res
-com.example.daiscrivi_mobileapp_semester4.app-core-ktx-1.9.0-38 D:\Installer\Android Studio\caches\transforms-3\f6c47861666c723a6e14604b0a167eca\transformed\core-ktx-1.9.0\res
+com.example.daiscrivi_mobileapp_semester4.app-recyclerview-1.3.0-0 D:\Installer\Android Studio\caches\transforms-3\0042f6f0779fb3ef66ecba4a4e14895d\transformed\recyclerview-1.3.0\res
+com.example.daiscrivi_mobileapp_semester4.app-emoji2-views-helper-1.2.0-1 D:\Installer\Android Studio\caches\transforms-3\0386c68ab7ced15aea86b7b70585d614\transformed\emoji2-views-helper-1.2.0\res
+com.example.daiscrivi_mobileapp_semester4.app-navigation-ui-2.5.3-2 D:\Installer\Android Studio\caches\transforms-3\0a475472deb37d71fb4926ce723f1b2e\transformed\navigation-ui-2.5.3\res
+com.example.daiscrivi_mobileapp_semester4.app-coordinatorlayout-1.1.0-3 D:\Installer\Android Studio\caches\transforms-3\0b97cbb9b3f701d9fad496d68b7a4312\transformed\coordinatorlayout-1.1.0\res
+com.example.daiscrivi_mobileapp_semester4.app-appcompat-resources-1.6.1-4 D:\Installer\Android Studio\caches\transforms-3\0cee807731b4cfbecd4050bffc7ecec6\transformed\appcompat-resources-1.6.1\res
+com.example.daiscrivi_mobileapp_semester4.app-lifecycle-viewmodel-2.5.1-5 D:\Installer\Android Studio\caches\transforms-3\1580f3e5ad48ea56404b04ce5d99aa58\transformed\lifecycle-viewmodel-2.5.1\res
+com.example.daiscrivi_mobileapp_semester4.app-savedstate-1.2.0-6 D:\Installer\Android Studio\caches\transforms-3\1718b709b65937c202b947da1bdcae53\transformed\savedstate-1.2.0\res
+com.example.daiscrivi_mobileapp_semester4.app-emoji2-1.2.0-7 D:\Installer\Android Studio\caches\transforms-3\1aadcf4e0f237724308e0370743d8486\transformed\emoji2-1.2.0\res
+com.example.daiscrivi_mobileapp_semester4.app-annotation-experimental-1.3.0-8 D:\Installer\Android Studio\caches\transforms-3\20a644b62baf785bb02e4625e75762e3\transformed\annotation-experimental-1.3.0\res
+com.example.daiscrivi_mobileapp_semester4.app-drawerlayout-1.1.1-9 D:\Installer\Android Studio\caches\transforms-3\24fb4a96b5a399879a75f8beab1248e9\transformed\drawerlayout-1.1.1\res
+com.example.daiscrivi_mobileapp_semester4.app-lifecycle-runtime-ktx-2.5.1-10 D:\Installer\Android Studio\caches\transforms-3\2987f63a508c9fd30cc68e16f9a3a645\transformed\lifecycle-runtime-ktx-2.5.1\res
+com.example.daiscrivi_mobileapp_semester4.app-core-1.9.0-11 D:\Installer\Android Studio\caches\transforms-3\2d36cdbeb90dfdfd402f076bef064238\transformed\core-1.9.0\res
+com.example.daiscrivi_mobileapp_semester4.app-core-ktx-1.9.0-12 D:\Installer\Android Studio\caches\transforms-3\2f6ed9795331cc1ede1f9870a971d030\transformed\core-ktx-1.9.0\res
+com.example.daiscrivi_mobileapp_semester4.app-cardview-1.0.0-13 D:\Installer\Android Studio\caches\transforms-3\312c732409815ed050d72bcd3ab910ef\transformed\cardview-1.0.0\res
+com.example.daiscrivi_mobileapp_semester4.app-fragment-1.5.4-14 D:\Installer\Android Studio\caches\transforms-3\37c6615ea90b6eef59720b66cd66eb07\transformed\fragment-1.5.4\res
+com.example.daiscrivi_mobileapp_semester4.app-lifecycle-viewmodel-ktx-2.5.1-15 D:\Installer\Android Studio\caches\transforms-3\3cd02ce9db6bc6e9554bb14e36b44b6c\transformed\lifecycle-viewmodel-ktx-2.5.1\res
+com.example.daiscrivi_mobileapp_semester4.app-circleimageview-3.1.0-16 D:\Installer\Android Studio\caches\transforms-3\44d934f799610cf9ccecb601de0afcd3\transformed\circleimageview-3.1.0\res
+com.example.daiscrivi_mobileapp_semester4.app-roundedimageview-2.3.0-17 D:\Installer\Android Studio\caches\transforms-3\4e1d004932c03cbf41df8250e8e50d9f\transformed\roundedimageview-2.3.0\res
+com.example.daiscrivi_mobileapp_semester4.app-savedstate-ktx-1.2.0-18 D:\Installer\Android Studio\caches\transforms-3\5890cf22bc402a7e2cdc426e5355ef67\transformed\savedstate-ktx-1.2.0\res
+com.example.daiscrivi_mobileapp_semester4.app-customview-poolingcontainer-1.0.0-19 D:\Installer\Android Studio\caches\transforms-3\721855a92398a676d8a12ca316bc73e4\transformed\customview-poolingcontainer-1.0.0\res
+com.example.daiscrivi_mobileapp_semester4.app-lifecycle-livedata-core-ktx-2.5.1-20 D:\Installer\Android Studio\caches\transforms-3\8177c32ce8c10c7ba35c308138671b29\transformed\lifecycle-livedata-core-ktx-2.5.1\res
+com.example.daiscrivi_mobileapp_semester4.app-startup-runtime-1.1.1-21 D:\Installer\Android Studio\caches\transforms-3\8a946d2fc5fcd14681822374aed03a1a\transformed\startup-runtime-1.1.1\res
+com.example.daiscrivi_mobileapp_semester4.app-navigation-runtime-2.5.3-22 D:\Installer\Android Studio\caches\transforms-3\94e27f1e7c0ef556fcf7d618b9dc280a\transformed\navigation-runtime-2.5.3\res
+com.example.daiscrivi_mobileapp_semester4.app-activity-1.6.0-23 D:\Installer\Android Studio\caches\transforms-3\a59eb9364f68a0b2b75e8cee04bca4ed\transformed\activity-1.6.0\res
+com.example.daiscrivi_mobileapp_semester4.app-navigation-common-2.5.3-24 D:\Installer\Android Studio\caches\transforms-3\abe7094a455541d6cbfb5d579a023bf1\transformed\navigation-common-2.5.3\res
+com.example.daiscrivi_mobileapp_semester4.app-transition-1.4.1-25 D:\Installer\Android Studio\caches\transforms-3\b20d9692f5a82e4b150552fa663d79b9\transformed\transition-1.4.1\res
+com.example.daiscrivi_mobileapp_semester4.app-lifecycle-livedata-core-2.5.1-26 D:\Installer\Android Studio\caches\transforms-3\b52d53dd39787da46f78a50126f4697e\transformed\lifecycle-livedata-core-2.5.1\res
+com.example.daiscrivi_mobileapp_semester4.app-viewpager2-1.0.0-27 D:\Installer\Android Studio\caches\transforms-3\b75cbc890822d61b7a8cf57428e7ec23\transformed\viewpager2-1.0.0\res
+com.example.daiscrivi_mobileapp_semester4.app-constraintlayout-2.1.4-28 D:\Installer\Android Studio\caches\transforms-3\d3b64a44981f6730d3dc38c232befd32\transformed\constraintlayout-2.1.4\res
+com.example.daiscrivi_mobileapp_semester4.app-lifecycle-viewmodel-savedstate-2.5.1-29 D:\Installer\Android Studio\caches\transforms-3\d77bdacb1f0dc8f51c921afe777110ce\transformed\lifecycle-viewmodel-savedstate-2.5.1\res
+com.example.daiscrivi_mobileapp_semester4.app-window-1.0.0-30 D:\Installer\Android Studio\caches\transforms-3\db49f4780b9136f5cf8fc0e75af79fac\transformed\window-1.0.0\res
+com.example.daiscrivi_mobileapp_semester4.app-slidingpanelayout-1.2.0-31 D:\Installer\Android Studio\caches\transforms-3\dc362ef58a7deeafde6a4064e10efc1e\transformed\slidingpanelayout-1.2.0\res
+com.example.daiscrivi_mobileapp_semester4.app-navigation-fragment-2.5.3-32 D:\Installer\Android Studio\caches\transforms-3\e1166ce58116cdfa4437eca6075a185c\transformed\navigation-fragment-2.5.3\res
+com.example.daiscrivi_mobileapp_semester4.app-appcompat-1.6.1-33 D:\Installer\Android Studio\caches\transforms-3\e823a5dda738fb7207ec40a9ecdd8129\transformed\appcompat-1.6.1\res
+com.example.daiscrivi_mobileapp_semester4.app-fragment-ktx-1.5.4-34 D:\Installer\Android Studio\caches\transforms-3\e9f36b0043dd9f27cb5d1915e3659f72\transformed\fragment-ktx-1.5.4\res
+com.example.daiscrivi_mobileapp_semester4.app-material-1.8.0-35 D:\Installer\Android Studio\caches\transforms-3\eb57593a0436d9518cb6b2ecd8c2078e\transformed\material-1.8.0\res
+com.example.daiscrivi_mobileapp_semester4.app-activity-ktx-1.6.0-36 D:\Installer\Android Studio\caches\transforms-3\f52c9a7ea62fd4d3413da90a4854629e\transformed\activity-ktx-1.6.0\res
+com.example.daiscrivi_mobileapp_semester4.app-lifecycle-process-2.4.1-37 D:\Installer\Android Studio\caches\transforms-3\f7d8f15274dd8b4fe8a5f106a508708e\transformed\lifecycle-process-2.4.1\res
+com.example.daiscrivi_mobileapp_semester4.app-lifecycle-runtime-2.5.1-38 D:\Installer\Android Studio\caches\transforms-3\f9e562b23f4f422ee14ad962f2b498de\transformed\lifecycle-runtime-2.5.1\res
 com.example.daiscrivi_mobileapp_semester4.app-pngs-39 D:\Project Pribadi\Android Studio Project\DaiScrivi\app\build\generated\res\pngs\debug
 com.example.daiscrivi_mobileapp_semester4.app-resValues-40 D:\Project Pribadi\Android Studio Project\DaiScrivi\app\build\generated\res\resValues\debug
-com.example.daiscrivi_mobileapp_semester4.app-rs-41 D:\Project Pribadi\Android Studio Project\DaiScrivi\app\build\generated\res\rs\debug
-com.example.daiscrivi_mobileapp_semester4.app-packageDebugResources-42 D:\Project Pribadi\Android Studio Project\DaiScrivi\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.example.daiscrivi_mobileapp_semester4.app-packageDebugResources-43 D:\Project Pribadi\Android Studio Project\DaiScrivi\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.example.daiscrivi_mobileapp_semester4.app-merged_res-44 D:\Project Pribadi\Android Studio Project\DaiScrivi\app\build\intermediates\merged_res\debug
-com.example.daiscrivi_mobileapp_semester4.app-debug-45 D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\debug\res
-com.example.daiscrivi_mobileapp_semester4.app-main-46 D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\res
-=======
-com.example.daiscrivi_mobileapp_semester4.app-viewpager2-1.0.0-0 C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\066f493cb7d990cafa5df1ece5ebc364\transformed\viewpager2-1.0.0\res
-com.example.daiscrivi_mobileapp_semester4.app-activity-1.6.0-1 C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\0b88d47e53b87e2aa686896eaf405de0\transformed\activity-1.6.0\res
-com.example.daiscrivi_mobileapp_semester4.app-constraintlayout-2.1.3-2 C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\0ff7d7f73dffa7d84bec5f5c083e5d80\transformed\constraintlayout-2.1.3\res
-com.example.daiscrivi_mobileapp_semester4.app-lifecycle-viewmodel-ktx-2.4.1-3 C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\12d7d79122871c735cc8ace2dd4f90cd\transformed\lifecycle-viewmodel-ktx-2.4.1\res
-com.example.daiscrivi_mobileapp_semester4.app-lifecycle-viewmodel-savedstate-2.5.1-4 C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\1c92f331f5dd426397f158863edbf1fa\transformed\lifecycle-viewmodel-savedstate-2.5.1\res
-com.example.daiscrivi_mobileapp_semester4.app-material-1.8.0-5 C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\1d6008e40b174b18ef5fa9ea4cd35014\transformed\material-1.8.0\res
-com.example.daiscrivi_mobileapp_semester4.app-cardview-1.0.0-6 C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\1f624a3ec658e1a90eb17b72d8f4e5aa\transformed\cardview-1.0.0\res
-com.example.daiscrivi_mobileapp_semester4.app-lifecycle-runtime-2.5.1-7 C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\34be6e117e2e06ff01a6121271053230\transformed\lifecycle-runtime-2.5.1\res
-com.example.daiscrivi_mobileapp_semester4.app-appcompat-1.6.1-8 C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\44fc53ad3ef1477fcc7b5dbdbf1cb4c0\transformed\appcompat-1.6.1\res
-com.example.daiscrivi_mobileapp_semester4.app-lifecycle-livedata-ktx-2.4.1-9 C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\4dcb516bcc737db1313856e7a71f1e54\transformed\lifecycle-livedata-ktx-2.4.1\res
-com.example.daiscrivi_mobileapp_semester4.app-lifecycle-livedata-core-2.5.1-10 C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\66eb2c428070a7989cc3e53427124072\transformed\lifecycle-livedata-core-2.5.1\res
-com.example.daiscrivi_mobileapp_semester4.app-emoji2-views-helper-1.2.0-11 C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\7100f70982d85b96c46f0496b7becc56\transformed\emoji2-views-helper-1.2.0\res
-com.example.daiscrivi_mobileapp_semester4.app-savedstate-1.2.0-12 C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\7180b5a3b50cad88028eaa81f8b17fa7\transformed\savedstate-1.2.0\res
-com.example.daiscrivi_mobileapp_semester4.app-recyclerview-1.1.0-13 C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\722cfa06d51a32340f337ac9798393bf\transformed\recyclerview-1.1.0\res
-com.example.daiscrivi_mobileapp_semester4.app-emoji2-1.2.0-14 C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\res
-com.example.daiscrivi_mobileapp_semester4.app-drawerlayout-1.1.1-15 C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\7bc7a5b48c08c285c7816e5896abfab2\transformed\drawerlayout-1.1.1\res
-com.example.daiscrivi_mobileapp_semester4.app-coordinatorlayout-1.1.0-16 C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\8255cf8f73e0ec2d884b3aa8102e6cd4\transformed\coordinatorlayout-1.1.0\res
-com.example.daiscrivi_mobileapp_semester4.app-lifecycle-process-2.4.1-17 C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\86041ab2b0d2128b301212662b855cec\transformed\lifecycle-process-2.4.1\res
-com.example.daiscrivi_mobileapp_semester4.app-lifecycle-livedata-2.4.1-18 C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\9a43b0adca6de3e7bd61ac0d079ed063\transformed\lifecycle-livedata-2.4.1\res
-com.example.daiscrivi_mobileapp_semester4.app-annotation-experimental-1.3.0-19 C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\9d8d7feb3580355ffff343143a4678dc\transformed\annotation-experimental-1.3.0\res
-com.example.daiscrivi_mobileapp_semester4.app-lifecycle-viewmodel-2.5.1-20 C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\ce8e9fef21b12750b78ea8e6de235acd\transformed\lifecycle-viewmodel-2.5.1\res
-com.example.daiscrivi_mobileapp_semester4.app-transition-1.2.0-21 C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\cf7ed2c7db25c1ed83dad3026c9a2688\transformed\transition-1.2.0\res
-com.example.daiscrivi_mobileapp_semester4.app-lifecycle-livedata-core-ktx-2.4.1-22 C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\d3b08f3759ac1f451402fd3fcf558c56\transformed\lifecycle-livedata-core-ktx-2.4.1\res
-com.example.daiscrivi_mobileapp_semester4.app-fragment-1.3.6-23 C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\de00681d1b149848a0dab915e4ae741a\transformed\fragment-1.3.6\res
-com.example.daiscrivi_mobileapp_semester4.app-roundedimageview-2.3.0-24 C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\de2d40f9a81e84b99d4240b974af2574\transformed\roundedimageview-2.3.0\res
-com.example.daiscrivi_mobileapp_semester4.app-circleimageview-3.1.0-25 C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\e4220497cd21efee65c008678ab09805\transformed\circleimageview-3.1.0\res
-com.example.daiscrivi_mobileapp_semester4.app-appcompat-resources-1.6.1-26 C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\e5ed6143adbb4e76284add51ce427304\transformed\appcompat-resources-1.6.1\res
-com.example.daiscrivi_mobileapp_semester4.app-startup-runtime-1.1.1-27 C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\e6dc352309f6d773a89fb4d56f13b49d\transformed\startup-runtime-1.1.1\res
-com.example.daiscrivi_mobileapp_semester4.app-core-1.9.0-28 C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\ec4f76f6c0c02de8ba18086e7bd9baf5\transformed\core-1.9.0\res
-com.example.daiscrivi_mobileapp_semester4.app-core-ktx-1.9.0-29 C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\f6c47861666c723a6e14604b0a167eca\transformed\core-ktx-1.9.0\res
-com.example.daiscrivi_mobileapp_semester4.app-pngs-30 F:\Projek S4\Mobile\app\build\generated\res\pngs\debug
-com.example.daiscrivi_mobileapp_semester4.app-resValues-31 F:\Projek S4\Mobile\app\build\generated\res\resValues\debug
-com.example.daiscrivi_mobileapp_semester4.app-rs-32 F:\Projek S4\Mobile\app\build\generated\res\rs\debug
-com.example.daiscrivi_mobileapp_semester4.app-packageDebugResources-33 F:\Projek S4\Mobile\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.example.daiscrivi_mobileapp_semester4.app-packageDebugResources-34 F:\Projek S4\Mobile\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.example.daiscrivi_mobileapp_semester4.app-merged_res-35 F:\Projek S4\Mobile\app\build\intermediates\merged_res\debug
-com.example.daiscrivi_mobileapp_semester4.app-debug-36 F:\Projek S4\Mobile\app\src\debug\res
-com.example.daiscrivi_mobileapp_semester4.app-main-37 F:\Projek S4\Mobile\app\src\main\res
->>>>>>> ddffa2d845e92aacb9ec9e50456f2b520e7198a7
+com.example.daiscrivi_mobileapp_semester4.app-packageDebugResources-41 D:\Project Pribadi\Android Studio Project\DaiScrivi\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.daiscrivi_mobileapp_semester4.app-packageDebugResources-42 D:\Project Pribadi\Android Studio Project\DaiScrivi\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.daiscrivi_mobileapp_semester4.app-merged_res-43 D:\Project Pribadi\Android Studio Project\DaiScrivi\app\build\intermediates\merged_res\debug
+com.example.daiscrivi_mobileapp_semester4.app-debug-44 D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\debug\res
+com.example.daiscrivi_mobileapp_semester4.app-main-45 D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\res

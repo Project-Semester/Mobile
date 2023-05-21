@@ -2,19 +2,10 @@
 <resources xmlns:ns1="http://schemas.android.com/tools">
     <color name="black">#FF000000</color>
     <color name="darkBlue">#FF0F2537</color>
-<<<<<<< HEAD
-=======
-    <color name="edit_text">#D9D9D9</color>
->>>>>>> ddffa2d845e92aacb9ec9e50456f2b520e7198a7
     <color name="grey">#FFABB6C2</color>
     <color name="grey_200">#FFF7F6F7</color>
     <color name="grey_500">#FFE3E3E3</color>
     <color name="grey_700">#FFD9D9D9</color>
-<<<<<<< HEAD
-=======
-    <color name="night_primary">#FFC107</color>
-    <color name="primary">#4C9BE8</color>
->>>>>>> ddffa2d845e92aacb9ec9e50456f2b520e7198a7
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>
@@ -23,7 +14,6 @@
     <color name="teal_700">#FF018786</color>
     <color name="unselected_text_color">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-<<<<<<< HEAD
     <dimen name="bottom_navigation_icon_size" ns1:override="true">32dp</dimen>
     <dimen name="design_bottom_navigation_height" ns1:override="true">73dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
@@ -58,48 +48,15 @@ Apakah dirinya berhasil mengubah jalan cerita?
 --------
 </string>
     <string name="title_activity_horizontal_rv">ActivityHorizontalRv</string>
-=======
-    <dimen name="activity_horizontal_margin">16dp</dimen>
-    <dimen name="activity_vertical_margin">16dp</dimen>
-    <dimen name="bottom_navigation_icon_size" ns1:override="true">24dp</dimen>
-    <dimen name="design_bottom_navigation_height" ns1:override="true">50dp</dimen>
-    <string name="action_sign_in">Sign in or register</string>
-    <string name="action_sign_in_short">Sign in</string>
-    <string name="app_name">DaiScrivi_MobileApp_Semester4</string>
-    <string name="email">fagil@gmail.com</string>
-    <string name="invalid_password">Password must be >5 characters</string>
-    <string name="invalid_username">Not a valid username</string>
-    <string name="login_failed">Login failed</string>
-    <string name="prompt_email">Email</string>
-    <string name="prompt_password">Password</string>
-    <string name="role">admin</string>
-    <string name="sinopsis_touchYourHearth">    Gadis tomboy yang bernama Miska tak sengaja memasuki dunia film, tidak! ia tidak sedang lagi bermain drama atau menjadi aktris, tapi entah kenapa saat sedang menonton drama ia malah memasuki dunia drama itu saat menyentuh layar TV-nya.
-
-
-    Gadis tomboy yang akan wisuda beberapa hari lagi, tapi sekarang ia tidak akan memakai toga dan baju wisudanya di karenakan ia malah terjebak di dunia yang ia tidak kenali.
-
-
-    Dan yang lebih parahnya ia memasuki dunia drama yang berjudul Touch Your Heart dan memerankan karakter antagonis dalam drama itu. Karakter yang akan mati karena di dorong oleh pemeran utama pria di atas gedung kampus.
-
-
-    Apakah Miska bisa menghindari kematian itu?
-    Apakah dirinya berhasil mengubah jalan cerita?</string>
-    <string name="title_activity_login">LoginActivity</string>
-    <string name="username">fagil</string>
-    <string name="welcome">Welcome !</string>
->>>>>>> ddffa2d845e92aacb9ec9e50456f2b520e7198a7
     <style name="AppTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">
         
     </style>
     <style name="NoActionBarTheme" parent="Theme.AppCompat.Light.NoActionBar">
     </style>
-<<<<<<< HEAD
     <style name="RoundedImageView">
         <item name="cornerFamily">rounded</item>
         <item name="cornerSize">12dp</item> 
     </style>
-=======
->>>>>>> ddffa2d845e92aacb9ec9e50456f2b520e7198a7
     <style name="SplashScreen" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <item name="android:windowBackground">
             @drawable/splashscreen
@@ -108,11 +65,7 @@ Apakah dirinya berhasil mengubah jalan cerita?
     </style>
     <style name="Theme.DaiScrivi_MobileApp_Semester4" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         
-<<<<<<< HEAD
         <item name="colorPrimary">@color/purple_500</item>
-=======
-        <item name="colorPrimary">@color/primary</item>
->>>>>>> ddffa2d845e92aacb9ec9e50456f2b520e7198a7
         <item name="colorPrimaryVariant">@color/purple_700</item>
         <item name="colorOnPrimary">@color/white</item>
         
@@ -123,13 +76,10 @@ Apakah dirinya berhasil mengubah jalan cerita?
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         
     </style>
-<<<<<<< HEAD
     <style name="Theme.DaiScrivi_MobileApp_Semester4.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
     <style name="Theme.DaiScrivi_MobileApp_Semester4.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
     <style name="Theme.DaiScrivi_MobileApp_Semester4.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
-=======
->>>>>>> ddffa2d845e92aacb9ec9e50456f2b520e7198a7
 </resources>

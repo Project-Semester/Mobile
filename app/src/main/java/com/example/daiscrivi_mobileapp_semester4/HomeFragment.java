@@ -29,8 +29,6 @@ public class HomeFragment extends Fragment {
     private TabLayout tabLayout;
     private ViewPager viewPager;
 
-    AdapterTabLayout adapterTabLayout = new AdapterTabLayout(getChildFragmentManager(), FragmentPagerAdapter.BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT);
-
 
     @Override
     public void onAttach(Context context) {
@@ -56,13 +54,12 @@ public class HomeFragment extends Fragment {
         tabLayout = view.findViewById(R.id.tabLayout);
         viewPager = view.findViewById(R.id.viewPager);
 
-        tabLayout.setupWithViewPager(viewPager);
+        // Create and set up the adapter for the ViewPager
+        TabAdapterHome adapter = new TabAdapterHome(getChildFragmentManager());
+        viewPager.setAdapter(adapter);
 
-        adapterTabLayout.addFragment(new FragmentHomeAksi(), "Aksi");
-        adapterTabLayout.addFragment(new FragmentHomeAlbum(), "ALBUM");
-        adapterTabLayout.addFragment(new FragmentHomeArtis(), "Artis");
-        adapterTabLayout.addFragment(new FragmentHomeFiksi(), "Fiksi");
-        viewPager.setAdapter(adapterTabLayout);
+        // Link the TabLayout with the ViewPager
+        tabLayout.setupWithViewPager(viewPager);
 
         return view;
 
@@ -108,6 +105,8 @@ public class HomeFragment extends Fragment {
 
         }
     }
+
+
 }
 
 

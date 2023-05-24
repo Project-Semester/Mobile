@@ -8,11 +8,8 @@
         android:minSdkVersion="24"
         android:targetSdkVersion="33" />
 
-<<<<<<< HEAD
-=======
     <uses-permission android:name="android.permission.INTERNET" />
 
->>>>>>> ddffa2d845e92aacb9ec9e50456f2b520e7198a7
     <permission
         android:name="com.example.daiscrivi_mobileapp_semester4.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
@@ -30,14 +27,6 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:testOnly="true"
-<<<<<<< HEAD
-        android:theme="@style/Theme.DaiScrivi_MobileApp_Semester4" >
-        <activity
-            android:name="com.example.daiscrivi_mobileapp_semester4.DetailHomeFragment"
-            android:exported="false" />
-        <activity
-            android:name="com.example.daiscrivi_mobileapp_semester4.MainActivity"
-=======
         android:theme="@style/Theme.DaiScrivi_MobileApp_Semester4"
         android:usesCleartextTraffic="true" >
         <activity
@@ -57,7 +46,9 @@
             android:exported="true" />
         <activity
             android:name="com.example.daiscrivi_mobileapp_semester4.WelcomePage"
->>>>>>> ddffa2d845e92aacb9ec9e50456f2b520e7198a7
+            android:exported="false" />
+        <activity
+            android:name="com.example.daiscrivi_mobileapp_semester4.OnBoardActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -77,16 +68,6 @@
                 android:name="androidx.lifecycle.ProcessLifecycleInitializer"
                 android:value="androidx.startup" />
         </provider>
-<<<<<<< HEAD
-
-        <uses-library
-            android:name="androidx.window.extensions"
-            android:required="false" />
-        <uses-library
-            android:name="androidx.window.sidecar"
-            android:required="false" />
-=======
->>>>>>> ddffa2d845e92aacb9ec9e50456f2b520e7198a7
     </application>
 
 </manifest>

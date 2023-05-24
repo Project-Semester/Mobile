@@ -1,17 +1,10 @@
 {
     "logs": [
         {
-<<<<<<< HEAD
-            "outputFile": "com.example.daiscrivi_mobileapp_semester4.app-mergeDebugResources-42:/values-sw600dp-v13/values-sw600dp-v13.xml",
+            "outputFile": "com.example.daiscrivi_mobileapp_semester4.app-mergeDebugResources-34:/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
                     "source": "D:\\Installer\\Android Studio\\caches\\transforms-3\\1d6008e40b174b18ef5fa9ea4cd35014\\transformed\\material-1.8.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
-=======
-            "outputFile": "com.example.daiscrivi_mobileapp_semester4.app-mergeDebugResources-33:/values-sw600dp-v13/values-sw600dp-v13.xml",
-            "map": [
-                {
-                    "source": "C:\\Program Files\\Android\\Android Studio\\jbr\\caches\\transforms-3\\1d6008e40b174b18ef5fa9ea4cd35014\\transformed\\material-1.8.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
->>>>>>> ddffa2d845e92aacb9ec9e50456f2b520e7198a7
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,10,11,12,13,14",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
@@ -30,11 +23,7 @@
                     }
                 },
                 {
-<<<<<<< HEAD
                     "source": "D:\\Installer\\Android Studio\\caches\\transforms-3\\44fc53ad3ef1477fcc7b5dbdbf1cb4c0\\transformed\\appcompat-1.6.1\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
-=======
-                    "source": "C:\\Program Files\\Android\\Android Studio\\jbr\\caches\\transforms-3\\44fc53ad3ef1477fcc7b5dbdbf1cb4c0\\transformed\\appcompat-1.6.1\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
->>>>>>> ddffa2d845e92aacb9ec9e50456f2b520e7198a7
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

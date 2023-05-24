@@ -1,111 +1,58 @@
 [
     {
-<<<<<<< HEAD
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-mergeDebugResources-43:/layout/fragment_notification.xml",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/layout/fragment_notification.xml"
+        "merged": "D:\\Installer\\Android Studio\\daemon\\7.5\\com.example.daiscrivi_mobileapp_semester4.app-mergeDebugResources-35:\\layout\\activity_login.xml",
+        "source": "D:\\Installer\\Android Studio\\daemon\\7.5\\com.example.daiscrivi_mobileapp_semester4.app-main-38:\\layout\\activity_login.xml"
     },
     {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-mergeDebugResources-43:/layout/fragment_write.xml",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/layout/fragment_write.xml"
+        "merged": "D:\\Installer\\Android Studio\\daemon\\7.5\\com.example.daiscrivi_mobileapp_semester4.app-mergeDebugResources-35:\\layout\\fragment_write.xml",
+        "source": "D:\\Installer\\Android Studio\\daemon\\7.5\\com.example.daiscrivi_mobileapp_semester4.app-main-38:\\layout\\fragment_write.xml"
     },
     {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-mergeDebugResources-43:/layout/detail_fragment_home.xml",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/layout/detail_fragment_home.xml"
+        "merged": "D:\\Installer\\Android Studio\\daemon\\7.5\\com.example.daiscrivi_mobileapp_semester4.app-mergeDebugResources-35:\\layout\\fragment_home.xml",
+        "source": "D:\\Installer\\Android Studio\\daemon\\7.5\\com.example.daiscrivi_mobileapp_semester4.app-main-38:\\layout\\fragment_home.xml"
     },
     {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-mergeDebugResources-43:/layout/activity_splash_screen.xml",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/layout/activity_splash_screen.xml"
+        "merged": "D:\\Installer\\Android Studio\\daemon\\7.5\\com.example.daiscrivi_mobileapp_semester4.app-mergeDebugResources-35:\\layout\\activity_register.xml",
+        "source": "D:\\Installer\\Android Studio\\daemon\\7.5\\com.example.daiscrivi_mobileapp_semester4.app-main-38:\\layout\\activity_register.xml"
     },
     {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-mergeDebugResources-43:/layout/content_activity_horizontal_rv.xml",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/layout/content_activity_horizontal_rv.xml"
+        "merged": "D:\\Installer\\Android Studio\\daemon\\7.5\\com.example.daiscrivi_mobileapp_semester4.app-mergeDebugResources-35:\\layout\\activity_splash_screen.xml",
+        "source": "D:\\Installer\\Android Studio\\daemon\\7.5\\com.example.daiscrivi_mobileapp_semester4.app-main-38:\\layout\\activity_splash_screen.xml"
     },
     {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-mergeDebugResources-43:/layout/fragment_first.xml",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/layout/fragment_first.xml"
+        "merged": "D:\\Installer\\Android Studio\\daemon\\7.5\\com.example.daiscrivi_mobileapp_semester4.app-mergeDebugResources-35:\\layout\\activity_main.xml",
+        "source": "D:\\Installer\\Android Studio\\daemon\\7.5\\com.example.daiscrivi_mobileapp_semester4.app-main-38:\\layout\\activity_main.xml"
     },
     {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-mergeDebugResources-43:/layout/fragment_home.xml",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/layout/fragment_home.xml"
+        "merged": "D:\\Installer\\Android Studio\\daemon\\7.5\\com.example.daiscrivi_mobileapp_semester4.app-mergeDebugResources-35:\\layout\\activity_welcome_page.xml",
+        "source": "D:\\Installer\\Android Studio\\daemon\\7.5\\com.example.daiscrivi_mobileapp_semester4.app-main-38:\\layout\\activity_welcome_page.xml"
     },
     {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-mergeDebugResources-43:/layout/activity_main.xml",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/layout/activity_main.xml"
+        "merged": "D:\\Installer\\Android Studio\\daemon\\7.5\\com.example.daiscrivi_mobileapp_semester4.app-mergeDebugResources-35:\\layout\\activity_on_board.xml",
+        "source": "D:\\Installer\\Android Studio\\daemon\\7.5\\com.example.daiscrivi_mobileapp_semester4.app-main-38:\\layout\\activity_on_board.xml"
     },
     {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-mergeDebugResources-43:/layout/fragment_home_fiksi.xml",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/layout/fragment_home_fiksi.xml"
+        "merged": "D:\\Installer\\Android Studio\\daemon\\7.5\\com.example.daiscrivi_mobileapp_semester4.app-mergeDebugResources-35:\\layout\\detail_fragment_home.xml",
+        "source": "D:\\Installer\\Android Studio\\daemon\\7.5\\com.example.daiscrivi_mobileapp_semester4.app-main-38:\\layout\\detail_fragment_home.xml"
     },
     {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-mergeDebugResources-43:/layout/fragment_second.xml",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/layout/fragment_second.xml"
+        "merged": "D:\\Installer\\Android Studio\\daemon\\7.5\\com.example.daiscrivi_mobileapp_semester4.app-mergeDebugResources-35:\\layout\\activity_auth.xml",
+        "source": "D:\\Installer\\Android Studio\\daemon\\7.5\\com.example.daiscrivi_mobileapp_semester4.app-main-38:\\layout\\activity_auth.xml"
     },
     {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-mergeDebugResources-43:/layout/activity_welcome_page.xml",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/layout/activity_welcome_page.xml"
+        "merged": "D:\\Installer\\Android Studio\\daemon\\7.5\\com.example.daiscrivi_mobileapp_semester4.app-mergeDebugResources-35:\\layout\\slide_item_container.xml",
+        "source": "D:\\Installer\\Android Studio\\daemon\\7.5\\com.example.daiscrivi_mobileapp_semester4.app-main-38:\\layout\\slide_item_container.xml"
     },
     {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-mergeDebugResources-43:/layout/fragment_home_artis.xml",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/layout/fragment_home_artis.xml"
+        "merged": "D:\\Installer\\Android Studio\\daemon\\7.5\\com.example.daiscrivi_mobileapp_semester4.app-mergeDebugResources-35:\\layout\\viewpager_onboarding.xml",
+        "source": "D:\\Installer\\Android Studio\\daemon\\7.5\\com.example.daiscrivi_mobileapp_semester4.app-main-38:\\layout\\viewpager_onboarding.xml"
     },
     {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-mergeDebugResources-43:/layout/fragment_home_album.xml",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/layout/fragment_home_album.xml"
+        "merged": "D:\\Installer\\Android Studio\\daemon\\7.5\\com.example.daiscrivi_mobileapp_semester4.app-mergeDebugResources-35:\\layout\\fragment_search.xml",
+        "source": "D:\\Installer\\Android Studio\\daemon\\7.5\\com.example.daiscrivi_mobileapp_semester4.app-main-38:\\layout\\fragment_search.xml"
     },
     {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-mergeDebugResources-43:/layout/fragment_search.xml",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/layout/fragment_search.xml"
-    },
-    {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-mergeDebugResources-43:/layout/fragment_home_aksi.xml",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/layout/fragment_home_aksi.xml"
-    },
-    {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-mergeDebugResources-43:/layout/card_imageslider.xml",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/layout/card_imageslider.xml"
-    },
-    {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-mergeDebugResources-43:/layout/fragment_library.xml",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-46:/layout/fragment_library.xml"
-=======
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-mergeDebugResources-34:/layout/fragment_home.xml",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/layout/fragment_home.xml"
-    },
-    {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-mergeDebugResources-34:/layout/slide_item_container.xml",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/layout/slide_item_container.xml"
-    },
-    {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-mergeDebugResources-34:/layout/activity_main.xml",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/layout/activity_main.xml"
-    },
-    {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-mergeDebugResources-34:/layout/activity_welcome_page.xml",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/layout/activity_welcome_page.xml"
-    },
-    {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-mergeDebugResources-34:/layout/detail_fragment_home.xml",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/layout/detail_fragment_home.xml"
-    },
-    {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-mergeDebugResources-34:/layout/activity_login.xml",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/layout/activity_login.xml"
-    },
-    {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-mergeDebugResources-34:/layout/activity_splash_screen.xml",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/layout/activity_splash_screen.xml"
-    },
-    {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-mergeDebugResources-34:/layout/fragment_search.xml",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/layout/fragment_search.xml"
-    },
-    {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-mergeDebugResources-34:/layout/fragment_write.xml",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/layout/fragment_write.xml"
-    },
-    {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-mergeDebugResources-34:/layout/activity_register.xml",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-37:/layout/activity_register.xml"
->>>>>>> ddffa2d845e92aacb9ec9e50456f2b520e7198a7
+        "merged": "com.example.daiscrivi_mobileapp_semester4.app-mergeDebugResources-35:/layout/activity_on_board.xml",
+        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-38:/layout/activity_on_board.xml"
     }
 ]

@@ -105,32 +105,20 @@
                     android:orientation="horizontal"
                     tools:listitem="@layout/card_imageslider"/>
 
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/horizontalRv"
+                    android:layout_width="match_parent"
+                    android:layout_height="178dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="12dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView9"
+                    android:scrollbars="horizontal"
+                    android:orientation="horizontal"
+                    tools:listitem="@layout/card_imageslider"/>
+
         </androidx.constraintlayout.widget.ConstraintLayout>
-
-        <com.google.android.material.tabs.TabLayout
-            android:id="@+id/tabLayout"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="32dp"
-            android:layout_marginTop="32dp"
-
-            android:minHeight="?attr/actionBarSize"
-            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/horizontalRv"
-            app:tabMode="fixed"
-            tools:ignore="SpeakableTextPresentCheck" />
-
-        <androidx.viewpager.widget.ViewPager
-            android:id="@+id/viewPager"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/tabLayout"/>
 
     </LinearLayout>
 

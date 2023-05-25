@@ -1,15 +1,22 @@
 R_DEF: Internal format may change without notice
 local
 color black
+<<<<<<< HEAD
 color button_color
 color darkBlue
 color edit_text
+=======
+color darkBlue
+>>>>>>> master
 color grey
 color grey_200
 color grey_500
 color grey_700
+<<<<<<< HEAD
 color night_primary
 color primary
+=======
+>>>>>>> master
 color purple_200
 color purple_500
 color purple_700
@@ -19,6 +26,7 @@ color teal_200
 color teal_700
 color unselected_text_color
 color white
+<<<<<<< HEAD
 dimen activity_horizontal_margin
 dimen activity_vertical_margin
 dimen bottom_navigation_icon_size
@@ -28,6 +36,17 @@ drawable background
 drawable baseline_search_24
 drawable bird
 drawable blog
+=======
+dimen bottom_navigation_icon_size
+dimen design_bottom_navigation_height
+dimen fab_margin
+drawable add_write
+drawable annatod
+drawable arianagodoy
+drawable background
+drawable bird
+drawable blairholden
+>>>>>>> master
 drawable bottombar_house
 drawable bottombar_pembaruan
 drawable bottombar_perpustakaan
@@ -35,11 +54,14 @@ drawable bottombar_telusuri
 drawable bottombar_tulis
 drawable button_background_onboarding
 drawable button_house
+<<<<<<< HEAD
 drawable circle_background
 drawable custom_button_login
 drawable custom_button_register
 drawable edittext_background
 drawable ellipse
+=======
+>>>>>>> master
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable idea
@@ -48,9 +70,14 @@ drawable judul_wattpad2
 drawable judul_wattpad3
 drawable judul_wattpad4
 drawable judul_wattpad5
+<<<<<<< HEAD
 drawable logo
 drawable logo_yuknulis
 drawable logoyuknulis_2__2_
+=======
+drawable lindseysummers
+drawable logo_yuknulis
+>>>>>>> master
 drawable profile
 drawable question
 drawable reading
@@ -59,16 +86,28 @@ drawable rekomendasihome2
 drawable search_view_bg
 drawable settingnotif
 drawable settings
+<<<<<<< HEAD
+=======
+drawable sophiehayward
+>>>>>>> master
 drawable splashscreen
 drawable tab_layout_notification
 drawable unrounded_button
 font sf_pro_display
+<<<<<<< HEAD
+=======
+id FirstFragment
+id SecondFragment
+id action_FirstFragment_to_SecondFragment
+id action_SecondFragment_to_FirstFragment
+>>>>>>> master
 id bottomNavigationView
 id btnLeft_onboarding
 id btnLogin
 id btnRegister
 id btnRight_onboarding
 id button4
+<<<<<<< HEAD
 id cardView
 id container
 id dotsLayoutOnboarding
@@ -81,10 +120,18 @@ id etSearch
 id etUsernameLayout
 id fragment_home
 id frameAuthContainer
+=======
+id button_first
+id button_second
+id cardView
+id card_pertanyaan
+id fragment_home
+>>>>>>> master
 id frameLayout
 id home
 id horizontalRv
 id imageButton
+<<<<<<< HEAD
 id imageButton4
 id imageButton5
 id imageSlide
@@ -97,6 +144,32 @@ id profile_image
 id scrollView
 id search
 id tabLayout
+=======
+id imageButton2
+id imageButton3
+id imageButton4
+id imageButton5
+id imageView2
+id imageView5
+id nav_graph
+id nav_host_fragment_content_activity_horizontal_rv
+id photoAnnaTod
+id photoArianaGodoy
+id photoBlairHolden
+id photoLindseySummers
+id photoSophiwHayward
+id profile_image
+id rvImage
+id rvText
+id search
+id searchView
+id tabLayout
+id textAnnaTod
+id textArianaGodoy
+id textBlairHolden
+id textLindseySummers
+id textSophiwHayward
+>>>>>>> master
 id textView
 id textView10
 id textView11
@@ -109,10 +182,15 @@ id textView17
 id textView18
 id textView2
 id textView3
+<<<<<<< HEAD
+=======
+id textView4
+>>>>>>> master
 id textView5
 id textView6
 id textView7
 id textView9
+<<<<<<< HEAD
 id tvLogin
 id tvLogo
 id tvRegister
@@ -156,5 +234,58 @@ style AppTheme
 style NoActionBarTheme
 style SplashScreen
 style Theme.DaiScrivi_MobileApp_Semester4
+=======
+id textview_first
+id textview_second
+id tvLogo
+id viewPage
+id viewPager
+id write
+layout activity_main
+layout activity_splash_screen
+layout activity_welcome_page
+layout card_imageslider
+layout content_activity_horizontal_rv
+layout detail_fragment_home
+layout fragment_first
+layout fragment_home
+layout fragment_home_aksi
+layout fragment_home_album
+layout fragment_home_artis
+layout fragment_home_fiksi
+layout fragment_library
+layout fragment_notification
+layout fragment_search
+layout fragment_second
+layout fragment_write
+menu bottom_nav_menu
+mipmap ic_launcher
+mipmap ic_launcher_round
+navigation nav_graph
+string app_name
+string deskription_logo
+string first_fragment_label
+string head_1
+string head_2
+string head_3
+string head_4
+string head_5
+string hello_blank_fragment
+string hello_first_fragment
+string hello_second_fragment
+string next
+string previous
+string second_fragment_label
+string sinopsis_touchYourHearth
+string title_activity_horizontal_rv
+style AppTheme
+style NoActionBarTheme
+style RoundedImageView
+style SplashScreen
+style Theme.DaiScrivi_MobileApp_Semester4
+style Theme.DaiScrivi_MobileApp_Semester4.AppBarOverlay
+style Theme.DaiScrivi_MobileApp_Semester4.NoActionBar
+style Theme.DaiScrivi_MobileApp_Semester4.PopupOverlay
+>>>>>>> master
 xml backup_rules
 xml data_extraction_rules

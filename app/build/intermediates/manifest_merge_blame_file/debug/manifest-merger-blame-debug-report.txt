@@ -10,6 +10,7 @@
 9        android:targetSdkVersion="33" />
 9-->D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\AndroidManifest.xml
 10
+<<<<<<< HEAD
 11    <uses-permission android:name="android.permission.INTERNET" />
 11-->D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\AndroidManifest.xml:5:5-67
 11-->D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\AndroidManifest.xml:5:22-64
@@ -126,3 +127,101 @@
 71    </application>
 72
 73</manifest>
+=======
+11    <permission
+11-->[androidx.core:core:1.9.0] D:\Installer\Android Studio\caches\transforms-3\2d36cdbeb90dfdfd402f076bef064238\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+12        android:name="com.example.daiscrivi_mobileapp_semester4.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.9.0] D:\Installer\Android Studio\caches\transforms-3\2d36cdbeb90dfdfd402f076bef064238\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.9.0] D:\Installer\Android Studio\caches\transforms-3\2d36cdbeb90dfdfd402f076bef064238\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.example.daiscrivi_mobileapp_semester4.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.9.0] D:\Installer\Android Studio\caches\transforms-3\2d36cdbeb90dfdfd402f076bef064238\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.9.0] D:\Installer\Android Studio\caches\transforms-3\2d36cdbeb90dfdfd402f076bef064238\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\AndroidManifest.xml:5:5-29:19
+18        android:allowBackup="true"
+18-->D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\AndroidManifest.xml:6:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.9.0] D:\Installer\Android Studio\caches\transforms-3\2d36cdbeb90dfdfd402f076bef064238\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+20        android:dataExtractionRules="@xml/data_extraction_rules"
+20-->D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\AndroidManifest.xml:7:9-65
+21        android:debuggable="true"
+22        android:extractNativeLibs="false"
+23        android:fullBackupContent="@xml/backup_rules"
+23-->D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\AndroidManifest.xml:8:9-54
+24        android:icon="@drawable/logo_yuknulis"
+24-->D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\AndroidManifest.xml:9:9-47
+25        android:label="@string/app_name"
+25-->D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\AndroidManifest.xml:10:9-41
+26        android:supportsRtl="true"
+26-->D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\AndroidManifest.xml:11:9-35
+27        android:testOnly="true"
+28        android:theme="@style/Theme.DaiScrivi_MobileApp_Semester4" >
+28-->D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\AndroidManifest.xml:12:9-67
+29        <activity android:name="com.example.daiscrivi_mobileapp_semester4.HomeFragment" />
+29-->D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\AndroidManifest.xml:14:9-16:45
+29-->D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\AndroidManifest.xml:15:13-41
+30        <activity
+30-->D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\AndroidManifest.xml:17:9-19:40
+31            android:name="com.example.daiscrivi_mobileapp_semester4.DetailHomeFragment"
+31-->D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\AndroidManifest.xml:18:13-47
+32            android:exported="false" />
+32-->D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\AndroidManifest.xml:19:13-37
+33        <activity
+33-->D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\AndroidManifest.xml:20:9-28:20
+34            android:name="com.example.daiscrivi_mobileapp_semester4.MainActivity"
+34-->D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\AndroidManifest.xml:21:13-41
+35            android:exported="true" >
+35-->D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\AndroidManifest.xml:22:13-36
+36            <intent-filter>
+36-->D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\AndroidManifest.xml:23:13-27:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\AndroidManifest.xml:24:17-69
+37-->D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\AndroidManifest.xml:24:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\AndroidManifest.xml:26:17-77
+39-->D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\AndroidManifest.xml:26:27-74
+40            </intent-filter>
+41        </activity>
+42
+43        <provider
+43-->[androidx.emoji2:emoji2:1.2.0] D:\Installer\Android Studio\caches\transforms-3\1aadcf4e0f237724308e0370743d8486\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+44            android:name="androidx.startup.InitializationProvider"
+44-->[androidx.emoji2:emoji2:1.2.0] D:\Installer\Android Studio\caches\transforms-3\1aadcf4e0f237724308e0370743d8486\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+45            android:authorities="com.example.daiscrivi_mobileapp_semester4.androidx-startup"
+45-->[androidx.emoji2:emoji2:1.2.0] D:\Installer\Android Studio\caches\transforms-3\1aadcf4e0f237724308e0370743d8486\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+46            android:exported="false" >
+46-->[androidx.emoji2:emoji2:1.2.0] D:\Installer\Android Studio\caches\transforms-3\1aadcf4e0f237724308e0370743d8486\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+47            <meta-data
+47-->[androidx.emoji2:emoji2:1.2.0] D:\Installer\Android Studio\caches\transforms-3\1aadcf4e0f237724308e0370743d8486\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+48                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+48-->[androidx.emoji2:emoji2:1.2.0] D:\Installer\Android Studio\caches\transforms-3\1aadcf4e0f237724308e0370743d8486\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+49                android:value="androidx.startup" />
+49-->[androidx.emoji2:emoji2:1.2.0] D:\Installer\Android Studio\caches\transforms-3\1aadcf4e0f237724308e0370743d8486\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+50            <meta-data
+50-->[androidx.lifecycle:lifecycle-process:2.4.1] D:\Installer\Android Studio\caches\transforms-3\f7d8f15274dd8b4fe8a5f106a508708e\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+51                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+51-->[androidx.lifecycle:lifecycle-process:2.4.1] D:\Installer\Android Studio\caches\transforms-3\f7d8f15274dd8b4fe8a5f106a508708e\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+52                android:value="androidx.startup" />
+52-->[androidx.lifecycle:lifecycle-process:2.4.1] D:\Installer\Android Studio\caches\transforms-3\f7d8f15274dd8b4fe8a5f106a508708e\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+53        </provider>
+54
+55        <uses-library
+55-->[androidx.window:window:1.0.0] D:\Installer\Android Studio\caches\transforms-3\db49f4780b9136f5cf8fc0e75af79fac\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+56            android:name="androidx.window.extensions"
+56-->[androidx.window:window:1.0.0] D:\Installer\Android Studio\caches\transforms-3\db49f4780b9136f5cf8fc0e75af79fac\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+57            android:required="false" />
+57-->[androidx.window:window:1.0.0] D:\Installer\Android Studio\caches\transforms-3\db49f4780b9136f5cf8fc0e75af79fac\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+58        <uses-library
+58-->[androidx.window:window:1.0.0] D:\Installer\Android Studio\caches\transforms-3\db49f4780b9136f5cf8fc0e75af79fac\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+59            android:name="androidx.window.sidecar"
+59-->[androidx.window:window:1.0.0] D:\Installer\Android Studio\caches\transforms-3\db49f4780b9136f5cf8fc0e75af79fac\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+60            android:required="false" />
+60-->[androidx.window:window:1.0.0] D:\Installer\Android Studio\caches\transforms-3\db49f4780b9136f5cf8fc0e75af79fac\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+61    </application>
+62
+63</manifest>
+>>>>>>> master

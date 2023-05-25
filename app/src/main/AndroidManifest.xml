@@ -33,7 +33,16 @@
             android:name=".WelcomePage"
             android:exported="false"/>
         <activity
-            android:name=".OnBoardActivity"
+            android:name=".OnBoardActivity" 
+            android:exported="false"/>
+        <activity
+            android:name=".HomeFragment"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".DetailHomeFragment"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

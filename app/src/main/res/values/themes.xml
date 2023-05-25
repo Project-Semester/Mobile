@@ -19,4 +19,12 @@
         </item>
         <item name="android:statusBarColor" tools:targetApi = "l">?attr/colorPrimary</item>
     </style>
+    <style name="Theme.DaiScrivi_MobileApp_Semester4.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.DaiScrivi_MobileApp_Semester4.AppBarOverlay"
+        parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.DaiScrivi_MobileApp_Semester4.PopupOverlay"
+        parent="ThemeOverlay.AppCompat.Light" />
 </resources>

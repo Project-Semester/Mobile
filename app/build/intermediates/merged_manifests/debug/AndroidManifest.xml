@@ -8,6 +8,8 @@
         android:minSdkVersion="24"
         android:targetSdkVersion="33" />
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <permission
         android:name="com.example.daiscrivi_mobileapp_semester4.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
@@ -25,29 +27,27 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:testOnly="true"
-        android:theme="@style/Theme.DaiScrivi_MobileApp_Semester4" >
-        <activity android:name="com.example.daiscrivi_mobileapp_semester4.HomeFragment" />
+        android:theme="@style/Theme.DaiScrivi_MobileApp_Semester4"
+        android:usesCleartextTraffic="true" >
+        <activity
+            android:name="com.example.daiscrivi_mobileapp_semester4.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.daiscrivi_mobileapp_semester4.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.daiscrivi_mobileapp_semester4.SearchFragment"
+            android:exported="false" />
         <activity
             android:name="com.example.daiscrivi_mobileapp_semester4.DetailHomeFragment"
             android:exported="false" />
-        <activity
-            android:name="com.example.daiscrivi_mobileapp_semester4.RegisterActivity"
-            android:exported="true" />
-        <activity
-            android:name="com.example.daiscrivi_mobileapp_semester4.MainActivity"
-            android:exported="true" />
-        <activity
-            android:name="com.example.daiscrivi_mobileapp_semester4.LoginActivity"
-            android:exported="true" />
-        <activity
-            android:name="com.example.daiscrivi_mobileapp_semester4.SearchFragment"
-            android:exported="true" />
-        <activity
-            android:name="com.example.daiscrivi_mobileapp_semester4.DetailHomeFragment"
-            android:exported="true" />
         <activity
             android:name="com.example.daiscrivi_mobileapp_semester4.WelcomePage"
             android:exported="false" />
+        <activity android:name="com.example.daiscrivi_mobileapp_semester4.HomeFragment" />
+        <activity
+            android:name="com.example.daiscrivi_mobileapp_semester4.MainActivity"
+            android:exported="true" />
         <activity
             android:name="com.example.daiscrivi_mobileapp_semester4.OnBoardActivity"
             android:exported="true" >

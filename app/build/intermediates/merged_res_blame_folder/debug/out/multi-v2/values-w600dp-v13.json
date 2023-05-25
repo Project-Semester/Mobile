@@ -1,34 +1,23 @@
 {
     "logs": [
         {
-<<<<<<< HEAD
-            "outputFile": "com.example.daiscrivi_mobileapp_semester4.app-mergeDebugResources-34:/values-w600dp-v13/values-w600dp-v13.xml",
-=======
-            "outputFile": "com.example.daiscrivi_mobileapp_semester4.app-mergeDebugResources-41:/values-w600dp-v13/values-w600dp-v13.xml",
->>>>>>> master
+            "outputFile": "com.example.daiscrivi_mobileapp_semester4.app-mergeDebugResources-43:/values-w600dp-v13/values-w600dp-v13.xml",
             "map": [
                 {
                     "source": "D:\\Project Pribadi\\Android Studio Project\\DaiScrivi\\app\\src\\main\\res\\values-w600dp\\dimens.xml",
                     "from": {
                         "startLines": "1",
-<<<<<<< HEAD
-                        "startColumns": "1",
-                        "startOffsets": "14",
-                        "endColumns": "54",
-                        "endOffsets": "67"
-=======
                         "startColumns": "6",
                         "startOffsets": "19",
                         "endColumns": "43",
                         "endOffsets": "56"
->>>>>>> master
                     },
                     "to": {
                         "startLines": "2",
                         "startColumns": "4",
                         "startOffsets": "55",
-                        "endColumns": "57",
-                        "endOffsets": "108"
+                        "endColumns": "41",
+                        "endOffsets": "92"
                     }
                 }
             ]

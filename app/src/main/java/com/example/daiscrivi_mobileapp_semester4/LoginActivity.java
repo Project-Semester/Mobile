@@ -14,12 +14,12 @@ import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
-import com.android.volley.AuthFailureError;
-import com.android.volley.Request;
-import com.android.volley.RequestQueue;
-import com.android.volley.VolleyError;
-import com.android.volley.toolbox.StringRequest;
-import com.android.volley.toolbox.Volley;
+//import com.android.volley.AuthFailureError;
+//import com.android.volley.Request;
+//import com.android.volley.RequestQueue;
+//import com.android.volley.VolleyError;
+//import com.android.volley.toolbox.StringRequest;
+//import com.android.volley.toolbox.Volley;
 import com.example.daiscrivi_mobileapp_semester4.retrofit.ApiClient;
 import com.example.daiscrivi_mobileapp_semester4.retrofit.LoginRequest;
 import com.example.daiscrivi_mobileapp_semester4.retrofit.LoginResponse;
@@ -34,6 +34,8 @@ import java.util.Map;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
+import android.util.Log;
+
 
 public class LoginActivity extends AppCompatActivity {
     Button btn_login;
@@ -178,8 +180,13 @@ public class LoginActivity extends AppCompatActivity {
 
             @Override
             public void onFailure(Call<LoginResponse> call, Throwable t) {
-                Toast.makeText(LoginActivity.this, "Throwble " + t.getLocalizedMessage(), Toast.LENGTH_SHORT).show();
-
+                try {
+                    Toast.makeText(LoginActivity.this, "Throwble " + t.getLocalizedMessage(), Toast.LENGTH_SHORT).show();
+                } catch (IllegalStateException e) {
+                    System.out.println("Terjadi IllegalStateException: " + e.getMessage());
+                } catch (Exception e) {
+                    System.out.println("Terjadi exception: " + e.getMessage());
+                }
             }
         });
     }

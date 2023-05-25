@@ -1,17 +1,10 @@
 {
     "logs": [
         {
-<<<<<<< HEAD
-            "outputFile": "com.example.daiscrivi_mobileapp_semester4.app-mergeDebugResources-34:/values-ldltr-v21/values-ldltr-v21.xml",
-            "map": [
-                {
-                    "source": "D:\\Installer\\Android Studio\\caches\\transforms-3\\44fc53ad3ef1477fcc7b5dbdbf1cb4c0\\transformed\\appcompat-1.6.1\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
-=======
-            "outputFile": "com.example.daiscrivi_mobileapp_semester4.app-mergeDebugResources-41:/values-ldltr-v21/values-ldltr-v21.xml",
+            "outputFile": "com.example.daiscrivi_mobileapp_semester4.app-mergeDebugResources-43:/values-ldltr-v21/values-ldltr-v21.xml",
             "map": [
                 {
                     "source": "D:\\Installer\\Android Studio\\caches\\transforms-3\\e823a5dda738fb7207ec40a9ecdd8129\\transformed\\appcompat-1.6.1\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
->>>>>>> master
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

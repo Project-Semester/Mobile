@@ -45,10 +45,10 @@
             android:paddingLeft="10dp" />
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="70dp"
             android:layout_height="wrap_content"
             android:background="@drawable/custom_button_login"
-            android:text="Cari" />
+            android:text="Cari"/>
     </LinearLayout>
 
 

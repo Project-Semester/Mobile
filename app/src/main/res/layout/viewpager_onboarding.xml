@@ -7,15 +7,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.airbnb.lottie.LottieAnimationView
+    <ImageView
         android:id="@+id/imgViewPagerOnboarding"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="80dp"
-        android:layout_marginBottom="16dp"
-        app:lottie_autoPlay="true"
-        app:lottie_loop="true"
-        app:lottie_rawRes="@raw/write"/>
+        android:src="@drawable/annatod"/>
 
     <TextView
         android:id="@+id/txtTitleViewPagerOnboard"

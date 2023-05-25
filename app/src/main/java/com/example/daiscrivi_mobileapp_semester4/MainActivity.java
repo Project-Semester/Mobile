@@ -1,6 +1,7 @@
 package com.example.daiscrivi_mobileapp_semester4;
 
 import android.os.Bundle;
+import android.view.Window;
 import android.view.WindowManager;
 
 import androidx.appcompat.app.AppCompatActivity;

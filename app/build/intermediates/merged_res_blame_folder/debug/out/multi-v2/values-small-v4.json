@@ -1,17 +1,10 @@
 {
     "logs": [
         {
-<<<<<<< HEAD
-            "outputFile": "com.example.daiscrivi_mobileapp_semester4.app-mergeDebugResources-34:/values-small-v4/values-small-v4.xml",
-            "map": [
-                {
-                    "source": "D:\\Installer\\Android Studio\\caches\\transforms-3\\1d6008e40b174b18ef5fa9ea4cd35014\\transformed\\material-1.8.0\\res\\values-small-v4\\values-small-v4.xml",
-=======
-            "outputFile": "com.example.daiscrivi_mobileapp_semester4.app-mergeDebugResources-41:/values-small-v4/values-small-v4.xml",
+            "outputFile": "com.example.daiscrivi_mobileapp_semester4.app-mergeDebugResources-43:/values-small-v4/values-small-v4.xml",
             "map": [
                 {
                     "source": "D:\\Installer\\Android Studio\\caches\\transforms-3\\eb57593a0436d9518cb6b2ecd8c2078e\\transformed\\material-1.8.0\\res\\values-small-v4\\values-small-v4.xml",
->>>>>>> master
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

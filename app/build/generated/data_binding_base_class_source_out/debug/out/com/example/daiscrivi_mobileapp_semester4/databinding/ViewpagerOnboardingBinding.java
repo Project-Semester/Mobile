@@ -4,13 +4,13 @@ package com.example.daiscrivi_mobileapp_semester4.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
-import com.airbnb.lottie.LottieAnimationView;
 import com.example.daiscrivi_mobileapp_semester4.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -21,7 +21,7 @@ public final class ViewpagerOnboardingBinding implements ViewBinding {
   private final LinearLayout rootView;
 
   @NonNull
-  public final LottieAnimationView imgViewPagerOnboarding;
+  public final ImageView imgViewPagerOnboarding;
 
   @NonNull
   public final TextView txtDescViewPagerOnboard;
@@ -30,8 +30,8 @@ public final class ViewpagerOnboardingBinding implements ViewBinding {
   public final TextView txtTitleViewPagerOnboard;
 
   private ViewpagerOnboardingBinding(@NonNull LinearLayout rootView,
-      @NonNull LottieAnimationView imgViewPagerOnboarding,
-      @NonNull TextView txtDescViewPagerOnboard, @NonNull TextView txtTitleViewPagerOnboard) {
+      @NonNull ImageView imgViewPagerOnboarding, @NonNull TextView txtDescViewPagerOnboard,
+      @NonNull TextView txtTitleViewPagerOnboard) {
     this.rootView = rootView;
     this.imgViewPagerOnboarding = imgViewPagerOnboarding;
     this.txtDescViewPagerOnboard = txtDescViewPagerOnboard;
@@ -66,7 +66,7 @@ public final class ViewpagerOnboardingBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.imgViewPagerOnboarding;
-      LottieAnimationView imgViewPagerOnboarding = ViewBindings.findChildViewById(rootView, id);
+      ImageView imgViewPagerOnboarding = ViewBindings.findChildViewById(rootView, id);
       if (imgViewPagerOnboarding == null) {
         break missingId;
       }

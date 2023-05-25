@@ -16,34 +16,28 @@
         tools:targetApi="32">
         <activity
             android:name=".RegisterActivity"
-            android:exported="true" />
-        <activity
-            android:name=".MainActivity"
-            android:exported="true" />
+            android:exported="false" />
         <activity
             android:name=".LoginActivity"
-            android:exported="true" />
+            android:exported="false" />
         <activity
             android:name=".SearchFragment"
-            android:exported="true" />
-        <activity
-            android:name=".DetailHomeFragment"
-            android:exported="true" />
-        <activity
-            android:name=".WelcomePage"
-            android:exported="false"/>
-        <activity
-            android:name=".OnBoardActivity" 
-            android:exported="false"/>
-        <activity
-            android:name=".HomeFragment"
-            tools:ignore="Instantiatable" />
+            android:exported="false" />
         <activity
             android:name=".DetailHomeFragment"
             android:exported="false" />
         <activity
+            android:name=".WelcomePage"
+            android:exported="false"/>
+        <activity
+            android:name=".HomeFragment"
+            tools:ignore="false" />
+        <activity
             android:name=".MainActivity"
-            android:exported="true" >
+            android:exported="true" />
+            <activity
+                android:name=".OnBoardActivity"
+                android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

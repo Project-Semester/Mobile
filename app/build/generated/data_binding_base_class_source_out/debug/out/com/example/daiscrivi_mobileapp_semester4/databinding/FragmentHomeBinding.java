@@ -11,18 +11,12 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.cardview.widget.CardView;
-<<<<<<< HEAD
 import androidx.recyclerview.widget.RecyclerView;
-=======
->>>>>>> ddffa2d845e92aacb9ec9e50456f2b520e7198a7
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
-import androidx.viewpager2.widget.ViewPager2;
+import androidx.viewpager.widget.ViewPager;
 import com.example.daiscrivi_mobileapp_semester4.R;
-<<<<<<< HEAD
 import com.google.android.material.tabs.TabLayout;
-=======
->>>>>>> ddffa2d845e92aacb9ec9e50456f2b520e7198a7
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -35,12 +29,9 @@ public final class FragmentHomeBinding implements ViewBinding {
   public final CardView cardView;
 
   @NonNull
-<<<<<<< HEAD
   public final RecyclerView horizontalRv;
 
   @NonNull
-=======
->>>>>>> ddffa2d845e92aacb9ec9e50456f2b520e7198a7
   public final ImageButton imageButton4;
 
   @NonNull
@@ -50,26 +41,22 @@ public final class FragmentHomeBinding implements ViewBinding {
   public final ImageView imageView2;
 
   @NonNull
-<<<<<<< HEAD
   public final TabLayout tabLayout;
 
   @NonNull
-=======
->>>>>>> ddffa2d845e92aacb9ec9e50456f2b520e7198a7
   public final TextView textView;
 
   @NonNull
   public final TextView textView9;
 
   @NonNull
-  public final ViewPager2 viewPager;
+  public final ViewPager viewPager;
 
   private FragmentHomeBinding(@NonNull ScrollView rootView, @NonNull CardView cardView,
-<<<<<<< HEAD
       @NonNull RecyclerView horizontalRv, @NonNull ImageButton imageButton4,
       @NonNull ImageButton imageButton5, @NonNull ImageView imageView2,
       @NonNull TabLayout tabLayout, @NonNull TextView textView, @NonNull TextView textView9,
-      @NonNull ViewPager2 viewPager) {
+      @NonNull ViewPager viewPager) {
     this.rootView = rootView;
     this.cardView = cardView;
     this.horizontalRv = horizontalRv;
@@ -77,16 +64,6 @@ public final class FragmentHomeBinding implements ViewBinding {
     this.imageButton5 = imageButton5;
     this.imageView2 = imageView2;
     this.tabLayout = tabLayout;
-=======
-      @NonNull ImageButton imageButton4, @NonNull ImageButton imageButton5,
-      @NonNull ImageView imageView2, @NonNull TextView textView, @NonNull TextView textView9,
-      @NonNull ViewPager2 viewPager) {
-    this.rootView = rootView;
-    this.cardView = cardView;
-    this.imageButton4 = imageButton4;
-    this.imageButton5 = imageButton5;
-    this.imageView2 = imageView2;
->>>>>>> ddffa2d845e92aacb9ec9e50456f2b520e7198a7
     this.textView = textView;
     this.textView9 = textView9;
     this.viewPager = viewPager;
@@ -125,15 +102,12 @@ public final class FragmentHomeBinding implements ViewBinding {
         break missingId;
       }
 
-<<<<<<< HEAD
       id = R.id.horizontalRv;
       RecyclerView horizontalRv = ViewBindings.findChildViewById(rootView, id);
       if (horizontalRv == null) {
         break missingId;
       }
 
-=======
->>>>>>> ddffa2d845e92aacb9ec9e50456f2b520e7198a7
       id = R.id.imageButton4;
       ImageButton imageButton4 = ViewBindings.findChildViewById(rootView, id);
       if (imageButton4 == null) {
@@ -152,15 +126,12 @@ public final class FragmentHomeBinding implements ViewBinding {
         break missingId;
       }
 
-<<<<<<< HEAD
       id = R.id.tabLayout;
       TabLayout tabLayout = ViewBindings.findChildViewById(rootView, id);
       if (tabLayout == null) {
         break missingId;
       }
 
-=======
->>>>>>> ddffa2d845e92aacb9ec9e50456f2b520e7198a7
       id = R.id.textView;
       TextView textView = ViewBindings.findChildViewById(rootView, id);
       if (textView == null) {
@@ -174,18 +145,13 @@ public final class FragmentHomeBinding implements ViewBinding {
       }
 
       id = R.id.viewPager;
-      ViewPager2 viewPager = ViewBindings.findChildViewById(rootView, id);
+      ViewPager viewPager = ViewBindings.findChildViewById(rootView, id);
       if (viewPager == null) {
         break missingId;
       }
 
-<<<<<<< HEAD
       return new FragmentHomeBinding((ScrollView) rootView, cardView, horizontalRv, imageButton4,
           imageButton5, imageView2, tabLayout, textView, textView9, viewPager);
-=======
-      return new FragmentHomeBinding((ScrollView) rootView, cardView, imageButton4, imageButton5,
-          imageView2, textView, textView9, viewPager);
->>>>>>> ddffa2d845e92aacb9ec9e50456f2b520e7198a7
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

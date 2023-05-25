@@ -24,9 +24,6 @@
     Apakah Miska bisa menghindari kematian itu?
     Apakah dirinya berhasil mengubah jalan cerita?</string>
     <string name="role">admin</string>
-
---------
-</string>
     <string name="deskription_logo">Platform sosial untuk bercerita yang paling disukai</string>
     <string name="title_activity_horizontal_rv">ActivityHorizontalRv</string>
     <!-- Strings used for fragments for navigation -->
@@ -44,5 +41,6 @@
     <string name="head_5">MY WATTPAD LOVE</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
 
 </resources>

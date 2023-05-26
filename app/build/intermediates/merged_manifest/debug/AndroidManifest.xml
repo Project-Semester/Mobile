@@ -44,7 +44,9 @@
         <activity
             android:name="com.example.daiscrivi_mobileapp_semester4.WelcomePage"
             android:exported="false" />
-        <activity android:name="com.example.daiscrivi_mobileapp_semester4.HomeFragment" />
+        <activity
+            android:name="com.example.daiscrivi_mobileapp_semester4.HomeFragment"
+            android:exported="false" />
         <activity
             android:name="com.example.daiscrivi_mobileapp_semester4.MainActivity"
             android:exported="true" />

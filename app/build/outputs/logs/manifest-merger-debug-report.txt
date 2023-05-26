@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\AndroidManifest.xml:2:1-49:12
-INJECTED from D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\AndroidManifest.xml:2:1-49:12
-INJECTED from D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\AndroidManifest.xml:2:1-49:12
-INJECTED from D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\AndroidManifest.xml:2:1-49:12
+ADDED from D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\AndroidManifest.xml:2:1-50:12
 MERGED from [androidx.databinding:viewbinding:8.0.1] D:\Installer\Android Studio\caches\transforms-3\f9cee772ff2257344eaa00e2a9e0d8b5\transformed\viewbinding-8.0.1\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.navigation:navigation-ui:2.5.3] D:\Installer\Android Studio\caches\transforms-3\0a475472deb37d71fb4926ce723f1b2e\transformed\navigation-ui-2.5.3\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.8.0] D:\Installer\Android Studio\caches\transforms-3\eb57593a0436d9518cb6b2ecd8c2078e\transformed\material-1.8.0\AndroidManifest.xml:17:1-26:12
@@ -62,22 +62,22 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] D:\Installer\Android Stud
 MERGED from [com.makeramen:roundedimageview:2.3.0] D:\Installer\Android Studio\caches\transforms-3\4e1d004932c03cbf41df8250e8e50d9f\transformed\roundedimageview-2.3.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.android.volley:volley:1.2.1] D:\Installer\Android Studio\caches\transforms-3\26ed52d76c063b0199e29f14f731bd01\transformed\volley-1.2.1\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] D:\Installer\Android Studio\caches\transforms-3\20a644b62baf785bb02e4625e75762e3\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
-INJECTED from D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\AndroidManifest.xml:2:1-49:12
-INJECTED from D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\AndroidManifest.xml:2:1-49:12
-INJECTED from D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\AndroidManifest.xml:2:1-50:12
 	package
 		INJECTED from D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\AndroidManifest.xml
-		ADDED from D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\AndroidManifest.xml:2:1-49:12
+		ADDED from D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\AndroidManifest.xml:2:1-50:12
 		INJECTED from D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\AndroidManifest.xml
-		ADDED from D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\AndroidManifest.xml:2:1-49:12
+		ADDED from D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\AndroidManifest.xml:2:1-50:12
 		INJECTED from D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\AndroidManifest.xml
-		ADDED from D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\AndroidManifest.xml:2:1-49:12
+		ADDED from D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\AndroidManifest.xml:2:1-50:12
 		INJECTED from D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\AndroidManifest.xml:2:11-69
@@ -86,7 +86,7 @@ ADDED from D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\Andr
 	android:name
 		ADDED from D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\AndroidManifest.xml:7:5-47:19
+ADDED from D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\AndroidManifest.xml:7:5-48:19
 MERGED from [com.google.android.material:material:1.8.0] D:\Installer\Android Studio\caches\transforms-3\eb57593a0436d9518cb6b2ecd8c2078e\transformed\material-1.8.0\AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.8.0] D:\Installer\Android Studio\caches\transforms-3\eb57593a0436d9518cb6b2ecd8c2078e\transformed\material-1.8.0\AndroidManifest.xml:24:5-20
 MERGED from [de.hdodenhof:circleimageview:3.1.0] D:\Installer\Android Studio\caches\transforms-3\44d934f799610cf9ccecb601de0afcd3\transformed\circleimageview-3.1.0\AndroidManifest.xml:9:5-20
@@ -156,9 +156,9 @@ ADDED from D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\Andr
 	android:name
 		ADDED from D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\AndroidManifest.xml:30:13-40
 activity#com.example.daiscrivi_mobileapp_semester4.HomeFragment
-ADDED from D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\AndroidManifest.xml:32:9-34:36
-	tools:ignore
-		ADDED from D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\AndroidManifest.xml:34:13-33
+ADDED from D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\AndroidManifest.xml:32:9-34:39
+	android:exported
+		ADDED from D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\AndroidManifest.xml:34:13-37
 	android:name
 		ADDED from D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\AndroidManifest.xml:33:13-41
 activity#com.example.daiscrivi_mobileapp_semester4.MainActivity
@@ -168,21 +168,21 @@ ADDED from D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\Andr
 	android:name
 		ADDED from D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\AndroidManifest.xml:36:13-41
 activity#com.example.daiscrivi_mobileapp_semester4.OnBoardActivity
-ADDED from D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\AndroidManifest.xml:38:13-46:20
+ADDED from D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\AndroidManifest.xml:38:9-47:20
 	android:exported
-		ADDED from D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\AndroidManifest.xml:40:17-40
+		ADDED from D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\AndroidManifest.xml:40:13-36
 	android:name
-		ADDED from D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\AndroidManifest.xml:39:17-48
+		ADDED from D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\AndroidManifest.xml:39:13-44
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\AndroidManifest.xml:41:13-45:29
+ADDED from D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\AndroidManifest.xml:42:9-46:29
 action#android.intent.action.MAIN
-ADDED from D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\AndroidManifest.xml:42:17-69
+ADDED from D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\AndroidManifest.xml:43:17-69
 	android:name
-		ADDED from D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\AndroidManifest.xml:42:25-66
+		ADDED from D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\AndroidManifest.xml:43:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\AndroidManifest.xml:44:17-77
+ADDED from D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\AndroidManifest.xml:45:17-77
 	android:name
-		ADDED from D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\AndroidManifest.xml:44:27-74
+		ADDED from D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\AndroidManifest.xml:45:27-74
 uses-sdk
 INJECTED from D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\Project Pribadi\Android Studio Project\DaiScrivi\app\src\main\AndroidManifest.xml

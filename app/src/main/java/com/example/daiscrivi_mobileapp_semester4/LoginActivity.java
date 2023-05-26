@@ -181,10 +181,15 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onFailure(Call<LoginResponse> call, Throwable t) {
                 try {
+                    System.out.println(t.getMessage());
                     Toast.makeText(LoginActivity.this, "Throwble " + t.getLocalizedMessage(), Toast.LENGTH_SHORT).show();
                 } catch (IllegalStateException e) {
+                    System.out.println(t.getMessage());
+
                     System.out.println("Terjadi IllegalStateException: " + e.getMessage());
                 } catch (Exception e) {
+                    System.out.println(t.getMessage());
+
                     System.out.println("Terjadi exception: " + e.getMessage());
                 }
             }

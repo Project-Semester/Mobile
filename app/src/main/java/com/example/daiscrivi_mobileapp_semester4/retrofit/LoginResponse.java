@@ -7,16 +7,8 @@ public class LoginResponse {
     private boolean status;
     private String message;
 
+    private LoginDataResponse data;
 
-    public List<LoginDataResponse> getData() {
-        return data;
-    }
-
-    public void setData(List<LoginDataResponse> data) {
-        this.data = data;
-    }
-
-    List<LoginDataResponse> data;
 
     public boolean isStatus() {
         return status;

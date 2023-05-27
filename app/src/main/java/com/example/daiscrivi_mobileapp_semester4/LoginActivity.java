@@ -178,8 +178,8 @@ public class LoginActivity extends AppCompatActivity {
 
             @Override
             public void onFailure(Call<LoginResponse> call, Throwable t) {
-                Toast.makeText(LoginActivity.this, "Throwble " + t.getLocalizedMessage(), Toast.LENGTH_SHORT).show();
-
+                Toast.makeText(LoginActivity.this,  t.getLocalizedMessage(), Toast.LENGTH_SHORT).show();
+                System.out.println(t.getLocalizedMessage());
             }
         });
     }

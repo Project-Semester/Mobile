@@ -2751,6 +2751,7 @@ drawable add_write
 drawable avd_hide_password
 drawable avd_show_password
 drawable background
+drawable baseline_arrow_back_24
 drawable baseline_search_24
 drawable bird
 drawable blog
@@ -3554,6 +3555,7 @@ layout activity_auth
 layout activity_login
 layout activity_main
 layout activity_on_board
+layout activity_profile
 layout activity_register
 layout activity_splash_screen
 layout activity_welcome_page

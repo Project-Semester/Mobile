@@ -25,6 +25,7 @@ dimen bottom_navigation_icon_size
 dimen design_bottom_navigation_height
 drawable add_write
 drawable background
+drawable baseline_arrow_back_24
 drawable baseline_search_24
 drawable bird
 drawable blog
@@ -125,6 +126,7 @@ layout activity_auth
 layout activity_login
 layout activity_main
 layout activity_on_board
+layout activity_profile
 layout activity_register
 layout activity_splash_screen
 layout activity_welcome_page

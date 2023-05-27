@@ -8,15 +8,15 @@ public class LoginResponse {
     private String message;
 
 
-    public List<LoginDataResponse> getData() {
+    public List<LoginDataResponse.User> getData() {
         return data;
     }
 
-    public void setData(List<LoginDataResponse> data) {
+    public void setData(List<LoginDataResponse.User> data) {
         this.data = data;
     }
 
-    List<LoginDataResponse> data;
+    List<LoginDataResponse.User> data;
 
     public boolean isStatus() {
         return status;

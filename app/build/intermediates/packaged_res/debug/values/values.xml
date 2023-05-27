@@ -43,7 +43,7 @@
     Apakah Miska bisa menghindari kematian itu?
     Apakah dirinya berhasil mengubah jalan cerita?</string>
     <string name="title_activity_login">LoginActivity</string>
-    <string name="username">fagil</string>
+    <string name="username">username</string>
     <string name="welcome">Welcome !</string>
     <style name="AppTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">
         

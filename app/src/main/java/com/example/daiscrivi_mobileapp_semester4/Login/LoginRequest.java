@@ -1,4 +1,4 @@
-package com.example.daiscrivi_mobileapp_semester4.retrofit;
+package com.example.daiscrivi_mobileapp_semester4.Login;
 
 public class LoginRequest {
 

@@ -1,4 +1,4 @@
-package com.example.daiscrivi_mobileapp_semester4.retrofit;
+package com.example.daiscrivi_mobileapp_semester4.Login;
 
 import java.util.List;
 
@@ -8,6 +8,14 @@ public class LoginResponse {
     private String message;
 
     private LoginDataResponse data;
+
+    public LoginDataResponse getData() {
+        return data;
+    }
+
+    public void setData(LoginDataResponse data) {
+        this.data = data;
+    }
 
     public boolean isStatus() {
         return status;
@@ -26,6 +34,16 @@ public class LoginResponse {
     }
 
     public static class LoginDataResponse {
+        private User user;
+
+        public User getUser() {
+            return user;
+        }
+
+        public void setUser(User user) {
+            this.user = user;
+        }
+
         public static class User {
             private String username;
             private String role;

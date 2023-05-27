@@ -56,8 +56,8 @@
 34-->F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:19:13-37
 35        <activity
 35-->F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:20:9-22:39
-36            android:name="com.example.daiscrivi_mobileapp_semester4.RegisterActivity"
-36-->F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:21:13-45
+36            android:name="com.example.daiscrivi_mobileapp_semester4.Register.RegisterActivity"
+36-->F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:21:13-54
 37            android:exported="true" />
 37-->F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:22:13-36
 38        <activity
@@ -68,8 +68,8 @@
 40-->F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:25:13-36
 41        <activity
 41-->F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:26:9-28:39
-42            android:name="com.example.daiscrivi_mobileapp_semester4.LoginActivity"
-42-->F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:27:13-42
+42            android:name="com.example.daiscrivi_mobileapp_semester4.Login.LoginActivity"
+42-->F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:27:13-48
 43            android:exported="true" />
 43-->F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:28:13-36
 44        <activity

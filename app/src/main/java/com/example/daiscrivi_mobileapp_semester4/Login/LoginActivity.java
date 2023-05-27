@@ -1,4 +1,4 @@
-package com.example.daiscrivi_mobileapp_semester4;
+package com.example.daiscrivi_mobileapp_semester4.Login;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -14,22 +14,11 @@ import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
-import com.android.volley.AuthFailureError;
-import com.android.volley.Request;
-import com.android.volley.RequestQueue;
-import com.android.volley.VolleyError;
-import com.android.volley.toolbox.StringRequest;
-import com.android.volley.toolbox.Volley;
+import com.example.daiscrivi_mobileapp_semester4.MainActivity;
+import com.example.daiscrivi_mobileapp_semester4.R;
 import com.example.daiscrivi_mobileapp_semester4.retrofit.ApiClient;
-import com.example.daiscrivi_mobileapp_semester4.retrofit.LoginRequest;
-import com.example.daiscrivi_mobileapp_semester4.retrofit.LoginResponse;
-
-import org.json.JSONException;
-import org.json.JSONObject;
 
 import java.io.IOException;
-import java.util.HashMap;
-import java.util.Map;
 
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -162,22 +151,23 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onResponse(Call<LoginResponse> call, Response<LoginResponse> response) {
                 if (response.isSuccessful()) {
+                    Toast.makeText(LoginActivity.this, "Login berhasil", Toast.LENGTH_SHORT).show();
                     _loading.setVisibility(View.GONE);
                     btn_login.setVisibility(View.VISIBLE);
 
-//                    SharedPreferences sharedPreferences = LoginActivity.this.getSharedPreferences("yuknulis", MODE_PRIVATE);
-//                    SharedPreferences.Editor editor = sharedPreferences.edit();
-//                    editor.putString(getString(R.string.username), username);
-//                    editor.putString(getString(R.string.email), email);
-//                    editor.putString(getString(R.string.role), role);
-//                    editor.commit();
-                    Toast.makeText(LoginActivity.this, "Login berhasil", Toast.LENGTH_SHORT).show();
+
                     new Handler().postDelayed(new Runnable() {
                         @Override
                         public void run() {
                             LoginResponse loginResponse = response.body();
-                            startActivity(new Intent(LoginActivity.this,
-                                    MainActivity.class).putExtra("data", loginResponse.getMessage()));
+                            String username = loginResponse.getData().getUser().getUsername();
+                            String email = loginResponse.getData().getUser().getEmail();
+                            String role = loginResponse.getData().getUser().getRole();
+                            startActivity(new Intent(LoginActivity.this, MainActivity.class)
+                                    .putExtra("username", username)
+                                    .putExtra("email", email)
+                                    .putExtra("role", role)
+                            );
                         }
                     }, 000);
 

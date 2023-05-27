@@ -3387,7 +3387,6 @@ id textView18
 id textView2
 id textView3
 id textView5
-id textView6
 id textView7
 id textView9
 id text_input_end_icon
@@ -3418,6 +3417,7 @@ id triangle
 id tvLogin
 id tvLogo
 id tvRegister
+id tvUseraname
 id txtDescViewPagerOnboard
 id txtTitleViewPagerOnboard
 id unchecked

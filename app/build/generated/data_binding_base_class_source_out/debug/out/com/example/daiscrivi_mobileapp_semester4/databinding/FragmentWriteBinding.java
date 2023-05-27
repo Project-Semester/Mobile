@@ -31,20 +31,20 @@ public final class FragmentWriteBinding implements ViewBinding {
   public final TextView textView5;
 
   @NonNull
-  public final TextView textView6;
+  public final TextView textView7;
 
   @NonNull
-  public final TextView textView7;
+  public final TextView tvUseraname;
 
   private FragmentWriteBinding(@NonNull ConstraintLayout rootView, @NonNull ImageButton imageButton,
       @NonNull CircleImageView profileImage, @NonNull TextView textView5,
-      @NonNull TextView textView6, @NonNull TextView textView7) {
+      @NonNull TextView textView7, @NonNull TextView tvUseraname) {
     this.rootView = rootView;
     this.imageButton = imageButton;
     this.profileImage = profileImage;
     this.textView5 = textView5;
-    this.textView6 = textView6;
     this.textView7 = textView7;
+    this.tvUseraname = tvUseraname;
   }
 
   @Override
@@ -92,20 +92,20 @@ public final class FragmentWriteBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.textView6;
-      TextView textView6 = ViewBindings.findChildViewById(rootView, id);
-      if (textView6 == null) {
-        break missingId;
-      }
-
       id = R.id.textView7;
       TextView textView7 = ViewBindings.findChildViewById(rootView, id);
       if (textView7 == null) {
         break missingId;
       }
 
+      id = R.id.tvUseraname;
+      TextView tvUseraname = ViewBindings.findChildViewById(rootView, id);
+      if (tvUseraname == null) {
+        break missingId;
+      }
+
       return new FragmentWriteBinding((ConstraintLayout) rootView, imageButton, profileImage,
-          textView5, textView6, textView7);
+          textView5, textView7, tvUseraname);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

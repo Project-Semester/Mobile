@@ -40,12 +40,12 @@
         "source": "C:\\Program Files\\Android\\Android Studio\\jbr\\daemon\\7.5\\com.example.daiscrivi_mobileapp_semester4.app-main-38:\\drawable\\judul_wattpad2.jpg"
     },
     {
-        "merged": "C:\\Program Files\\Android\\Android Studio\\jbr\\daemon\\7.5\\com.example.daiscrivi_mobileapp_semester4.app-merged_res-36:\\drawable_baseline_arrow_back_24.xml.flat",
-        "source": "C:\\Program Files\\Android\\Android Studio\\jbr\\daemon\\7.5\\com.example.daiscrivi_mobileapp_semester4.app-main-38:\\drawable\\baseline_arrow_back_24.xml"
-    },
-    {
         "merged": "C:\\Program Files\\Android\\Android Studio\\jbr\\daemon\\7.5\\com.example.daiscrivi_mobileapp_semester4.app-merged_res-36:\\drawable_rekomendasihome2.png.flat",
         "source": "C:\\Program Files\\Android\\Android Studio\\jbr\\daemon\\7.5\\com.example.daiscrivi_mobileapp_semester4.app-main-38:\\drawable\\rekomendasihome2.png"
+    },
+    {
+        "merged": "C:\\Program Files\\Android\\Android Studio\\jbr\\daemon\\7.5\\com.example.daiscrivi_mobileapp_semester4.app-merged_res-36:\\drawable_baseline_arrow_back_24.xml.flat",
+        "source": "C:\\Program Files\\Android\\Android Studio\\jbr\\daemon\\7.5\\com.example.daiscrivi_mobileapp_semester4.app-main-38:\\drawable\\baseline_arrow_back_24.xml"
     },
     {
         "merged": "C:\\Program Files\\Android\\Android Studio\\jbr\\daemon\\7.5\\com.example.daiscrivi_mobileapp_semester4.app-merged_res-36:\\color_selectable_color.xml.flat",
@@ -54,6 +54,10 @@
     {
         "merged": "C:\\Program Files\\Android\\Android Studio\\jbr\\daemon\\7.5\\com.example.daiscrivi_mobileapp_semester4.app-merged_res-36:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Program Files\\Android\\Android Studio\\jbr\\daemon\\7.5\\com.example.daiscrivi_mobileapp_semester4.app-main-38:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-36:/layout_fragment_write.xml.flat",
+        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-38:/layout/fragment_write.xml"
     },
     {
         "merged": "C:\\Program Files\\Android\\Android Studio\\jbr\\daemon\\7.5\\com.example.daiscrivi_mobileapp_semester4.app-merged_res-36:\\mipmap-anydpi-v33_ic_launcher.xml.flat",
@@ -178,10 +182,6 @@
     {
         "merged": "C:\\Program Files\\Android\\Android Studio\\jbr\\daemon\\7.5\\com.example.daiscrivi_mobileapp_semester4.app-merged_res-36:\\drawable_bottombar_telusuri.xml.flat",
         "source": "C:\\Program Files\\Android\\Android Studio\\jbr\\daemon\\7.5\\com.example.daiscrivi_mobileapp_semester4.app-main-38:\\drawable\\bottombar_telusuri.xml"
-    },
-    {
-        "merged": "com.example.daiscrivi_mobileapp_semester4.app-merged_res-36:/layout_activity_login.xml.flat",
-        "source": "com.example.daiscrivi_mobileapp_semester4.app-main-38:/layout/activity_login.xml"
     },
     {
         "merged": "C:\\Program Files\\Android\\Android Studio\\jbr\\daemon\\7.5\\com.example.daiscrivi_mobileapp_semester4.app-merged_res-36:\\drawable_ellipse.xml.flat",

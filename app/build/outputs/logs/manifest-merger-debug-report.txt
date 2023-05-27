@@ -121,24 +121,24 @@ ADDED from F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:17:9-19:40
 		ADDED from F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:19:13-37
 	android:name
 		ADDED from F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:18:13-44
-activity#com.example.daiscrivi_mobileapp_semester4.RegisterActivity
+activity#com.example.daiscrivi_mobileapp_semester4.Register.RegisterActivity
 ADDED from F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:20:9-22:39
 	android:exported
 		ADDED from F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:22:13-36
 	android:name
-		ADDED from F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:21:13-45
+		ADDED from F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:21:13-54
 activity#com.example.daiscrivi_mobileapp_semester4.MainActivity
 ADDED from F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:23:9-25:39
 	android:exported
 		ADDED from F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:25:13-36
 	android:name
 		ADDED from F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:24:13-41
-activity#com.example.daiscrivi_mobileapp_semester4.LoginActivity
+activity#com.example.daiscrivi_mobileapp_semester4.Login.LoginActivity
 ADDED from F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:26:9-28:39
 	android:exported
 		ADDED from F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:28:13-36
 	android:name
-		ADDED from F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:27:13-42
+		ADDED from F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:27:13-48
 activity#com.example.daiscrivi_mobileapp_semester4.SearchFragment
 ADDED from F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:29:9-31:39
 	android:exported

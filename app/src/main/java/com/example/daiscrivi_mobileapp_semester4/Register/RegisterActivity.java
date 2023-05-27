@@ -1,4 +1,4 @@
-package com.example.daiscrivi_mobileapp_semester4;
+package com.example.daiscrivi_mobileapp_semester4.Register;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -20,6 +20,8 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
+import com.example.daiscrivi_mobileapp_semester4.Login.LoginActivity;
+import com.example.daiscrivi_mobileapp_semester4.R;
 
 import org.json.JSONException;
 import org.json.JSONObject;

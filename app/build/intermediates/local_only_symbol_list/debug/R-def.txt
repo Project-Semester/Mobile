@@ -112,12 +112,12 @@ id textView18
 id textView2
 id textView3
 id textView5
-id textView6
 id textView7
 id textView9
 id tvLogin
 id tvLogo
 id tvRegister
+id tvUseraname
 id txtDescViewPagerOnboard
 id txtTitleViewPagerOnboard
 id viewPager

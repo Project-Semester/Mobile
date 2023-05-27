@@ -1,4 +1,4 @@
-#Fri May 26 13:37:02 WIB 2023
+#Sat May 27 17:07:12 WIB 2023
 base.0=F\:\\Projek S4\\Mobile\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=F\:\\Projek S4\\Mobile\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.2=F\:\\Projek S4\\Mobile\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex

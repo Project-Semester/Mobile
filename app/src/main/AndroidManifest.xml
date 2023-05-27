@@ -20,7 +20,9 @@
         <activity
             android:name=".RegisterActivity"
             android:exported="true" />
-
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
         <activity
             android:name=".LoginActivity"
             android:exported="true" />
@@ -34,7 +36,7 @@
             android:name=".WelcomePage"
             android:exported="false"/>
         <activity
-            android:name=".MainActivity"
+            android:name=".OnBoardActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

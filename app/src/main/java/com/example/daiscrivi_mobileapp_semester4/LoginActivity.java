@@ -38,6 +38,7 @@ import retrofit2.Response;
 public class LoginActivity extends AppCompatActivity {
     Button btn_login;
     EditText et_email, et_password;
+    ProgressBar _loading;
 //    private static final String URL_LOGIN = "http:// 192.168.100.30/api/login";
 
 
@@ -51,15 +52,20 @@ public class LoginActivity extends AppCompatActivity {
         et_password = findViewById(R.id.etPassword);
         et_email = findViewById(R.id.etEmail);
         btn_login = findViewById(R.id.btnLogin);
+        _loading = findViewById(R.id.loading);
 
         btn_login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                btn_login.setVisibility(View.GONE);
+                _loading.setVisibility(View.VISIBLE);
                 String email = et_email.getText().toString().trim();
                 String password = et_password.getText().toString().trim();
                 if (!email.equals("") && !password.equals("")) {
                     Login();
                 } else {
+                    btn_login.setVisibility(View.VISIBLE);
+                    _loading.setVisibility(View.GONE);
                     et_email.setError("Email tidak boleh kosong");
                     et_password.setError("Password tidak boleh kosong");
                 }
@@ -156,6 +162,15 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onResponse(Call<LoginResponse> call, Response<LoginResponse> response) {
                 if (response.isSuccessful()) {
+                    _loading.setVisibility(View.GONE);
+                    btn_login.setVisibility(View.VISIBLE);
+
+//                    SharedPreferences sharedPreferences = LoginActivity.this.getSharedPreferences("yuknulis", MODE_PRIVATE);
+//                    SharedPreferences.Editor editor = sharedPreferences.edit();
+//                    editor.putString(getString(R.string.username), username);
+//                    editor.putString(getString(R.string.email), email);
+//                    editor.putString(getString(R.string.role), role);
+//                    editor.commit();
                     Toast.makeText(LoginActivity.this, "Login berhasil", Toast.LENGTH_SHORT).show();
                     new Handler().postDelayed(new Runnable() {
                         @Override
@@ -164,10 +179,12 @@ public class LoginActivity extends AppCompatActivity {
                             startActivity(new Intent(LoginActivity.this,
                                     MainActivity.class).putExtra("data", loginResponse.getMessage()));
                         }
-                    }, 700);
+                    }, 000);
 
                 } else {
-                    Toast.makeText(LoginActivity.this, "Login gagal", Toast.LENGTH_SHORT).show();
+                    _loading.setVisibility(View.GONE);
+                    btn_login.setVisibility(View.VISIBLE);
+                    Toast.makeText(LoginActivity.this, "Login gagal periksa kembali Email dan Password kamu", Toast.LENGTH_SHORT).show();
                     try {
                         System.out.println(response.errorBody().string());
                     } catch (IOException e) {
@@ -178,7 +195,9 @@ public class LoginActivity extends AppCompatActivity {
 
             @Override
             public void onFailure(Call<LoginResponse> call, Throwable t) {
-                Toast.makeText(LoginActivity.this,  t.getLocalizedMessage(), Toast.LENGTH_SHORT).show();
+                _loading.setVisibility(View.GONE);
+                btn_login.setVisibility(View.VISIBLE);
+                Toast.makeText(LoginActivity.this, t.getLocalizedMessage(), Toast.LENGTH_SHORT).show();
                 System.out.println(t.getLocalizedMessage());
             }
         });

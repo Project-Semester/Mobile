@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -46,13 +47,16 @@ public final class ActivityLoginBinding implements ViewBinding {
   public final ImageView ivLogo;
 
   @NonNull
+  public final ProgressBar loading;
+
+  @NonNull
   public final TextView tvLogin;
 
   private ActivityLoginBinding(@NonNull ConstraintLayout rootView, @NonNull Button btnLogin,
       @NonNull CardView container, @NonNull TextInputEditText etEmail,
       @NonNull TextInputEditText etPassword, @NonNull TextInputLayout etPasswordLayout,
       @NonNull TextInputLayout etUsernameLayout, @NonNull ImageView ivLogo,
-      @NonNull TextView tvLogin) {
+      @NonNull ProgressBar loading, @NonNull TextView tvLogin) {
     this.rootView = rootView;
     this.btnLogin = btnLogin;
     this.container = container;
@@ -61,6 +65,7 @@ public final class ActivityLoginBinding implements ViewBinding {
     this.etPasswordLayout = etPasswordLayout;
     this.etUsernameLayout = etUsernameLayout;
     this.ivLogo = ivLogo;
+    this.loading = loading;
     this.tvLogin = tvLogin;
   }
 
@@ -133,6 +138,12 @@ public final class ActivityLoginBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.loading;
+      ProgressBar loading = ViewBindings.findChildViewById(rootView, id);
+      if (loading == null) {
+        break missingId;
+      }
+
       id = R.id.tvLogin;
       TextView tvLogin = ViewBindings.findChildViewById(rootView, id);
       if (tvLogin == null) {
@@ -140,7 +151,7 @@ public final class ActivityLoginBinding implements ViewBinding {
       }
 
       return new ActivityLoginBinding((ConstraintLayout) rootView, btnLogin, container, etEmail,
-          etPassword, etPasswordLayout, etUsernameLayout, ivLogo, tvLogin);
+          etPassword, etPasswordLayout, etUsernameLayout, ivLogo, loading, tvLogin);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -26,7 +26,7 @@
 17-->[androidx.core:core:1.9.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\ec4f76f6c0c02de8ba18086e7bd9baf5\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 18
 19    <application
-19-->F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:7:5-45:19
+19-->F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:7:5-47:19
 20        android:allowBackup="true"
 20-->F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:8:9-35
 21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -61,68 +61,74 @@
 37            android:exported="true" />
 37-->F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:22:13-36
 38        <activity
-38-->F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:24:9-26:39
-39            android:name="com.example.daiscrivi_mobileapp_semester4.LoginActivity"
-39-->F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:25:13-42
+38-->F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:23:9-25:39
+39            android:name="com.example.daiscrivi_mobileapp_semester4.MainActivity"
+39-->F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:24:13-41
 40            android:exported="true" />
-40-->F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:26:13-36
+40-->F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:25:13-36
 41        <activity
-41-->F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:27:9-29:39
-42            android:name="com.example.daiscrivi_mobileapp_semester4.SearchFragment"
-42-->F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:28:13-43
+41-->F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:26:9-28:39
+42            android:name="com.example.daiscrivi_mobileapp_semester4.LoginActivity"
+42-->F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:27:13-42
 43            android:exported="true" />
-43-->F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:29:13-36
+43-->F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:28:13-36
 44        <activity
-44-->F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:30:9-32:39
-45            android:name="com.example.daiscrivi_mobileapp_semester4.DetailHomeFragment"
-45-->F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:31:13-47
+44-->F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:29:9-31:39
+45            android:name="com.example.daiscrivi_mobileapp_semester4.SearchFragment"
+45-->F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:30:13-43
 46            android:exported="true" />
-46-->F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:32:13-36
+46-->F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:31:13-36
 47        <activity
-47-->F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:33:9-35:39
-48            android:name="com.example.daiscrivi_mobileapp_semester4.WelcomePage"
-48-->F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:34:13-40
-49            android:exported="false" />
-49-->F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:35:13-37
+47-->F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:32:9-34:39
+48            android:name="com.example.daiscrivi_mobileapp_semester4.DetailHomeFragment"
+48-->F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:33:13-47
+49            android:exported="true" />
+49-->F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:34:13-36
 50        <activity
-50-->F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:36:9-44:20
-51            android:name="com.example.daiscrivi_mobileapp_semester4.MainActivity"
-51-->F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:37:13-41
-52            android:exported="true" >
-52-->F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:38:13-36
-53            <intent-filter>
-53-->F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:39:13-43:29
-54                <action android:name="android.intent.action.MAIN" />
-54-->F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:40:17-69
-54-->F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:40:25-66
-55
-56                <category android:name="android.intent.category.LAUNCHER" />
-56-->F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:42:17-77
-56-->F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:42:27-74
-57            </intent-filter>
-58        </activity>
-59
-60        <provider
-60-->[androidx.emoji2:emoji2:1.2.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-61            android:name="androidx.startup.InitializationProvider"
-61-->[androidx.emoji2:emoji2:1.2.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-62            android:authorities="com.example.daiscrivi_mobileapp_semester4.androidx-startup"
-62-->[androidx.emoji2:emoji2:1.2.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-63            android:exported="false" >
-63-->[androidx.emoji2:emoji2:1.2.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-64            <meta-data
-64-->[androidx.emoji2:emoji2:1.2.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-65                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-65-->[androidx.emoji2:emoji2:1.2.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-66                android:value="androidx.startup" />
-66-->[androidx.emoji2:emoji2:1.2.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+50-->F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:35:9-37:39
+51            android:name="com.example.daiscrivi_mobileapp_semester4.WelcomePage"
+51-->F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:36:13-40
+52            android:exported="false" />
+52-->F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:37:13-37
+53        <activity
+53-->F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:38:9-46:20
+54            android:name="com.example.daiscrivi_mobileapp_semester4.OnBoardActivity"
+54-->F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:39:13-44
+55            android:exported="true" >
+55-->F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:40:13-36
+56            <intent-filter>
+56-->F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:41:13-45:29
+57                <action android:name="android.intent.action.MAIN" />
+57-->F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:42:17-69
+57-->F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:42:25-66
+58
+59                <category android:name="android.intent.category.LAUNCHER" />
+59-->F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:44:17-77
+59-->F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:44:27-74
+60            </intent-filter>
+61        </activity>
+62
+63        <provider
+63-->[androidx.emoji2:emoji2:1.2.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+64            android:name="androidx.startup.InitializationProvider"
+64-->[androidx.emoji2:emoji2:1.2.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+65            android:authorities="com.example.daiscrivi_mobileapp_semester4.androidx-startup"
+65-->[androidx.emoji2:emoji2:1.2.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+66            android:exported="false" >
+66-->[androidx.emoji2:emoji2:1.2.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
 67            <meta-data
-67-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\86041ab2b0d2128b301212662b855cec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-68                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-68-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\86041ab2b0d2128b301212662b855cec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+67-->[androidx.emoji2:emoji2:1.2.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+68                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+68-->[androidx.emoji2:emoji2:1.2.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
 69                android:value="androidx.startup" />
-69-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\86041ab2b0d2128b301212662b855cec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-70        </provider>
-71    </application>
-72
-73</manifest>
+69-->[androidx.emoji2:emoji2:1.2.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+70            <meta-data
+70-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\86041ab2b0d2128b301212662b855cec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+71                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+71-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\86041ab2b0d2128b301212662b855cec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+72                android:value="androidx.startup" />
+72-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\86041ab2b0d2128b301212662b855cec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+73        </provider>
+74    </application>
+75
+76</manifest>

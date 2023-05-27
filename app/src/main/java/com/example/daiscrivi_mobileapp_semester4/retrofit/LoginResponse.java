@@ -7,16 +7,7 @@ public class LoginResponse {
     private boolean status;
     private String message;
 
-
-    public List<LoginDataResponse.User> getData() {
-        return data;
-    }
-
-    public void setData(List<LoginDataResponse.User> data) {
-        this.data = data;
-    }
-
-    List<LoginDataResponse.User> data;
+    private LoginDataResponse data;
 
     public boolean isStatus() {
         return status;

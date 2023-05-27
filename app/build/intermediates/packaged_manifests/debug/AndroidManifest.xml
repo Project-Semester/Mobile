@@ -36,6 +36,9 @@
             android:name="com.example.daiscrivi_mobileapp_semester4.RegisterActivity"
             android:exported="true" />
         <activity
+            android:name="com.example.daiscrivi_mobileapp_semester4.MainActivity"
+            android:exported="true" />
+        <activity
             android:name="com.example.daiscrivi_mobileapp_semester4.LoginActivity"
             android:exported="true" />
         <activity
@@ -48,7 +51,7 @@
             android:name="com.example.daiscrivi_mobileapp_semester4.WelcomePage"
             android:exported="false" />
         <activity
-            android:name="com.example.daiscrivi_mobileapp_semester4.MainActivity"
+            android:name="com.example.daiscrivi_mobileapp_semester4.OnBoardActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

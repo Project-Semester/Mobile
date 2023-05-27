@@ -43,7 +43,7 @@ public class OnBoardActivity extends AppCompatActivity {
             if (btnRight_onboarding.getText().toString().equals("Next")) {
                 viewPager.setCurrentItem(viewPager.getCurrentItem()+1);
             } else {
-                startActivity(new Intent(OnBoardActivity.this, LoginActivity.class));
+                startActivity(new Intent(OnBoardActivity.this, WelcomePage.class));
                 finish();
             }
         });

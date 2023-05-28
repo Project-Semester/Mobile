@@ -32,7 +32,7 @@ public final class ActivityRegisterBinding implements ViewBinding {
   public final CardView container;
 
   @NonNull
-  public final TextInputEditText eConfirmtPassword;
+  public final TextInputEditText etConfirmPassword;
 
   @NonNull
   public final TextInputLayout etConfirmPasswordLayout;
@@ -41,10 +41,16 @@ public final class ActivityRegisterBinding implements ViewBinding {
   public final TextInputEditText etEmail;
 
   @NonNull
+  public final TextInputLayout etEmailLayout;
+
+  @NonNull
   public final TextInputEditText etPassword;
 
   @NonNull
   public final TextInputLayout etPasswordLayout;
+
+  @NonNull
+  public final TextInputEditText etUsername;
 
   @NonNull
   public final TextInputLayout etUsernameLayout;
@@ -53,27 +59,34 @@ public final class ActivityRegisterBinding implements ViewBinding {
   public final ImageView ivLogo;
 
   @NonNull
+  public final ProgressBar loading;
+
+  @NonNull
   public final ProgressBar pbRegister;
 
   @NonNull
   public final TextView tvRegister;
 
   private ActivityRegisterBinding(@NonNull ConstraintLayout rootView, @NonNull Button btnRegister,
-      @NonNull CardView container, @NonNull TextInputEditText eConfirmtPassword,
+      @NonNull CardView container, @NonNull TextInputEditText etConfirmPassword,
       @NonNull TextInputLayout etConfirmPasswordLayout, @NonNull TextInputEditText etEmail,
-      @NonNull TextInputEditText etPassword, @NonNull TextInputLayout etPasswordLayout,
+      @NonNull TextInputLayout etEmailLayout, @NonNull TextInputEditText etPassword,
+      @NonNull TextInputLayout etPasswordLayout, @NonNull TextInputEditText etUsername,
       @NonNull TextInputLayout etUsernameLayout, @NonNull ImageView ivLogo,
-      @NonNull ProgressBar pbRegister, @NonNull TextView tvRegister) {
+      @NonNull ProgressBar loading, @NonNull ProgressBar pbRegister, @NonNull TextView tvRegister) {
     this.rootView = rootView;
     this.btnRegister = btnRegister;
     this.container = container;
-    this.eConfirmtPassword = eConfirmtPassword;
+    this.etConfirmPassword = etConfirmPassword;
     this.etConfirmPasswordLayout = etConfirmPasswordLayout;
     this.etEmail = etEmail;
+    this.etEmailLayout = etEmailLayout;
     this.etPassword = etPassword;
     this.etPasswordLayout = etPasswordLayout;
+    this.etUsername = etUsername;
     this.etUsernameLayout = etUsernameLayout;
     this.ivLogo = ivLogo;
+    this.loading = loading;
     this.pbRegister = pbRegister;
     this.tvRegister = tvRegister;
   }
@@ -117,9 +130,9 @@ public final class ActivityRegisterBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.eConfirmtPassword;
-      TextInputEditText eConfirmtPassword = ViewBindings.findChildViewById(rootView, id);
-      if (eConfirmtPassword == null) {
+      id = R.id.etConfirmPassword;
+      TextInputEditText etConfirmPassword = ViewBindings.findChildViewById(rootView, id);
+      if (etConfirmPassword == null) {
         break missingId;
       }
 
@@ -135,6 +148,12 @@ public final class ActivityRegisterBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.etEmailLayout;
+      TextInputLayout etEmailLayout = ViewBindings.findChildViewById(rootView, id);
+      if (etEmailLayout == null) {
+        break missingId;
+      }
+
       id = R.id.etPassword;
       TextInputEditText etPassword = ViewBindings.findChildViewById(rootView, id);
       if (etPassword == null) {
@@ -147,6 +166,12 @@ public final class ActivityRegisterBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.etUsername;
+      TextInputEditText etUsername = ViewBindings.findChildViewById(rootView, id);
+      if (etUsername == null) {
+        break missingId;
+      }
+
       id = R.id.etUsernameLayout;
       TextInputLayout etUsernameLayout = ViewBindings.findChildViewById(rootView, id);
       if (etUsernameLayout == null) {
@@ -156,6 +181,12 @@ public final class ActivityRegisterBinding implements ViewBinding {
       id = R.id.ivLogo;
       ImageView ivLogo = ViewBindings.findChildViewById(rootView, id);
       if (ivLogo == null) {
+        break missingId;
+      }
+
+      id = R.id.loading;
+      ProgressBar loading = ViewBindings.findChildViewById(rootView, id);
+      if (loading == null) {
         break missingId;
       }
 
@@ -172,8 +203,8 @@ public final class ActivityRegisterBinding implements ViewBinding {
       }
 
       return new ActivityRegisterBinding((ConstraintLayout) rootView, btnRegister, container,
-          eConfirmtPassword, etConfirmPasswordLayout, etEmail, etPassword, etPasswordLayout,
-          etUsernameLayout, ivLogo, pbRegister, tvRegister);
+          etConfirmPassword, etConfirmPasswordLayout, etEmail, etEmailLayout, etPassword,
+          etPasswordLayout, etUsername, etUsernameLayout, ivLogo, loading, pbRegister, tvRegister);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -26,7 +26,7 @@
 17-->[androidx.core:core:1.9.0] C:\Program Files\Android\Android Studio\jbr\caches\transforms-3\ec4f76f6c0c02de8ba18086e7bd9baf5\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 18
 19    <application
-19-->F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:7:5-47:19
+19-->F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:7:5-46:19
 20        android:allowBackup="true"
 20-->F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:8:9-35
 21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -91,20 +91,20 @@
 52            android:exported="false" />
 52-->F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:37:13-37
 53        <activity
-53-->F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:38:9-46:20
+53-->F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:38:9-45:20
 54            android:name="com.example.daiscrivi_mobileapp_semester4.OnBoardActivity"
 54-->F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:39:13-44
 55            android:exported="true" >
 55-->F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:40:13-36
 56            <intent-filter>
-56-->F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:41:13-45:29
+56-->F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:41:13-44:29
 57                <action android:name="android.intent.action.MAIN" />
 57-->F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:42:17-69
 57-->F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:42:25-66
 58
 59                <category android:name="android.intent.category.LAUNCHER" />
-59-->F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:44:17-77
-59-->F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:44:27-74
+59-->F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:43:17-77
+59-->F:\Projek S4\Mobile\app\src\main\AndroidManifest.xml:43:27-74
 60            </intent-filter>
 61        </activity>
 62

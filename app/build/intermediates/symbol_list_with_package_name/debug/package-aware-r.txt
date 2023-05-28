@@ -3065,7 +3065,6 @@ id dragRight
 id dragStart
 id dragUp
 id dropdown_menu
-id eConfirmtPassword
 id easeIn
 id easeInOut
 id easeOut
@@ -3077,11 +3076,14 @@ id end
 id endToStart
 id enterAlways
 id enterAlwaysCollapsed
+id etConfirmPassword
 id etConfirmPasswordLayout
 id etEmail
+id etEmailLayout
 id etPassword
 id etPasswordLayout
 id etSearch
+id etUsername
 id etUsernameLayout
 id exitUntilCollapsed
 id expand_activities_button

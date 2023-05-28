@@ -73,12 +73,14 @@ id button4
 id cardView
 id container
 id dotsLayoutOnboarding
-id eConfirmtPassword
+id etConfirmPassword
 id etConfirmPasswordLayout
 id etEmail
+id etEmailLayout
 id etPassword
 id etPasswordLayout
 id etSearch
+id etUsername
 id etUsernameLayout
 id fragment_home
 id frameAuthContainer

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OnBoardActivity">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager_onboarding"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="SpeakableTextPresentCheck"></androidx.viewpager.widget.ViewPager>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="48dp"
+        android:paddingLeft="32dp"
+        android:paddingRight="32dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Skip"
+            android:background="@drawable/button_background_onboarding"
+            android:id="@+id/btnLeft_onboarding"/>
+        
+        <LinearLayout
+            android:id="@+id/dotsLayoutOnboarding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_centerInParent="true"
+            android:layout_alignParentTop="true"></LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:background="@drawable/button_background_onboarding"
+            android:layout_alignParentRight="true"
+            android:id="@+id/btnRight_onboarding"/>
+
+
+    </RelativeLayout>
+    
+</RelativeLayout>

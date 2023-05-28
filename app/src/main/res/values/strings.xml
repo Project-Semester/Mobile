@@ -1,21 +1,29 @@
 <resources>
-    <string name="app_name">DaiScrivi_MobileApp_Semester4</string>
-    <string name="sinopsis_touchYourHearth">***
+    <string name="app_name">YukNulis</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">Welcome !</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">Login failed</string>
 
-Gadis tomboy yang bernama Miska tak sengaja memasuki dunia film, tidak! ia tidak sedang lagi bermain drama atau menjadi aktris, tapi entah kenapa saat sedang menonton drama ia malah memasuki dunia drama itu saat menyentuh layar TV-nya.
+    <string name="username">username</string>
+    <string name="email">fagil@gmail.com</string>
+    <string name="sinopsis_touchYourHearth">    Gadis tomboy yang bernama Miska tak sengaja memasuki dunia film, tidak! ia tidak sedang lagi bermain drama atau menjadi aktris, tapi entah kenapa saat sedang menonton drama ia malah memasuki dunia drama itu saat menyentuh layar TV-nya.
 
 
-Gadis tomboy yang akan wisuda beberapa hari lagi, tapi sekarang ia tidak akan memakai toga dan baju wisudanya di karenakan ia malah terjebak di dunia yang ia tidak kenali.
+    Gadis tomboy yang akan wisuda beberapa hari lagi, tapi sekarang ia tidak akan memakai toga dan baju wisudanya di karenakan ia malah terjebak di dunia yang ia tidak kenali.
 
 
-Dan yang lebih parahnya ia memasuki dunia drama yang berjudul Touch Your Heart dan memerankan karakter antagonis dalam drama itu. Karakter yang akan mati karena di dorong oleh pemeran utama pria di atas gedung kampus.
+    Dan yang lebih parahnya ia memasuki dunia drama yang berjudul Touch Your Heart dan memerankan karakter antagonis dalam drama itu. Karakter yang akan mati karena di dorong oleh pemeran utama pria di atas gedung kampus.
 
 
-Apakah Miska bisa menghindari kematian itu?
-Apakah dirinya berhasil mengubah jalan cerita?
+    Apakah Miska bisa menghindari kematian itu?
+    Apakah dirinya berhasil mengubah jalan cerita?</string>
+    <string name="role">admin</string>
 
---------
-</string>
-    <string name="deskription_logo">Platform sosial untuk bercerita yang paling disukai</string>
 
 </resources>

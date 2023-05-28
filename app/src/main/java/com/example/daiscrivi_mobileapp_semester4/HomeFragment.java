@@ -6,20 +6,13 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
-import androidx.viewpager2.widget.ViewPager2;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class HomeFragment extends Fragment {
     public Context context;
-    Button Log_out;
-    ViewPager2 viewPager2;
     private View rekomendasiHomePhoto;
 
     @Override
@@ -38,23 +31,10 @@ public class HomeFragment extends Fragment {
         rekomendasiHomePhoto.setOnClickListener(new View.OnClickListener() {
             @Override
                     public void onClick(View view) {
-                Intent intent = new Intent(context, DetailHomeFragment.class);
+                Intent intent = new Intent(getActivity(), DetailHomeFragment.class);
                 startActivity(intent);
             }
         });
         return view;
-    }
-
-    @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        viewPager2 = getView().findViewById(R.id.viewPager);
-
-        List<SlideItem> slideItems = new ArrayList<>();
-        slideItems.add(new SlideItem(R.drawable.judul_wattpad));
-        slideItems.add(new SlideItem(R.drawable.judul_wattpad2));
-        slideItems.add(new SlideItem(R.drawable.judul_wattpad3));
-        slideItems.add(new SlideItem(R.drawable.judul_wattpad4));        slideItems.add(new SlideItem(R.drawable.judul_wattpad));
-        slideItems.add(new SlideItem(R.drawable.judul_wattpad5));
     }
 }

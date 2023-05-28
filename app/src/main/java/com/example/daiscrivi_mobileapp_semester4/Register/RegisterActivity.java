@@ -39,7 +39,7 @@ public class RegisterActivity extends AppCompatActivity {
         et_username = findViewById(R.id.etUsername);
         et_password = findViewById(R.id.etPassword);
         et_confirmPassword= findViewById(R.id.etConfirmPassword);
-        loading = findViewById(R.id.pb_register);
+        loading = findViewById(R.id.loading);
 
         btn_register.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -1,5 +1,6 @@
 package com.example.daiscrivi_mobileapp_semester4.retrofit;
 
+import com.example.daiscrivi_mobileapp_semester4.Intereptor;
 import com.google.gson.Gson;
 
 import okhttp3.OkHttpClient;
@@ -11,20 +12,26 @@ public class ApiClient {
 //    private static String url = "http://localhost:8000/";
 
 
-    private static Retrofit getRetrofit() {
-        HttpLoggingInterceptor httpLoggingInterceptor = new HttpLoggingInterceptor();
-        httpLoggingInterceptor.setLevel(HttpLoggingInterceptor.Level.BODY);
-        OkHttpClient okHttpClient = new OkHttpClient.Builder().addInterceptor(httpLoggingInterceptor).build();
+
+
+
+
+    public static Retrofit getRetrofit(String token) {
+
+        OkHttpClient okHttpClient = new OkHttpClient.Builder()
+                .addInterceptor(new Intereptor(token))
+                .build();
 
         Retrofit retrofit = new Retrofit.Builder()
                 .addConverterFactory(GsonConverterFactory.create())
-                .baseUrl("http://10.10.4.241:8000/")
+                .baseUrl("http://192.168.100.246:8000/")
+                .client(okHttpClient)
                 .build();
 
 return retrofit;
     }
-public static UserService getUserService(){
-        UserService userService = getRetrofit().create(UserService.class);
+public static UserService getUserService(String token){
+        UserService userService = getRetrofit(token).create(UserService.class);
         return userService;
 }
 }

@@ -10,6 +10,14 @@ public class LoginResponse {
     private LoginDataResponse data;
 
 
+    public LoginDataResponse getData() {
+        return data;
+    }
+
+    public void setData(LoginDataResponse data) {
+        this.data = data;
+    }
+
     public boolean isStatus() {
         return status;
     }

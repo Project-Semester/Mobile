@@ -153,12 +153,18 @@ public class LoginActivity extends AppCompatActivity {
         LoginRequest loginRequest = new LoginRequest();
         loginRequest.setEmail(et_email.getText().toString());
         loginRequest.setPassword(et_password.getText().toString());
-        Call<LoginResponse> loginResponseCall = ApiClient.getUserService().userLogin(loginRequest);
+        Call<LoginResponse> loginResponseCall = ApiClient.getUserService(UtilMethod.getToken(getApplicationContext())).userLogin(loginRequest);
         loginResponseCall.enqueue(new Callback<LoginResponse>() {
             @Override
             public void onResponse(Call<LoginResponse> call, Response<LoginResponse> response) {
                 if (response.isSuccessful()) {
+                    LoginResponse body = response.body();
                     Toast.makeText(LoginActivity.this, "Login berhasil", Toast.LENGTH_SHORT).show();
+                    SharedPreferences sharedPreferences = getSharedPreferences("token", MODE_PRIVATE);
+                    SharedPreferences.Editor editor = sharedPreferences.edit();
+                    String token = body.getData().getToken();
+                    editor.putString("token" , token);
+                    editor.apply();
                     new Handler().postDelayed(new Runnable() {
                         @Override
                         public void run() {

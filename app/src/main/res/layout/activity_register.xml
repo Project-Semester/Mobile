@@ -66,6 +66,7 @@
                     android:inputType="text" />
 
             </com.google.android.material.textfield.TextInputLayout>
+
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/etEmailLayout"
                 android:layout_width="match_parent"
@@ -100,6 +101,13 @@
 
             </com.google.android.material.textfield.TextInputLayout>
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="*password harus berisi kombinasi minimal 1 huruf besar, 1 simbol, 1 angka dan 8 digit"
+                android:textSize="8dp" />
+
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/etConfirmPasswordLayout"
                 android:layout_width="match_parent"
@@ -129,10 +137,9 @@
                 android:id="@+id/loading"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="57dp"
                 android:layout_gravity="center"
-                android:visibility="gone"
-                />
+                android:layout_marginTop="57dp"
+                android:visibility="gone" />
         </LinearLayout>
 
     </androidx.cardview.widget.CardView>

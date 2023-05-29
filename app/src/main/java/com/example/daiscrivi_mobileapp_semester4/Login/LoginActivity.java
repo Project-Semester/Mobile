@@ -28,6 +28,11 @@ public class LoginActivity extends AppCompatActivity {
     Button btn_login;
     EditText et_email, et_password;
     ProgressBar _loading;
+    private SharedPreferences sharedPreferences;
+    private static final String SHARED_PREF_NAME = "mypref";
+    private static final String KEY_EMAIL = "email";
+    private static final String KEY_USERNAME = "username";
+
 //    private static final String URL_LOGIN = "http:// 192.168.100.30/api/login";
 
 
@@ -42,6 +47,9 @@ public class LoginActivity extends AppCompatActivity {
         et_email = findViewById(R.id.etEmail);
         btn_login = findViewById(R.id.btnLogin);
         _loading = findViewById(R.id.loading);
+
+        sharedPreferences = getSharedPreferences(SHARED_PREF_NAME, MODE_PRIVATE);
+
 
         btn_login.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -77,7 +85,6 @@ public class LoginActivity extends AppCompatActivity {
                     _loading.setVisibility(View.GONE);
                     btn_login.setVisibility(View.VISIBLE);
 
-
                     new Handler().postDelayed(new Runnable() {
                         @Override
                         public void run() {
@@ -85,10 +92,11 @@ public class LoginActivity extends AppCompatActivity {
                             String username = loginResponse.getData().getUser().getUsername();
                             String email = loginResponse.getData().getUser().getEmail();
                             String role = loginResponse.getData().getUser().getRole();
+                            SharedPreferences.Editor editor = sharedPreferences.edit();
+                            editor.putString(KEY_USERNAME, username);
+                            editor.putString(KEY_EMAIL, email);
+                            editor.apply();
                             startActivity(new Intent(LoginActivity.this, MainActivity.class)
-                                    .putExtra("username", username)
-                                    .putExtra("email", email)
-                                    .putExtra("role", role)
                             );
                         }
                     }, 000);

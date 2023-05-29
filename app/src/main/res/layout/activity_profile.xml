@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_marginTop="24dp"
-    tools:context=".Profile">
+    tools:context=".ProfileActivity">
 
     <LinearLayout
         android:id="@+id/lyProfile"
@@ -28,7 +27,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
-            android:text="Profil"
+            android:text="Pengaturan"
             android:textColor="@color/black"
             android:textSize="24dp"
             android:textStyle="bold" />
@@ -66,7 +65,7 @@
         android:id="@+id/conUsername"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="13dp"
+        android:layout_marginLeft="30dp"
         android:layout_marginTop="35dp"
         android:orientation="horizontal"
         app:layout_constraintStart_toStartOf="parent"
@@ -75,13 +74,14 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginRight="10dp"
+            android:layout_marginRight="0dp"
             android:text="Username : "
             android:textColor="@color/black"
             android:textSize="25dp"
             android:textStyle="bold" />
 
         <TextView
+            android:id="@+id/tvUsername"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="author"
@@ -93,7 +93,7 @@
         android:id="@+id/conEmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="13dp"
+        android:layout_marginLeft="30dp"
         android:layout_marginTop="35dp"
         android:orientation="horizontal"
         app:layout_constraintStart_toStartOf="parent"
@@ -109,6 +109,7 @@
             android:textStyle="bold" />
 
         <TextView
+            android:id="@+id/tvEmail"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="author@gmail.com"
@@ -117,13 +118,14 @@
     </LinearLayout>
 
     <Button
+        android:id="@+id/btnLogout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/custom_button_login"
         android:text="Logout"
-        android:layout_marginBottom="13dp"
-        android:layout_marginLeft="13dp"
-        android:layout_marginRight="13dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
         app:layout_constraintBottom_toBottomOf="parent"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -47,6 +47,7 @@ public class RegisterResponse {
         }
 
         private User user;
+
         public static class User {
             private String username;
             private String photo;

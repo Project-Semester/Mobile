@@ -19,6 +19,7 @@ import com.google.android.material.textfield.TextInputEditText;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
+import retrofit2.Retrofit;
 
 public class RegisterActivity extends AppCompatActivity {
     Button btn_register;
@@ -94,7 +95,9 @@ public class RegisterActivity extends AppCompatActivity {
                 }else {
                     loading.setVisibility(View.GONE);
                     btn_register.setVisibility(View.VISIBLE);
-                    Toast.makeText(RegisterActivity.this, "Register Gagal", Toast.LENGTH_SHORT).show();
+                    RegisterResponse registerResponse = response.body();
+                    String message = registerResponse.getMessage();
+                    Toast.makeText(RegisterActivity.this, "Register Gagal"+ message, Toast.LENGTH_SHORT).show();
                 }
             }
 

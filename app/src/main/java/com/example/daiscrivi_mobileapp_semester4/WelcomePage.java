@@ -8,6 +8,9 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.daiscrivi_mobileapp_semester4.Login.LoginActivity;
+import com.example.daiscrivi_mobileapp_semester4.Register.RegisterActivity;
+
 public class WelcomePage extends AppCompatActivity {
     Button btn_login, btn_register;
 
@@ -28,8 +31,9 @@ public class WelcomePage extends AppCompatActivity {
             Intent intent = new Intent(WelcomePage.this, RegisterActivity.class);
             startActivity(intent);
         });
-
-
-
+    }
+    @Override
+    public void onBackPressed(){
+        moveTaskToBack(true);
     }
 }

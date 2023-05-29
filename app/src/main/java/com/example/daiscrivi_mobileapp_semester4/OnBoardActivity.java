@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.text.Html;
 import android.view.View;
@@ -12,6 +13,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.example.daiscrivi_mobileapp_semester4.Adapter.ViewPagerAdapterOnboard;
+import com.example.daiscrivi_mobileapp_semester4.Login.LoginActivity;
 
 public class OnBoardActivity extends AppCompatActivity {
 
@@ -20,12 +22,24 @@ public class OnBoardActivity extends AppCompatActivity {
     private ViewPagerAdapterOnboard adapter;
     private LinearLayout dotsLayout;
     private TextView[] dots;
+    private SharedPreferences sharedPreferences;
+    private static final String SHARED_PREF_NAME = "mypref";
+    private static final String KEY_EMAIL = "email";
+    private static final String KEY_USERNAME = "username";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_on_board);
         getSupportActionBar().hide();
+        sharedPreferences = getSharedPreferences(SHARED_PREF_NAME, MODE_PRIVATE);
+        String username = sharedPreferences.getString(KEY_USERNAME, null);
+        String email = sharedPreferences.getString(KEY_EMAIL, null);
+        if (username != null && email != null) {
+            startActivity(new Intent(OnBoardActivity.this, MainActivity.class));
+        }
+
         init();
     }
 
@@ -41,14 +55,14 @@ public class OnBoardActivity extends AppCompatActivity {
 
         btnRight_onboarding.setOnClickListener(v -> {
             if (btnRight_onboarding.getText().toString().equals("Next")) {
-                viewPager.setCurrentItem(viewPager.getCurrentItem()+1);
+                viewPager.setCurrentItem(viewPager.getCurrentItem() + 1);
             } else {
-                startActivity(new Intent(OnBoardActivity.this, LoginActivity.class));
+                startActivity(new Intent(OnBoardActivity.this, WelcomePage.class));
                 finish();
             }
         });
         btnLeft_oboarding.setOnClickListener(v -> {
-            viewPager.setCurrentItem(viewPager.getCurrentItem()+2);
+            viewPager.setCurrentItem(viewPager.getCurrentItem() + 2);
         });
     }
 

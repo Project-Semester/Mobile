@@ -30,17 +30,23 @@
         android:theme="@style/Theme.DaiScrivi_MobileApp_Semester4"
         android:usesCleartextTraffic="true" >
         <activity
-            android:name="com.example.daiscrivi_mobileapp_semester4.RegisterActivity"
+            android:name="com.example.daiscrivi_mobileapp_semester4.ProfileActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.daiscrivi_mobileapp_semester4.LoginActivity"
-            android:exported="false" />
+            android:name="com.example.daiscrivi_mobileapp_semester4.Register.RegisterActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.daiscrivi_mobileapp_semester4.MainActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.daiscrivi_mobileapp_semester4.Login.LoginActivity"
+            android:exported="true" />
         <activity
             android:name="com.example.daiscrivi_mobileapp_semester4.SearchFragment"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name="com.example.daiscrivi_mobileapp_semester4.DetailHomeFragment"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name="com.example.daiscrivi_mobileapp_semester4.WelcomePage"
             android:exported="false" />

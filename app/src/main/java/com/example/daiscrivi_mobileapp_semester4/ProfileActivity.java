@@ -7,13 +7,15 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
 public class ProfileActivity extends AppCompatActivity {
     TextView tv_username, tv_email;
+    ImageButton back;
     Button btn_logout;
-     SharedPreferences sharedPreferences;
+    SharedPreferences sharedPreferences;
     private static final String SHARED_PREF_NAME = "mypref";
     private static final String KEY_EMAIL = "email";
     private static final String KEY_USERNAME = "username";
@@ -23,6 +25,7 @@ public class ProfileActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile);
         getSupportActionBar().hide();
+        back = findViewById(R.id.ibBack);
         tv_username = findViewById(R.id.tvUsername);
         tv_email = findViewById(R.id.tvEmail);
         btn_logout = findViewById(R.id.btnLogout);
@@ -33,13 +36,13 @@ public class ProfileActivity extends AppCompatActivity {
             tv_username.setText(username);
             tv_email.setText(email);
         }
-//        Intent intent = getIntent();
-//        if (intent.getExtras() != null) {
-//            String username = intent.getStringExtra("username");
-//            String email = intent.getStringExtra("email");
-//            tv_username.setText(username);
-//            tv_email.setText(email);
-//        }
+
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                onBackPressed();
+            }
+        });
 
 
         btn_logout.setOnClickListener(new View.OnClickListener() {
@@ -53,5 +56,10 @@ public class ProfileActivity extends AppCompatActivity {
                 startActivity(new Intent(ProfileActivity.this, WelcomePage.class));
             }
         });
+    }
+
+    @Override
+    public void onBackPressed() {
+        finish();
     }
 }

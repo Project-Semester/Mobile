@@ -31,8 +31,9 @@ public class WelcomePage extends AppCompatActivity {
             Intent intent = new Intent(WelcomePage.this, RegisterActivity.class);
             startActivity(intent);
         });
-
-
-
+    }
+    @Override
+    public void onBackPressed(){
+        moveTaskToBack(true);
     }
 }
